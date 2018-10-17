@@ -1,0 +1,26 @@
+name: "Kamarul Ariffin Mansor"
+output_dir: "."
+navbar:
+  title: "Kamarul Ariffin Mansor"
+  left:
+    - text: "Writing"
+      href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/ariff118/
+    - icon: fa-facebook fa-lg
+      href: https://www.facebook.com/kamarul.ariffin.9235
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

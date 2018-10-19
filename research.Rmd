@@ -1,0 +1,120 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## RESEARCH AND PUBLICATION
+
+### Research
+“Integrating English Medium Mathematics Mobile Applications To Teach Low Achievers Students In tertiary Context”, ARAS Research Grant. (September 1, 2016 – August 31, 2018)
+
+“The Effect Of Gender And Religion on The Perceived Mental Health Among Youth in Kedah”, Dana Kecemerlangan UiTM. (November 1, 2015 – April 30, 2017)
+
+“Factors Influencing Purchasing Intention of Smartphone Among University Students”, Dana Kecemerlangan UiTM. (November 1, 2015 – April 30, 2017)
+
+“Factors That Contributes to the Intention to Adopt Websites as Marketing Communication Tool among SME’s in Kedah: A Business Perspective”, Internal Grant, August 2010
+
+“The Study of Technophobia among Students in UiTM Kedah”, Internal Grant, May 2010
+
+“The Effectiveness and Efficiency in the Usage of Software e-MySL© in Learning Malaysian Sign Language (MySL)”, Internal Grant, December 2008
+
+“Impak Pembangunan Terhadap Tahap Pendidikan dan Pendapatan Orang Asli di Tanah Tinggi Cameron”, Internal Grant, April 2007
+
+“A Survey on Factors Which Positively Influence Ethical Decision Making among Young Lawyers Practicing in the State of Kedah”, Internal Grant, January 2007
+
+“Descriptive Analysis On The Use of ICT Among Faculties Offering Quantitative Sciences and Information Technology Courses in Northern Region IPTA”, Internal Grant, December 2006
+
+“Student's Perception Of Service Quality: A Case Study in UiTM Kedah And Perlis Branch”, Internal Grant, May 2006
+
+“Perpustakaan Masjid Di Negeri Kedah: Satu Tinjauan”, Internal Grant, December 2005
+
+“Analisis Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar di Kawasan Parlimen Merbok, Kedah”, Internal Grant, March 2005
+
+### Proceedings & Colloquium Papers
+Bosli, F., Mokhtar, S. F., Shamsuddin, N. R., Zawawi, T. K. F. T. A., Mansor, K. A., & Salleh, W. Z. W. (2017). Factors Affecting the Tendency of Drug Abuse among Drug Addicts: A Case Study in the Northern Region of Malaysia. The 6th International Conference on Public Policy and Social Science (iCOPS2017), 8th & 9th March 2017, The Hotel & convention Centre, Alor Setar, Malaysia. ICOPS2017 eProceedings, 545. (ISBN 978-967-0314-41-9)
+
+“The Antecedents Buying Intention of New Smartphone among University Students” (with Azira Rahim, Dr. Law Kuan Kheng, Kamarul Ariffin Mansor and Nurliyana Abas), 2nd International Conference on Information in Business and Technology Management (I2BM), 18 - 20 April 2017, Penang, Malaysia.
+
+“How Far Ethics Education Positively Influence Ethical Decision Making of The Young Lawyers in Kedah?” (with Haswira Nor Mohamad Hashim and Anida Mahmood, Proceedings of Conference on Scientific and Social Research (CSSR 08'09), 14 – 15 March 2009, A’Famosa Resort Melaka.
+
+“The Effectiveness and Efficiency in the Usage of Software e-MySL© in Learning Malaysian Sign Language (MySL)” (with Haziah Sa’ari, Marlia Idrus and Mohd Shamsul Daud), Proceedings of Conference on Scientific and Social Research (CSSR 08'09), 14 – 15 March 2009, A’Famosa Resort Melaka.
+
+“A Study on English Language Competency Perception Among Lecturers in Higher Learning Institution” (with Shafinah Md Salleh and Wan Irham Ishak), Proceeding of 1st International Conference on Social Science and Humanities 2008 (ICoSSH 2008), 18 – 20 June 2008, Universiti Sains Malaysia (USM) Penang. (Proceedings CD ISBN: 978-983-2700-65-4, Humanities HUM58 & Proceedings Abstract ISBN: 978-983-2700-69-2, pp 78)
+
+“Impak Pembangunan Ke Atas Suku Semai Di Tanah Tinggi Cameron” (with Azizan Zainuddin, Mahadi Mahmood and Mohamad Sabri Yusoh), Proceedings of the National Seminar on Science, Technology & Social Sciences 2008, 3 – 4 June 2008, M.S. garden Hotel Kuantan Pahang. (Proceedings ISBN: 978-983-2607-17-5, pp 363 – 372)
+
+“Factors Influencing Ethical Decision Making Among Young Lawyers: A survey in the State of Kedah” (with Haswira Nor Mohamad Hashim and Anida Mahmood), Proceedings of Law Conference 2007, 18 – 20 April 2007, EDC-UUM Sintok Kedah.
+
+“Analisis Faktor Kejayaan dan Kegagalan Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Proceedings of Conference On Scientific & Social Research (CSSR), 18 – 20 April 2007, Summit Hotel, subang Jaya Selangor.
+
+“Analisis Tahap Pengetahuan Penduduk Terhadap Program Pembasmian Kemiskinan Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Colloquium Paper presented in UiTM Kedah Colloquium 2005, 26 May 2005, Sg Petani Kedah.
+
+### Academic Papers
+Safin, Z., Ali, N.A., Jamalurus, H.L., Zani, R.M., & Mansor, K.A. (2018). Performance in Industrial Training: Industry Evaluation on Business and Management Students. Gading Journal for the Social Sciences, 21(01).
+
+Shamsinar Ibrahim, Hasyimah Razali, Masilah Mohamad, Siti Fairuza Hassam, & Kamarul Ariffin Mansor (2018). Assessing Passengers’ Satisfaction Towards The Northern Region Airlines Service Quality. Journal of Global Business and Social Entrepreneurship (GBSE). 4(10), 72 -86.
+
+Rahim, A., Kheng, L.K., Mansor, K.A., & Abas,N. (2017). The Antecedents Buying Intention of New Smartphone Among University Students. Advanced Science Letters, 23(11), 10538-10541. Indexing: Scopus.
+
+Badri-Harun, A., Mansor, K.A., Shaari, Z.H., Zainol, M.R., & Amar, A. (2017). Factors Influencing Students of Technology-Based Universities to Become Entrepreneurs. International Review of Management and Marketing, 7(1), 319-325. Indexing: Scopus.
+
+Mansor, K.A., & Ishak, W.I. (2015). Forecasting Tourist Arrivals to Langkawi Island Malaysia. Cross-Cultural Management Journal, 17(7), 69-76. Romanian Foundation for Business Intelligence (FRIA), Romania. (Published June 2015). Indexing: BDI http://cmj.bxb.ro/bdi/ and under evaluation period for ISI Web of Science Index.
+
+Mansor, K.A., Masduki, R.M.N., Mohamad, M., Zulkarnain, N., & Aziz, N.A. (2015). A Study on Factors Influencing Muslim’s Consumers Preferences Towards Takaful Products In Malaysia. Romanian Statistical Review, 63(2), 78-89. Indexing: ECSI Thompson Reuters and BDI http://www.revistadestatistica.ro/index.php/indexing/
+
+### Editorial and Article Review Activities
+Editorial Team - Independent Journal of Management & Production (IJM&P) E-ISSN: 2236-269X
+
+Editorial Team – Austrian Journal of Statistics
+
+Lee, K.L., Mansor, K.A., Nayan, A., Zakaria, S.F., & Idrus, Z. (2015). Quest for Research Excellence on Computing, Mathematics and Statistics.
+
+#### 2017
+Article Review – “Job Satisfaction among Academic Staff: A Structural Equation Modeling Approach”, The 3rd International Conference on Computing, Mathematics and Statistics 2017 (iCMS2017) & The 5th Joint International Conference on New Challenges for Statistical Software: The Use of R in Official Statistics (UROS2017) – Asia Pacific.
+
+Article Review - “Structural Equation Modelling Assessing Relationship Between Mathematics Beliefs, Teachers’ Attitudes And Teaching Practices Among Novice Teachers In Malaysia” for the Scopus-indexed AIP Conference Proceeding (International Conference on education, Mathematics and Science 2016 (ICEM 2016) in conjuction with 4th International Postgraduate Conference on Science and Mathematics 2016 (IPCSM 2016))
+
+Article Review - “The Influence Of Psychosocial Learning Environment Toward Students’ Perceptions On Marzano Higher Order Thinking Skills” for the Scopus-indexed AIP Conference Proceeding (International Conference on education, Mathematics and Science 2016 (ICEM 2016) in conjuction with 4th International Postgraduate Conference on Science and Mathematics 2016 (IPCSM 2016))
+
+#### 2016
+Article Review - Study of the plywood panels properties using Geostatistic (IJM&P)
+
+#### 2015
+Editorial - Chapters in Book on Quest for Research Excellence on Computing, Mathematics and Statistics. The 2nd International Conference on Computing, Mathematics and Statistics (iCMS2015) – with LK Kor, KA Mansor, A Nayan, SF Zakaria, Z Idrus, 4.11.2015
+
+Article Review – A comparative Study of the LWR-IM Traffic Model and Shockwave Analysis (2015 IEEE Conference on System, Process & Control)
+Article Review – Modeling and Simulation of Electrical Resonance in EHV Transmission Line Case Study in West Java Region kV System (2015 IEEE Conference on System, Process & Control)
+
+#### 2008
+Article Review - Comparison Neural Networks Models for Short Term Forecasting of Natural Gas Consumption in Istanbul (First International Conference on the
+Applications of Digital Information and Web Technologies (ICADIWT 2008), Co-Sponsored by IEEE, VSB- Technical University of Ostrava, Czech Republic, August 4 - 6 2008)
+
+## SUPERVISION
+Statistical Advisor & Industrial Training Supervisor
+
+### 2017
+Comparison Between Academic Staff And Non-Academic Staff On Relationship Of Mental Health And Quality Of Work Life In Uitm Kedah, Siti Shahidah Binti Md Saffar (2015208252)
+
+The Knowledge, Attitude And Perception Of Negative Presenteesim Among Academic Staff At Uitm Kedah, Norazira Bintii Mohd Yusuf Sulaiman (2015872906)
+
+Environmental Elements And Employees' Psychological Health: Are They Related? - A Case Study Of Astana Bayu City Group Sdn Bhd, Norhasikin Binti Moktar (2015830036)
+
+### 2016
+The Factors That Influence The Non-Performing Loans (Npls) Among Private Staff In Penang, Norzubaidah Binti Abdul Aziz (2014926029) & Nur Insyirah Binti Mohd Zuki (2014190031)
+Factors That Affect The Purchasing Decision On Motocycles Among Students In Uitm Kedah, Marsyasa Binti Basri
+
+Factor Influencing Multinational Corporation To Invest In Penang, Mohd Nazimie Bin Mohd Hussain
+
+Country Of Origin (Coo) Effect On Malaysia Consumers' Purchase Decisions Of Automobiles From Foreign 
+Brands: In The Case Of UMK Pengkalan Chepa, Norshahirah Binti Suzilan
+
+Factors That Influence The Intention To Purchase Halal Cosmetics Among Academic Staffs In Uitm Merbok, Nur Amira Nailah Binti Razamud-Din
+
+### 2015
+Determinants Of Dependency Levels Towards Baitulmal In Seremban, Negeri Sembilan, Syaridatul Syadana Binti Esdaud (2012309987) & Siti Nurjihan Binti Marzuki (2013223858)
+
+A Study On The Factors That Influence Retirement Saving Among Government Servants, Afa Husna Binti Md Radzi (2013771763) & Nur Izyani Binti Abdul Halim (2013822304)

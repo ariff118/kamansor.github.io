@@ -1,7 +1,7 @@
 name: "Kamarul Ariffin Mansor"
 output_dir: "."
 navbar:
-  title: "Kamarul Ariffin Mansor"
+  title: "About KA Mansor"
   left:
     - text: "Writing"
       href: research.html
@@ -22,5 +22,5 @@ navbar:
       href: https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/
 output:
   html_document:
-    theme: paper
+    theme: sandstone
     css: 'styles.css'

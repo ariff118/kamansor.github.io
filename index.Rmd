@@ -3,7 +3,12 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/profile1.jpeg" style="width:20%; border:10px solid; margin-right: 18px" align="left">
+
+**Kamarul Ariffin Mansor**  
+**Senior Lecturer**  
+**Faculty of Computer and Mathematical Sciences**  
+**UiTM Kedah Branch Campus**  
 
 I like to analyze data to answer research questions and test hypotheses. Currently I investigate questions related to Tuberculosis (TB) through my work as a Statistical Research Member at [UiTM Kedah](https://kedah.uitm.edu.my/v1/faculties-a-academic-centres/computer-a-mathematical-sciences) in the faculty of Computer and Mathematical Sciences. 
 
@@ -11,4 +16,4 @@ I graduated from the [University of Kentucky](https://math.as.uky.edu/) with a B
 
 I am a well-known R enthusiast, including serving on the board and being an active member of [Malaysian R User Public  Group](https://www.meetup.com/Malaysia-R-User-Group/). 
 
-My full CV is available [here](files/CV new.pdf).
+My full CV is available [here](files/cv_kamansor.pdf).

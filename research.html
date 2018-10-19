@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>research.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">About KA Mansor</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="research.html">Writing</a>
+</li>
+<li>
+  <a href="talks.html">Speaking</a>
+</li>
+<li>
+  <a href="software.html">Programming</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ariff118/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.facebook.com/kamarul.ariffin.9235">
+    <span class="fa fa-facebook fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="research-and-publication" class="section level2">
+<h2>RESEARCH AND PUBLICATION</h2>
+<div id="research" class="section level3">
+<h3>Research</h3>
+<p>“Integrating English Medium Mathematics Mobile Applications To Teach Low Achievers Students In tertiary Context”, ARAS Research Grant. (September 1, 2016 – August 31, 2018)</p>
+<p>“The Effect Of Gender And Religion on The Perceived Mental Health Among Youth in Kedah”, Dana Kecemerlangan UiTM. (November 1, 2015 – April 30, 2017)</p>
+<p>“Factors Influencing Purchasing Intention of Smartphone Among University Students”, Dana Kecemerlangan UiTM. (November 1, 2015 – April 30, 2017)</p>
+<p>“Factors That Contributes to the Intention to Adopt Websites as Marketing Communication Tool among SME’s in Kedah: A Business Perspective”, Internal Grant, August 2010</p>
+<p>“The Study of Technophobia among Students in UiTM Kedah”, Internal Grant, May 2010</p>
+<p>“The Effectiveness and Efficiency in the Usage of Software e-MySL© in Learning Malaysian Sign Language (MySL)”, Internal Grant, December 2008</p>
+<p>“Impak Pembangunan Terhadap Tahap Pendidikan dan Pendapatan Orang Asli di Tanah Tinggi Cameron”, Internal Grant, April 2007</p>
+<p>“A Survey on Factors Which Positively Influence Ethical Decision Making among Young Lawyers Practicing in the State of Kedah”, Internal Grant, January 2007</p>
+<p>“Descriptive Analysis On The Use of ICT Among Faculties Offering Quantitative Sciences and Information Technology Courses in Northern Region IPTA”, Internal Grant, December 2006</p>
+<p>“Student’s Perception Of Service Quality: A Case Study in UiTM Kedah And Perlis Branch”, Internal Grant, May 2006</p>
+<p>“Perpustakaan Masjid Di Negeri Kedah: Satu Tinjauan”, Internal Grant, December 2005</p>
+<p>“Analisis Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar di Kawasan Parlimen Merbok, Kedah”, Internal Grant, March 2005</p>
+</div>
+<div id="proceedings-colloquium-papers" class="section level3">
+<h3>Proceedings &amp; Colloquium Papers</h3>
+<p>Bosli, F., Mokhtar, S. F., Shamsuddin, N. R., Zawawi, T. K. F. T. A., Mansor, K. A., &amp; Salleh, W. Z. W. (2017). Factors Affecting the Tendency of Drug Abuse among Drug Addicts: A Case Study in the Northern Region of Malaysia. The 6th International Conference on Public Policy and Social Science (iCOPS2017), 8th &amp; 9th March 2017, The Hotel &amp; convention Centre, Alor Setar, Malaysia. ICOPS2017 eProceedings, 545. (ISBN 978-967-0314-41-9)</p>
+<p>“The Antecedents Buying Intention of New Smartphone among University Students” (with Azira Rahim, Dr. Law Kuan Kheng, Kamarul Ariffin Mansor and Nurliyana Abas), 2nd International Conference on Information in Business and Technology Management (I2BM), 18 - 20 April 2017, Penang, Malaysia.</p>
+<p>“How Far Ethics Education Positively Influence Ethical Decision Making of The Young Lawyers in Kedah?” (with Haswira Nor Mohamad Hashim and Anida Mahmood, Proceedings of Conference on Scientific and Social Research (CSSR 08’09), 14 – 15 March 2009, A’Famosa Resort Melaka.</p>
+<p>“The Effectiveness and Efficiency in the Usage of Software e-MySL© in Learning Malaysian Sign Language (MySL)” (with Haziah Sa’ari, Marlia Idrus and Mohd Shamsul Daud), Proceedings of Conference on Scientific and Social Research (CSSR 08’09), 14 – 15 March 2009, A’Famosa Resort Melaka.</p>
+<p>“A Study on English Language Competency Perception Among Lecturers in Higher Learning Institution” (with Shafinah Md Salleh and Wan Irham Ishak), Proceeding of 1st International Conference on Social Science and Humanities 2008 (ICoSSH 2008), 18 – 20 June 2008, Universiti Sains Malaysia (USM) Penang. (Proceedings CD ISBN: 978-983-2700-65-4, Humanities HUM58 &amp; Proceedings Abstract ISBN: 978-983-2700-69-2, pp 78)</p>
+<p>“Impak Pembangunan Ke Atas Suku Semai Di Tanah Tinggi Cameron” (with Azizan Zainuddin, Mahadi Mahmood and Mohamad Sabri Yusoh), Proceedings of the National Seminar on Science, Technology &amp; Social Sciences 2008, 3 – 4 June 2008, M.S. garden Hotel Kuantan Pahang. (Proceedings ISBN: 978-983-2607-17-5, pp 363 – 372)</p>
+<p>“Factors Influencing Ethical Decision Making Among Young Lawyers: A survey in the State of Kedah” (with Haswira Nor Mohamad Hashim and Anida Mahmood), Proceedings of Law Conference 2007, 18 – 20 April 2007, EDC-UUM Sintok Kedah.</p>
+<p>“Analisis Faktor Kejayaan dan Kegagalan Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Proceedings of Conference On Scientific &amp; Social Research (CSSR), 18 – 20 April 2007, Summit Hotel, subang Jaya Selangor.</p>
+<p>“Analisis Tahap Pengetahuan Penduduk Terhadap Program Pembasmian Kemiskinan Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Colloquium Paper presented in UiTM Kedah Colloquium 2005, 26 May 2005, Sg Petani Kedah.</p>
+</div>
+<div id="academic-papers" class="section level3">
+<h3>Academic Papers</h3>
+<p>Safin, Z., Ali, N.A., Jamalurus, H.L., Zani, R.M., &amp; Mansor, K.A. (2018). Performance in Industrial Training: Industry Evaluation on Business and Management Students. Gading Journal for the Social Sciences, 21(01).</p>
+<p>Shamsinar Ibrahim, Hasyimah Razali, Masilah Mohamad, Siti Fairuza Hassam, &amp; Kamarul Ariffin Mansor (2018). Assessing Passengers’ Satisfaction Towards The Northern Region Airlines Service Quality. Journal of Global Business and Social Entrepreneurship (GBSE). 4(10), 72 -86.</p>
+<p>Rahim, A., Kheng, L.K., Mansor, K.A., &amp; Abas,N. (2017). The Antecedents Buying Intention of New Smartphone Among University Students. Advanced Science Letters, 23(11), 10538-10541. Indexing: Scopus.</p>
+<p>Badri-Harun, A., Mansor, K.A., Shaari, Z.H., Zainol, M.R., &amp; Amar, A. (2017). Factors Influencing Students of Technology-Based Universities to Become Entrepreneurs. International Review of Management and Marketing, 7(1), 319-325. Indexing: Scopus.</p>
+<p>Mansor, K.A., &amp; Ishak, W.I. (2015). Forecasting Tourist Arrivals to Langkawi Island Malaysia. Cross-Cultural Management Journal, 17(7), 69-76. Romanian Foundation for Business Intelligence (FRIA), Romania. (Published June 2015). Indexing: BDI <a href="http://cmj.bxb.ro/bdi/" class="uri">http://cmj.bxb.ro/bdi/</a> and under evaluation period for ISI Web of Science Index.</p>
+<p>Mansor, K.A., Masduki, R.M.N., Mohamad, M., Zulkarnain, N., &amp; Aziz, N.A. (2015). A Study on Factors Influencing Muslim’s Consumers Preferences Towards Takaful Products In Malaysia. Romanian Statistical Review, 63(2), 78-89. Indexing: ECSI Thompson Reuters and BDI <a href="http://www.revistadestatistica.ro/index.php/indexing/" class="uri">http://www.revistadestatistica.ro/index.php/indexing/</a></p>
+</div>
+<div id="editorial-and-article-review-activities" class="section level3">
+<h3>Editorial and Article Review Activities</h3>
+<p>Editorial Team - Independent Journal of Management &amp; Production (IJM&amp;P) E-ISSN: 2236-269X</p>
+<p>Editorial Team – Austrian Journal of Statistics</p>
+<p>Lee, K.L., Mansor, K.A., Nayan, A., Zakaria, S.F., &amp; Idrus, Z. (2015). Quest for Research Excellence on Computing, Mathematics and Statistics.</p>
+<div id="section" class="section level4">
+<h4>2017</h4>
+<p>Article Review – “Job Satisfaction among Academic Staff: A Structural Equation Modeling Approach”, The 3rd International Conference on Computing, Mathematics and Statistics 2017 (iCMS2017) &amp; The 5th Joint International Conference on New Challenges for Statistical Software: The Use of R in Official Statistics (UROS2017) – Asia Pacific.</p>
+<p>Article Review - “Structural Equation Modelling Assessing Relationship Between Mathematics Beliefs, Teachers’ Attitudes And Teaching Practices Among Novice Teachers In Malaysia” for the Scopus-indexed AIP Conference Proceeding (International Conference on education, Mathematics and Science 2016 (ICEM 2016) in conjuction with 4th International Postgraduate Conference on Science and Mathematics 2016 (IPCSM 2016))</p>
+<p>Article Review - “The Influence Of Psychosocial Learning Environment Toward Students’ Perceptions On Marzano Higher Order Thinking Skills” for the Scopus-indexed AIP Conference Proceeding (International Conference on education, Mathematics and Science 2016 (ICEM 2016) in conjuction with 4th International Postgraduate Conference on Science and Mathematics 2016 (IPCSM 2016))</p>
+</div>
+<div id="section-1" class="section level4">
+<h4>2016</h4>
+<p>Article Review - Study of the plywood panels properties using Geostatistic (IJM&amp;P)</p>
+</div>
+<div id="section-2" class="section level4">
+<h4>2015</h4>
+<p>Editorial - Chapters in Book on Quest for Research Excellence on Computing, Mathematics and Statistics. The 2nd International Conference on Computing, Mathematics and Statistics (iCMS2015) – with LK Kor, KA Mansor, A Nayan, SF Zakaria, Z Idrus, 4.11.2015</p>
+<p>Article Review – A comparative Study of the LWR-IM Traffic Model and Shockwave Analysis (2015 IEEE Conference on System, Process &amp; Control) Article Review – Modeling and Simulation of Electrical Resonance in EHV Transmission Line Case Study in West Java Region kV System (2015 IEEE Conference on System, Process &amp; Control)</p>
+</div>
+<div id="section-3" class="section level4">
+<h4>2008</h4>
+<p>Article Review - Comparison Neural Networks Models for Short Term Forecasting of Natural Gas Consumption in Istanbul (First International Conference on the Applications of Digital Information and Web Technologies (ICADIWT 2008), Co-Sponsored by IEEE, VSB- Technical University of Ostrava, Czech Republic, August 4 - 6 2008)</p>
+</div>
+</div>
+</div>
+<div id="supervision" class="section level2">
+<h2>SUPERVISION</h2>
+<p>Statistical Advisor &amp; Industrial Training Supervisor</p>
+<div id="section-4" class="section level3">
+<h3>2017</h3>
+<p>Comparison Between Academic Staff And Non-Academic Staff On Relationship Of Mental Health And Quality Of Work Life In Uitm Kedah, Siti Shahidah Binti Md Saffar (2015208252)</p>
+<p>The Knowledge, Attitude And Perception Of Negative Presenteesim Among Academic Staff At Uitm Kedah, Norazira Bintii Mohd Yusuf Sulaiman (2015872906)</p>
+<p>Environmental Elements And Employees’ Psychological Health: Are They Related? - A Case Study Of Astana Bayu City Group Sdn Bhd, Norhasikin Binti Moktar (2015830036)</p>
+</div>
+<div id="section-5" class="section level3">
+<h3>2016</h3>
+<p>The Factors That Influence The Non-Performing Loans (Npls) Among Private Staff In Penang, Norzubaidah Binti Abdul Aziz (2014926029) &amp; Nur Insyirah Binti Mohd Zuki (2014190031) Factors That Affect The Purchasing Decision On Motocycles Among Students In Uitm Kedah, Marsyasa Binti Basri</p>
+<p>Factor Influencing Multinational Corporation To Invest In Penang, Mohd Nazimie Bin Mohd Hussain</p>
+<p>Country Of Origin (Coo) Effect On Malaysia Consumers’ Purchase Decisions Of Automobiles From Foreign Brands: In The Case Of UMK Pengkalan Chepa, Norshahirah Binti Suzilan</p>
+<p>Factors That Influence The Intention To Purchase Halal Cosmetics Among Academic Staffs In Uitm Merbok, Nur Amira Nailah Binti Razamud-Din</p>
+</div>
+<div id="section-6" class="section level3">
+<h3>2015</h3>
+<p>Determinants Of Dependency Levels Towards Baitulmal In Seremban, Negeri Sembilan, Syaridatul Syadana Binti Esdaud (2012309987) &amp; Siti Nurjihan Binti Marzuki (2013223858)</p>
+<p>A Study On The Factors That Influence Retirement Saving Among Government Servants, Afa Husna Binti Md Radzi (2013771763) &amp; Nur Izyani Binti Abdul Halim (2013822304)</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

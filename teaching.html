@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Teaching Activities</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Kamarul Ariffin Mansor</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Academic Activities</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ariff118/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.facebook.com/kamarul.ariffin.9235">
+    <span class="fa fa-facebook fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Teaching Activities</h1>
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="section" class="section level1 tabset">
+<h1></h1>
+<div id="mat111" class="section level2 tabset">
+<h2>MAT111</h2>
+<div id="course-information" class="section level3">
+<h3>Course Information</h3>
+<div id="course-learning-outcomes" class="section level4">
+<h4><em>Course Learning Outcomes</em></h4>
+<p>At the end of the course, students should be able to:<br />
+1. Solve basic mathematical problems. ( C3 A1 P2 )<br />
+2. Apply mathematical concepts to solve mathematical problems in finance and banking. ( C4 A1 P2 )<br />
+3. Apply mathematical concepts to solve mathematical problems in trading and retailing. ( C5 P2 A1 )</p>
+</div>
+<div id="course-description" class="section level4">
+<h4><em>Course Description</em></h4>
+<p>The course is primarily designed to strengthen the fundamental concepts of mathematics with emphasis on business application and problem solving.</p>
+</div>
+<div id="syllabus-content" class="section level4">
+<h4><em>Syllabus Content</em></h4>
+<ol style="list-style-type: decimal">
+<li>Fundamental Concepts Of Mathematics
+<ol style="list-style-type: lower-alpha">
+<li>Introduction to arithmetic operations<br />
+</li>
+<li>Linear Equations<br />
+</li>
+<li>Fractions, decimals, ratios and percentages<br />
+</li>
+</ol></li>
+<li>Simple Interest
+<ol style="list-style-type: lower-alpha">
+<li>Simple Interest and Bank Discount<br />
+</li>
+<li>Present Value, Rate and Time<br />
+</li>
+<li>Applications of Simple Interest and Bank Discount</li>
+</ol></li>
+<li>Compound Interest
+<ol style="list-style-type: lower-alpha">
+<li>Compound Interest and Compound Amount<br />
+</li>
+<li>Present Value<br />
+</li>
+<li>Applications of Compound Interest<br />
+</li>
+</ol></li>
+<li>Business Loans and Instalment Purchase
+<ol style="list-style-type: lower-alpha">
+<li>Discounted Loan<br />
+</li>
+<li>Flat Rate Loan<br />
+</li>
+<li>Reducing Balance Loan<br />
+</li>
+<li>Instalment purchase<br />
+</li>
+</ol></li>
+<li>Mathematics of Trading
+<ol style="list-style-type: lower-alpha">
+<li>Trade Discount<br />
+</li>
+<li>Single discount equivalent<br />
+</li>
+<li>Cash discount<br />
+</li>
+</ol></li>
+<li>Mathematics of Retailing
+<ol style="list-style-type: lower-alpha">
+<li>Mark up and mark down<br />
+</li>
+<li>Gross profit, net profit and break even price</li>
+</ol></li>
+</ol>
+</div>
+<div id="references" class="section level4">
+<h4><em>References</em></h4>
+<ol style="list-style-type: decimal">
+<li>Lau Too Kya, Phang Yook Ngor and Wee Kok Kiang, Business Mathematics for UiTM, 4th, Oxford Fajar Sdn. Bhd., ISBN: 9789676571601.<br />
+</li>
+<li>James Deitz,James Southam, Contemporary Business Mathematics for Colleges, 16th, Cengage Learning, 2012, ISBN: 1111821321.<br />
+</li>
+<li>Jeffrey Slater,Sharon M. Wittry, Math for Business and Finance, McGraw-Hill, 2014, ISBN: 9780077662622.<br />
+</li>
+<li>Stanley A. Salzman,Gary Clendenen, Mathematics for Business, 10th, Addison-Wesley Longman, 2012, ISBN: 9780132898355.</li>
+</ol>
+</div>
+<div id="course-assessment" class="section level4">
+<h4><em>Course Assessment</em></h4>
+<p>Final examination – One 3-hour paper : 60%<br />
+Course Work (Continuous assessments) : 40%<br />
+- Test (3) : 30%<br />
+- Quizzes (4) : 10%</p>
+</div>
+</div>
+<div id="continuous-assessment-marks" class="section level3 tabset">
+<h3>Continuous Assessment Marks</h3>
+<div id="kba1111d" class="section level4">
+<h4>KBA1111D</h4>
+<table>
+<caption>Continuous Assessment (40%)</caption>
+<thead>
+<tr class="header">
+<th align="right">Bil</th>
+<th align="right">No Pelajar</th>
+<th align="right">Test 1</th>
+<th align="right">Test 2</th>
+<th align="right">Test 3</th>
+<th align="right">Quiz 3</th>
+<th align="right">Quiz 4</th>
+<th align="right">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">2018638116</td>
+<td align="right">100.0</td>
+<td align="right">68.3</td>
+<td align="right">100.0</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">32.83</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">2018248082</td>
+<td align="right">83.3</td>
+<td align="right">45.0</td>
+<td align="right">85.0</td>
+<td align="right">85</td>
+<td align="right">85</td>
+<td align="right">26.43</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2018655806</td>
+<td align="right">70.0</td>
+<td align="right">93.3</td>
+<td align="right">96.7</td>
+<td align="right">85</td>
+<td align="right">85</td>
+<td align="right">31.10</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">2018444178</td>
+<td align="right">98.3</td>
+<td align="right">91.7</td>
+<td align="right">81.7</td>
+<td align="right">90</td>
+<td align="right">90</td>
+<td align="right">32.57</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">2018279402</td>
+<td align="right">91.7</td>
+<td align="right">75.0</td>
+<td align="right">78.3</td>
+<td align="right">90</td>
+<td align="right">90</td>
+<td align="right">29.90</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">2018242762</td>
+<td align="right">68.3</td>
+<td align="right">56.7</td>
+<td align="right">91.7</td>
+<td align="right">90</td>
+<td align="right">90</td>
+<td align="right">27.07</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">2018639868</td>
+<td align="right">76.7</td>
+<td align="right">63.3</td>
+<td align="right">88.3</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">28.83</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">2018423128</td>
+<td align="right">100.0</td>
+<td align="right">88.3</td>
+<td align="right">96.7</td>
+<td align="right">80</td>
+<td align="right">80</td>
+<td align="right">33.30</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="right">2018420636</td>
+<td align="right">38.3</td>
+<td align="right">20.0</td>
+<td align="right">45.0</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">14.83</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="right">2018655812</td>
+<td align="right">98.3</td>
+<td align="right">100.0</td>
+<td align="right">96.7</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">34.00</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="right">2018443488</td>
+<td align="right">53.3</td>
+<td align="right">53.3</td>
+<td align="right">63.3</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">21.49</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="right">2018209264</td>
+<td align="right">61.7</td>
+<td align="right">48.3</td>
+<td align="right">33.3</td>
+<td align="right">90</td>
+<td align="right">90</td>
+<td align="right">19.73</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="right">2018807132</td>
+<td align="right">70.0</td>
+<td align="right">38.3</td>
+<td align="right">86.7</td>
+<td align="right">80</td>
+<td align="right">80</td>
+<td align="right">24.30</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="right">2018652774</td>
+<td align="right">53.3</td>
+<td align="right">70.0</td>
+<td align="right">80.0</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">24.83</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">2018699944</td>
+<td align="right">71.7</td>
+<td align="right">38.3</td>
+<td align="right">35.0</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">19.00</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="right">2018220388</td>
+<td align="right">80.0</td>
+<td align="right">91.7</td>
+<td align="right">100.0</td>
+<td align="right">80</td>
+<td align="right">80</td>
+<td align="right">31.97</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">2018671466</td>
+<td align="right">83.3</td>
+<td align="right">58.3</td>
+<td align="right">93.3</td>
+<td align="right">85</td>
+<td align="right">85</td>
+<td align="right">28.59</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="right">2018807082</td>
+<td align="right">76.7</td>
+<td align="right">51.7</td>
+<td align="right">85.0</td>
+<td align="right">85</td>
+<td align="right">85</td>
+<td align="right">26.44</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">2018282816</td>
+<td align="right">60.0</td>
+<td align="right">50.0</td>
+<td align="right">66.7</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">22.17</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">2018658586</td>
+<td align="right">40.0</td>
+<td align="right">31.7</td>
+<td align="right">75.0</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">19.17</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td align="right">2018659334</td>
+<td align="right">41.7</td>
+<td align="right">38.3</td>
+<td align="right">33.3</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">17.33</td>
+</tr>
+<tr class="even">
+<td align="right">22</td>
+<td align="right">2018241854</td>
+<td align="right">45.0</td>
+<td align="right">40.0</td>
+<td align="right">86.7</td>
+<td align="right">80</td>
+<td align="right">80</td>
+<td align="right">21.97</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="right">2018239682</td>
+<td align="right">96.7</td>
+<td align="right">61.7</td>
+<td align="right">100.0</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">31.84</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="right">2018419784</td>
+<td align="right">95.0</td>
+<td align="right">83.3</td>
+<td align="right">91.7</td>
+<td align="right">80</td>
+<td align="right">80</td>
+<td align="right">31.80</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">2018633932</td>
+<td align="right">80.0</td>
+<td align="right">68.3</td>
+<td align="right">100.0</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">30.83</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">2018659306</td>
+<td align="right">65.0</td>
+<td align="right">48.3</td>
+<td align="right">48.3</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">20.66</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="right">2018434388</td>
+<td align="right">50.0</td>
+<td align="right">6.7</td>
+<td align="right">40.0</td>
+<td align="right">75</td>
+<td align="right">75</td>
+<td align="right">14.17</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Performance Summary</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">Test 1</th>
+<th align="center">Test 2</th>
+<th align="center">Test 3</th>
+<th align="center">Quiz 1</th>
+<th align="center">Quiz 2</th>
+<th align="center">Quiz 3</th>
+<th align="center">Quiz 4</th>
+<th align="center">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td align="center">Min. : 38.30</td>
+<td align="center">Min. : 6.70</td>
+<td align="center">Min. : 33.30</td>
+<td align="center">Mode:logical</td>
+<td align="center">Mode:logical</td>
+<td align="center">Min. : 75.00</td>
+<td align="center">Min. : 75.00</td>
+<td align="center">Min. :14.17</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">1st Qu.: 56.65</td>
+<td align="center">1st Qu.: 42.50</td>
+<td align="center">1st Qu.: 65.00</td>
+<td align="center">NA’s:27</td>
+<td align="center">NA’s:27</td>
+<td align="center">1st Qu.: 75.00</td>
+<td align="center">1st Qu.: 75.00</td>
+<td align="center">1st Qu.:21.07</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">Median : 71.70</td>
+<td align="center">Median : 56.70</td>
+<td align="center">Median : 85.00</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">Median : 80.00</td>
+<td align="center">Median : 80.00</td>
+<td align="center">Median :26.44</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Mean : 72.16</td>
+<td align="center">Mean : 58.51</td>
+<td align="center">Mean : 76.98</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">Mean : 84.26</td>
+<td align="center">Mean : 84.26</td>
+<td align="center">Mean :25.82</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">3rd Qu.: 87.50</td>
+<td align="center">3rd Qu.: 72.50</td>
+<td align="center">3rd Qu.: 95.00</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">3rd Qu.: 90.00</td>
+<td align="center">3rd Qu.: 90.00</td>
+<td align="center">3rd Qu.:31.45</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Max. :100.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">Max. :100.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">Max. :34.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="mat112" class="section level2 tabset">
+<h2>MAT112</h2>
+<div id="course-information-1" class="section level3">
+<h3>Course Information</h3>
+<div id="course-outcomes" class="section level4">
+<h4><em>Course Outcomes</em></h4>
+<p>At the end of the course, students should be able to:<br />
+• Understand and describe mathematical terms encountered in business, finance and investment. (C2, P3, A3)<br />
+• Solve basic mathematical problems involving sequence. (C3, P3, A3)<br />
+• Apply mathematical concepts to solve mathematical problems in other areas such as business, statistics, finance, economics, etc. (C5, P3, A3)</p>
+</div>
+<div id="course-description-1" class="section level4">
+<h4><em>Course Description</em></h4>
+<p>The course is primarily designed to develop the mathematical knowledge needed by the students to meet the demands of business operation. It is to provide a solid coverage of the most basic and frequently occurring business situations.</p>
+</div>
+<div id="syllabus-content-1" class="section level4">
+<h4><em>Syllabus Content</em></h4>
+<ol style="list-style-type: decimal">
+<li><p>Sequence<br />
+• Introduction to sequence<br />
+• Arithmetic sequence<br />
+• Finding the nth term and the sum of the first n terms<br />
+• Geometric sequence<br />
+• Finding the nth term and the sum of the first n terms</p></li>
+<li><p>Simple Interest<br />
+• Introduction to interest<br />
+• Simple interest formula<br />
+• Simple amount formula<br />
+• Exact time and approximate time<br />
+• Ordinary simple interest and exact simple interest<br />
+• Banker’s Rule<br />
+• Present Value</p></li>
+<li><p>Bank Discount and Promissory Notes<br />
+• Introduction to promissory notes<br />
+• Introduction to bank discount<br />
+• Simple interest rate equivalent to bank discount rate</p></li>
+<li><p>Compound Interest<br />
+• Time value of money<br />
+• Introduction to compound interest<br />
+• Important terms use in compound interest<br />
+• Compound interest formula<br />
+• Present Value</p></li>
+<li><p>Annuity<br />
+• Introduction to annuity and types of annuities<br />
+• Future value of ordinary annuity certain<br />
+• Present value of ordinary annuity certain<br />
+• Solving for R and n.</p></li>
+<li><p>Installment Purchase<br />
+• Introduction to installment purchase<br />
+• Interest based on original balance<br />
+• Interest based on reducing balance – constant ratio formula<br />
+• Unpaid principal balance using Rule of 78</p></li>
+<li><p>Trade and Cash Discounts<br />
+• Introduction to trade discount<br />
+• Net price formula<br />
+• Chain discount<br />
+• Single discount equivalent to chain discount<br />
+• Cash discount</p></li>
+<li><p>Mathematics of Retailing<br />
+• Cost, selling price, profit, loss<br />
+• Mark up and mark down<br />
+• Profit and loss: Gross profit, net profit and breakeven price<br />
+• Trade discount &amp; Mathematics of retailing</p></li>
+<li><p>Depreciation<br />
+• Introduction to depreciation<br />
+• Straight line method<br />
+• Declining balance method</p></li>
+</ol>
+</div>
+<div id="references-1" class="section level4">
+<h4><em>References</em></h4>
+<p><strong>Recommended Text</strong><br />
+Lau Too Kya, Phang Yook Ngor and Wee Kok Kiang, Business Mathematics for UiTM 3rd edition, Fajar Bakti, 2009</p>
+<p><strong>References</strong></p>
+<p>Frank Ayers, Mathematics of Finance, Schaum Series, McGraw-Hill Book Company, 1997<br />
+Charles D. Miller, Stanley A. Salzman, Gary Clendenen, Business Mathematics, 7th edition, Addision Wesley, 1997<br />
+Deitz and Southam, Contemporary Business Mathematics for Colleges, 12th edition, ITP, 1999.<br />
+Mohd Alias Lazim, Azizah Murad, Wan Hartini Wan Hassan. Matematik Perniagaan. Biroteks.</p>
+</div>
+<div id="course-assessment-1" class="section level4">
+<h4><em>Course Assessment</em></h4>
+<p>Final examination – One 3-hour paper : 60%<br />
+Course Work (Continuous assessments) : 40%<br />
+- Test (2) : 30%<br />
+- Quizzes (3) : 6%<br />
+- Assignment (1): 4%</p>
+</div>
+</div>
+<div id="continuous-assessment-marks-1" class="section level3 tabset">
+<h3>Continuous Assessment Marks</h3>
+<div id="kba1111e" class="section level4">
+<h4>KBA1111E</h4>
+<table>
+<caption>Continuous Assessment (40%)</caption>
+<thead>
+<tr class="header">
+<th align="right">Bil</th>
+<th align="right">No Pelajar</th>
+<th align="right">Test 1</th>
+<th align="right">Test 2</th>
+<th align="right">Assignment</th>
+<th align="right">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">2018242234</td>
+<td align="right">35</td>
+<td align="right">63.8</td>
+<td align="right">22.5</td>
+<td align="right">17.820000</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">2018271588</td>
+<td align="right">8</td>
+<td align="right">30.0</td>
+<td align="right">21.5</td>
+<td align="right">8.566667</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2018633384</td>
+<td align="right">40</td>
+<td align="right">28.8</td>
+<td align="right">23.0</td>
+<td align="right">13.386667</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">2018272212</td>
+<td align="right">59</td>
+<td align="right">17.5</td>
+<td align="right">22.0</td>
+<td align="right">14.408333</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">2018413816</td>
+<td align="right">11</td>
+<td align="right">6.3</td>
+<td align="right">23.0</td>
+<td align="right">5.661667</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">2018410072</td>
+<td align="right">47</td>
+<td align="right">65.0</td>
+<td align="right">22.0</td>
+<td align="right">19.733333</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">2018296772</td>
+<td align="right">25</td>
+<td align="right">35.0</td>
+<td align="right">22.5</td>
+<td align="right">12.000000</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">2018413124</td>
+<td align="right">52</td>
+<td align="right">70.0</td>
+<td align="right">22.5</td>
+<td align="right">21.300000</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="right">2018413458</td>
+<td align="right">6</td>
+<td align="right">25.0</td>
+<td align="right">22.0</td>
+<td align="right">7.583333</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="right">2018426856</td>
+<td align="right">12</td>
+<td align="right">21.3</td>
+<td align="right">21.5</td>
+<td align="right">7.861667</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="right">2018241022</td>
+<td align="right">16</td>
+<td align="right">46.3</td>
+<td align="right">18.0</td>
+<td align="right">11.745000</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="right">2018639748</td>
+<td align="right">66</td>
+<td align="right">100.0</td>
+<td align="right">22.5</td>
+<td align="right">27.900000</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="right">2018285338</td>
+<td align="right">90</td>
+<td align="right">73.8</td>
+<td align="right">18.0</td>
+<td align="right">26.970000</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="right">2018256458</td>
+<td align="right">65</td>
+<td align="right">97.5</td>
+<td align="right">22.5</td>
+<td align="right">27.375000</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">2018211454</td>
+<td align="right">86</td>
+<td align="right">55.0</td>
+<td align="right">18.0</td>
+<td align="right">23.550000</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="right">2018239458</td>
+<td align="right">73</td>
+<td align="right">100.0</td>
+<td align="right">22.5</td>
+<td align="right">28.950000</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">2018405706</td>
+<td align="right">98</td>
+<td align="right">100.0</td>
+<td align="right">22.5</td>
+<td align="right">32.700000</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="right">2018409308</td>
+<td align="right">30</td>
+<td align="right">50.0</td>
+<td align="right">18.0</td>
+<td align="right">14.400000</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">2018416636</td>
+<td align="right">17</td>
+<td align="right">27.5</td>
+<td align="right">21.5</td>
+<td align="right">9.541667</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">2018231208</td>
+<td align="right">78</td>
+<td align="right">91.3</td>
+<td align="right">23.0</td>
+<td align="right">28.461667</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td align="right">2018429102</td>
+<td align="right">25</td>
+<td align="right">13.8</td>
+<td align="right">23.0</td>
+<td align="right">8.886667</td>
+</tr>
+<tr class="even">
+<td align="right">22</td>
+<td align="right">2018244194</td>
+<td align="right">46</td>
+<td align="right">46.3</td>
+<td align="right">22.0</td>
+<td align="right">16.778333</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="right">2018416436</td>
+<td align="right">49</td>
+<td align="right">55.0</td>
+<td align="right">22.0</td>
+<td align="right">18.533333</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="right">2018673146</td>
+<td align="right">51</td>
+<td align="right">51.3</td>
+<td align="right">22.0</td>
+<td align="right">18.278333</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">2018428266</td>
+<td align="right">29</td>
+<td align="right">53.0</td>
+<td align="right">23.0</td>
+<td align="right">15.366667</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">2018655382</td>
+<td align="right">27</td>
+<td align="right">47.5</td>
+<td align="right">22.5</td>
+<td align="right">14.175000</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="right">2018696446</td>
+<td align="right">38</td>
+<td align="right">25.0</td>
+<td align="right">23.0</td>
+<td align="right">12.516667</td>
+</tr>
+<tr class="even">
+<td align="right">28</td>
+<td align="right">2018696462</td>
+<td align="right">42</td>
+<td align="right">36.3</td>
+<td align="right">22.5</td>
+<td align="right">14.745000</td>
+</tr>
+<tr class="odd">
+<td align="right">29</td>
+<td align="right">2018253544</td>
+<td align="right">39</td>
+<td align="right">28.8</td>
+<td align="right">21.5</td>
+<td align="right">13.036667</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Performance Summary</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">Test 1</th>
+<th align="center">Test 2</th>
+<th align="center">Quiz</th>
+<th align="center">Assignment</th>
+<th align="center">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td align="center">Min. : 6.00</td>
+<td align="center">Min. : 6.30</td>
+<td align="center">Mode:logical</td>
+<td align="center">Min. :18.00</td>
+<td align="center">Min. : 5.662</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">1st Qu.:25.00</td>
+<td align="center">1st Qu.: 28.80</td>
+<td align="center">NA’s:29</td>
+<td align="center">1st Qu.:21.50</td>
+<td align="center">1st Qu.:12.000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">Median :40.00</td>
+<td align="center">Median : 47.50</td>
+<td align="center">NA</td>
+<td align="center">Median :22.50</td>
+<td align="center">Median :14.745</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Mean :43.45</td>
+<td align="center">Mean : 50.38</td>
+<td align="center">NA</td>
+<td align="center">Mean :21.74</td>
+<td align="center">Mean :16.974</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">3rd Qu.:59.00</td>
+<td align="center">3rd Qu.: 65.00</td>
+<td align="center">NA</td>
+<td align="center">3rd Qu.:22.50</td>
+<td align="center">3rd Qu.:21.300</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Max. :98.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">NA</td>
+<td align="center">Max. :23.00</td>
+<td align="center">Max. :32.700</td>
+</tr>
+</tbody>
+</table>
+<pre><code>## 
+##  INDEPENDENT SAMPLES T-TEST
+## 
+##  Independent Samples T-Test                                                                                    
+##  ------------------------------------------------------------------------------------------------------------- 
+##                                 statistic    df      p         Mean difference    SE difference    Cohen&#39;s d   
+##  ------------------------------------------------------------------------------------------------------------- 
+##    Test 1        Student&#39;s t       3.38      27.0     0.999              30.45            9.001         1.41   
+##    Test 2        Student&#39;s t       4.13      27.0     1.000              37.90            9.180         1.72   
+##    Assignment    Student&#39;s t      -3.77 &lt;U+1D43&gt;    27.0    &lt; .001              -2.06            0.547        -1.57   
+##    CM            Student&#39;s t       4.01      27.0     1.000               9.98            2.487         1.67   
+##  ------------------------------------------------------------------------------------------------------------- 
+##    Note. H&lt;U+2090&gt; L &lt; P
+##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
+## 
+## 
+##  Group Descriptives                                                  
+##  ------------------------------------------------------------------- 
+##                  Group    N     Mean    Median    SD        SE       
+##  ------------------------------------------------------------------- 
+##    Test 1        L         8    65.5      69.5     28.89    10.216   
+##                  P        21    35.0      38.0    18.478     4.032   
+##                                                                      
+##    Test 2        L         8    77.8      85.7     24.40     8.627   
+##                  P        21    39.9      35.0    21.230     4.633   
+##                                                                      
+##    Assignment    L         8    20.2      20.2      2.41     0.850   
+##                  P        21    22.3      22.5     0.558     0.122   
+##                                                                      
+##    CM            L         8    24.2      27.2      7.35     2.598   
+##                  P        21    14.2      14.2     5.429     1.185   
+##  -------------------------------------------------------------------</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Gallery</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/KBA1111E/1.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1111E/2.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+<tr class="even">
+<td align="center"><img src="images/KBA1111E/3.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1111E/7.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="kba1191c" class="section level4">
+<h4>KBA1191C</h4>
+<table>
+<caption>Continuous Assessment (40%)</caption>
+<thead>
+<tr class="header">
+<th align="right">Bil</th>
+<th align="right">No Pelajar</th>
+<th align="right">Test 1</th>
+<th align="right">Test 2</th>
+<th align="right">Assignment</th>
+<th align="right">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">2018240978</td>
+<td align="right">66</td>
+<td align="right">62.5</td>
+<td align="right">19.5</td>
+<td align="right">21.875000</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">2018428184</td>
+<td align="right">34</td>
+<td align="right">83.8</td>
+<td align="right">19.5</td>
+<td align="right">20.270000</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2018241882</td>
+<td align="right">29</td>
+<td align="right">57.5</td>
+<td align="right">23.5</td>
+<td align="right">16.108333</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">2018291752</td>
+<td align="right">48</td>
+<td align="right">23.8</td>
+<td align="right">23.5</td>
+<td align="right">13.903333</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">2018697824</td>
+<td align="right">95</td>
+<td align="right">73.8</td>
+<td align="right">19.5</td>
+<td align="right">27.920000</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">2018257326</td>
+<td align="right">36</td>
+<td align="right">15.0</td>
+<td align="right">23.5</td>
+<td align="right">10.783333</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">2018269886</td>
+<td align="right">92</td>
+<td align="right">72.5</td>
+<td align="right">19.5</td>
+<td align="right">27.275000</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">2018215446</td>
+<td align="right">19</td>
+<td align="right">48.8</td>
+<td align="right">19.5</td>
+<td align="right">12.770000</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="right">2018655986</td>
+<td align="right">73</td>
+<td align="right">82.5</td>
+<td align="right">23.5</td>
+<td align="right">26.458333</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="right">2018661938</td>
+<td align="right">40</td>
+<td align="right">47.5</td>
+<td align="right">18.5</td>
+<td align="right">15.591667</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="right">2018253136</td>
+<td align="right">70</td>
+<td align="right">51.3</td>
+<td align="right">19.0</td>
+<td align="right">20.728333</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="right">2018241216</td>
+<td align="right">28</td>
+<td align="right">33.8</td>
+<td align="right">20.0</td>
+<td align="right">11.936667</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="right">2018291026</td>
+<td align="right">72</td>
+<td align="right">65.0</td>
+<td align="right">20.5</td>
+<td align="right">23.283333</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="right">2018269968</td>
+<td align="right">63</td>
+<td align="right">56.3</td>
+<td align="right">20.5</td>
+<td align="right">20.628333</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">2018256108</td>
+<td align="right">76</td>
+<td align="right">65.0</td>
+<td align="right">20.5</td>
+<td align="right">23.883333</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="right">2018416134</td>
+<td align="right">66</td>
+<td align="right">77.5</td>
+<td align="right">23.5</td>
+<td align="right">24.658333</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">2018429134</td>
+<td align="right">51</td>
+<td align="right">63.8</td>
+<td align="right">19.0</td>
+<td align="right">19.753333</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="right">2018291192</td>
+<td align="right">89</td>
+<td align="right">98.8</td>
+<td align="right">19.0</td>
+<td align="right">30.703333</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">2018404588</td>
+<td align="right">51</td>
+<td align="right">78.8</td>
+<td align="right">20.0</td>
+<td align="right">22.136667</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">2018232088</td>
+<td align="right">72</td>
+<td align="right">46.3</td>
+<td align="right">23.5</td>
+<td align="right">20.878333</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td align="right">2018242086</td>
+<td align="right">42</td>
+<td align="right">28.8</td>
+<td align="right">19.0</td>
+<td align="right">13.153333</td>
+</tr>
+<tr class="even">
+<td align="right">22</td>
+<td align="right">2018235964</td>
+<td align="right">90</td>
+<td align="right">92.5</td>
+<td align="right">20.0</td>
+<td align="right">30.041667</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="right">2018240114</td>
+<td align="right">31</td>
+<td align="right">31.3</td>
+<td align="right">20.5</td>
+<td align="right">12.078333</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="right">2018410898</td>
+<td align="right">77</td>
+<td align="right">91.3</td>
+<td align="right">20.5</td>
+<td align="right">27.978333</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">2018675422</td>
+<td align="right">22</td>
+<td align="right">32.5</td>
+<td align="right">20.0</td>
+<td align="right">10.841667</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">2018255974</td>
+<td align="right">66</td>
+<td align="right">78.8</td>
+<td align="right">19.0</td>
+<td align="right">24.253333</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="right">2018229232</td>
+<td align="right">31</td>
+<td align="right">35.0</td>
+<td align="right">18.5</td>
+<td align="right">12.366667</td>
+</tr>
+<tr class="even">
+<td align="right">28</td>
+<td align="right">2018254016</td>
+<td align="right">51</td>
+<td align="right">38.8</td>
+<td align="right">18.5</td>
+<td align="right">15.936667</td>
+</tr>
+<tr class="odd">
+<td align="right">29</td>
+<td align="right">2018675326</td>
+<td align="right">30</td>
+<td align="right">17.5</td>
+<td align="right">18.5</td>
+<td align="right">9.591667</td>
+</tr>
+<tr class="even">
+<td align="right">30</td>
+<td align="right">2018691826</td>
+<td align="right">31</td>
+<td align="right">53.8</td>
+<td align="right">18.5</td>
+<td align="right">15.186667</td>
+</tr>
+<tr class="odd">
+<td align="right">31</td>
+<td align="right">2018256954</td>
+<td align="right">21</td>
+<td align="right">33.8</td>
+<td align="right">20.0</td>
+<td align="right">10.886667</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Performance Summary</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">Test 1</th>
+<th align="center">Test 2</th>
+<th align="center">Quiz</th>
+<th align="center">Assignment</th>
+<th align="center">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td align="center">Min. :19.00</td>
+<td align="center">Min. :15.00</td>
+<td align="center">Mode:logical</td>
+<td align="center">Min. :18.50</td>
+<td align="center">Min. : 9.592</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">1st Qu.:31.00</td>
+<td align="center">1st Qu.:34.40</td>
+<td align="center">NA’s:31</td>
+<td align="center">1st Qu.:19.00</td>
+<td align="center">1st Qu.:12.962</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">Median :51.00</td>
+<td align="center">Median :56.30</td>
+<td align="center">NA</td>
+<td align="center">Median :20.00</td>
+<td align="center">Median :20.270</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Mean :53.61</td>
+<td align="center">Mean :56.08</td>
+<td align="center">NA</td>
+<td align="center">Mean :20.27</td>
+<td align="center">Mean :19.157</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">3rd Qu.:72.00</td>
+<td align="center">3rd Qu.:75.65</td>
+<td align="center">NA</td>
+<td align="center">3rd Qu.:20.50</td>
+<td align="center">3rd Qu.:24.068</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Max. :95.00</td>
+<td align="center">Max. :98.80</td>
+<td align="center">NA</td>
+<td align="center">Max. :23.50</td>
+<td align="center">Max. :30.703</td>
+</tr>
+</tbody>
+</table>
+<pre><code>## 
+##  INDEPENDENT SAMPLES T-TEST
+## 
+##  Independent Samples T-Test                                                                                   
+##  ------------------------------------------------------------------------------------------------------------ 
+##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Test 1        Student&#39;s t       -0.171    29.0    0.433             -1.668            9.745      -0.0703   
+##    Test 2        Student&#39;s t       -0.189    29.0    0.426             -1.840            9.729      -0.0776   
+##    Assignment    Student&#39;s t        1.398    29.0    0.914              0.978            0.700       0.5740   
+##    CM            Student&#39;s t       -0.147    29.0    0.442             -0.396            2.690      -0.0604   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Note. H&lt;U+2090&gt; L &lt; P
+## 
+## 
+##  Group Descriptives                                                 
+##  ------------------------------------------------------------------ 
+##                  Group    N     Mean    Median    SD       SE       
+##  ------------------------------------------------------------------ 
+##    Test 1        L         8    52.4      42.0    28.93    10.228   
+##                  P        23    54.0      51.0    21.83     4.552   
+##                                                                     
+##    Test 2        L         8    54.7      60.0    24.39     8.622   
+##                  P        23    56.6      53.8    23.48     4.896   
+##                                                                     
+##    Assignment    L         8    21.0      19.5     2.07     0.732   
+##                  P        23    20.0      20.0     1.57     0.327   
+##                                                                     
+##    CM            L         8    18.9      18.2     6.53     2.309   
+##                  P        23    19.3      20.6     6.56     1.368   
+##  ------------------------------------------------------------------</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Gallery</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/KBA1191C/1.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1191C/3.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+<tr class="even">
+<td align="center"><img src="images/KBA1191C/5.jpg" data-rotate="90" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1191C/6.jpg" data-rotate="90" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="kba1191d" class="section level4">
+<h4>KBA1191D</h4>
+<table>
+<caption>Continuous Assessment (40%)</caption>
+<thead>
+<tr class="header">
+<th align="right">Bil</th>
+<th align="right">No Pelajar</th>
+<th align="right">Test 1</th>
+<th align="right">Test 2</th>
+<th align="right">Assignment</th>
+<th align="right">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">2018241724</td>
+<td align="right">38</td>
+<td align="right">49</td>
+<td align="right">22.5</td>
+<td align="right">16.050000</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">2018257466</td>
+<td align="right">36</td>
+<td align="right">8</td>
+<td align="right">22.5</td>
+<td align="right">9.600000</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2018443024</td>
+<td align="right">54</td>
+<td align="right">100</td>
+<td align="right">26.5</td>
+<td align="right">26.633333</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">2018278466</td>
+<td align="right">27</td>
+<td align="right">50</td>
+<td align="right">22.5</td>
+<td align="right">14.550000</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">2018242106</td>
+<td align="right">71</td>
+<td align="right">72</td>
+<td align="right">26.5</td>
+<td align="right">24.983333</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">2018659492</td>
+<td align="right">70</td>
+<td align="right">53</td>
+<td align="right">26.5</td>
+<td align="right">21.983333</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">2018278066</td>
+<td align="right">27</td>
+<td align="right">20</td>
+<td align="right">22.5</td>
+<td align="right">10.050000</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">2018290614</td>
+<td align="right">62</td>
+<td align="right">60</td>
+<td align="right">26.5</td>
+<td align="right">21.833333</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="right">2018218788</td>
+<td align="right">95</td>
+<td align="right">100</td>
+<td align="right">26.5</td>
+<td align="right">32.783333</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="right">2018632744</td>
+<td align="right">53</td>
+<td align="right">50</td>
+<td align="right">22.5</td>
+<td align="right">18.450000</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="right">2018661322</td>
+<td align="right">37</td>
+<td align="right">37</td>
+<td align="right">21.5</td>
+<td align="right">13.966667</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="right">2018256946</td>
+<td align="right">71</td>
+<td align="right">58</td>
+<td align="right">24.0</td>
+<td align="right">22.550000</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="right">2018293964</td>
+<td align="right">19</td>
+<td align="right">28</td>
+<td align="right">24.0</td>
+<td align="right">10.250000</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="right">2018410934</td>
+<td align="right">57</td>
+<td align="right">79</td>
+<td align="right">24.0</td>
+<td align="right">23.600000</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">2018256064</td>
+<td align="right">71</td>
+<td align="right">78</td>
+<td align="right">22.5</td>
+<td align="right">25.350000</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="right">2018293966</td>
+<td align="right">78</td>
+<td align="right">100</td>
+<td align="right">23.5</td>
+<td align="right">29.833333</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">2018277088</td>
+<td align="right">40</td>
+<td align="right">75</td>
+<td align="right">22.5</td>
+<td align="right">20.250000</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="right">2018672576</td>
+<td align="right">77</td>
+<td align="right">85</td>
+<td align="right">25.0</td>
+<td align="right">27.633333</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">2018215602</td>
+<td align="right">21</td>
+<td align="right">38</td>
+<td align="right">21.5</td>
+<td align="right">11.716667</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">2018639902</td>
+<td align="right">37</td>
+<td align="right">30</td>
+<td align="right">25.0</td>
+<td align="right">13.383333</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td align="right">2018253122</td>
+<td align="right">44</td>
+<td align="right">40</td>
+<td align="right">25.0</td>
+<td align="right">15.933333</td>
+</tr>
+<tr class="even">
+<td align="right">22</td>
+<td align="right">2018429348</td>
+<td align="right">29</td>
+<td align="right">39</td>
+<td align="right">21.5</td>
+<td align="right">13.066667</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="right">2018267062</td>
+<td align="right">26</td>
+<td align="right">4</td>
+<td align="right">22.5</td>
+<td align="right">7.500000</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="right">2018244312</td>
+<td align="right">66</td>
+<td align="right">100</td>
+<td align="right">25.0</td>
+<td align="right">28.233333</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">2018229006</td>
+<td align="right">46</td>
+<td align="right">22</td>
+<td align="right">24.0</td>
+<td align="right">13.400000</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">2018253464</td>
+<td align="right">54</td>
+<td align="right">48</td>
+<td align="right">23.5</td>
+<td align="right">18.433333</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="right">2018407396</td>
+<td align="right">74</td>
+<td align="right">64</td>
+<td align="right">21.5</td>
+<td align="right">23.566667</td>
+</tr>
+<tr class="even">
+<td align="right">28</td>
+<td align="right">2018681602</td>
+<td align="right">26</td>
+<td align="right">13</td>
+<td align="right">21.5</td>
+<td align="right">8.716667</td>
+</tr>
+<tr class="odd">
+<td align="right">29</td>
+<td align="right">2018417302</td>
+<td align="right">26</td>
+<td align="right">32</td>
+<td align="right">22.5</td>
+<td align="right">11.700000</td>
+</tr>
+<tr class="even">
+<td align="right">30</td>
+<td align="right">2018660954</td>
+<td align="right">29</td>
+<td align="right">10</td>
+<td align="right">22.5</td>
+<td align="right">8.850000</td>
+</tr>
+<tr class="odd">
+<td align="right">31</td>
+<td align="right">2018257486</td>
+<td align="right">43</td>
+<td align="right">40</td>
+<td align="right">25.0</td>
+<td align="right">15.783333</td>
+</tr>
+<tr class="even">
+<td align="right">32</td>
+<td align="right">2018242096</td>
+<td align="right">27</td>
+<td align="right">43</td>
+<td align="right">23.5</td>
+<td align="right">13.633333</td>
+</tr>
+<tr class="odd">
+<td align="right">33</td>
+<td align="right">2018279284</td>
+<td align="right">51</td>
+<td align="right">100</td>
+<td align="right">23.5</td>
+<td align="right">25.783333</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Performance Summary</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">Test 1</th>
+<th align="center">Test 2</th>
+<th align="center">Quiz</th>
+<th align="center">Assignment</th>
+<th align="center">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td align="center">Min. :19.00</td>
+<td align="center">Min. : 4.00</td>
+<td align="center">Mode:logical</td>
+<td align="center">Min. :21.50</td>
+<td align="center">Min. : 7.50</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">1st Qu.:29.00</td>
+<td align="center">1st Qu.: 32.00</td>
+<td align="center">NA’s:33</td>
+<td align="center">1st Qu.:22.50</td>
+<td align="center">1st Qu.:13.07</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">Median :44.00</td>
+<td align="center">Median : 49.00</td>
+<td align="center">NA</td>
+<td align="center">Median :23.50</td>
+<td align="center">Median :16.05</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Mean :47.94</td>
+<td align="center">Mean : 52.27</td>
+<td align="center">NA</td>
+<td align="center">Mean :23.64</td>
+<td align="center">Mean :18.18</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">3rd Qu.:66.00</td>
+<td align="center">3rd Qu.: 75.00</td>
+<td align="center">NA</td>
+<td align="center">3rd Qu.:25.00</td>
+<td align="center">3rd Qu.:23.60</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Max. :95.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">NA</td>
+<td align="center">Max. :26.50</td>
+<td align="center">Max. :32.78</td>
+</tr>
+</tbody>
+</table>
+<pre><code>## 
+##  INDEPENDENT SAMPLES T-TEST
+## 
+##  Independent Samples T-Test                                                                                   
+##  ------------------------------------------------------------------------------------------------------------ 
+##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Test 1        Student&#39;s t      1.005      31.0    0.839               7.69            7.653        0.381   
+##    Test 2        Student&#39;s t      0.505      31.0    0.692               5.63           11.151        0.191   
+##    Assignment    Student&#39;s t      2.090 &lt;U+1D43&gt;    31.0    0.978               1.24            0.593        0.792   
+##    CM            Student&#39;s t      0.806      31.0    0.787               2.16            2.687        0.305   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Note. H&lt;U+2090&gt; L &lt; P
+##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
+## 
+## 
+##  Group Descriptives                                                
+##  ----------------------------------------------------------------- 
+##                  Group    N     Mean    Median    SD       SE      
+##  ----------------------------------------------------------------- 
+##    Test 1        L        10    53.3      53.5    21.92    6.931   
+##                  P        23    45.6      43.0    19.46    4.057   
+##                                                                    
+##    Test 2        L        10    56.2      51.5    29.58    9.353   
+##                  P        23    50.6      40.0    29.38    6.126   
+##                                                                    
+##    Assignment    L        10    24.5      24.5     2.11    0.667   
+##                  P        23    23.3      23.5     1.28    0.266   
+##                                                                    
+##    CM            L        10    19.7      20.1     7.40    2.342   
+##                  P        23    17.5      15.8     6.96    1.451   
+##  -----------------------------------------------------------------</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Gallery</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><img src="images/KBA1191D/1.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1191D/2.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+<tr class="even">
+<td align="center"><img src="images/KBA1191D/10.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+<td align="center"><img src="images/KBA1191D/11.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="kac1101e" class="section level4">
+<h4>KAC1101E</h4>
+<table>
+<caption>Continuous Assessment (40%)</caption>
+<thead>
+<tr class="header">
+<th align="right">Bil</th>
+<th align="right">No Pelajar</th>
+<th align="right">Test 1</th>
+<th align="right">Test 2</th>
+<th align="right">Assignment</th>
+<th align="right">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">2018658758</td>
+<td align="right">74</td>
+<td align="right">41.3</td>
+<td align="right">23.5</td>
+<td align="right">20.42833</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">2018691334</td>
+<td align="right">53</td>
+<td align="right">92.5</td>
+<td align="right">20.5</td>
+<td align="right">24.55833</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">2018230796</td>
+<td align="right">92</td>
+<td align="right">78.8</td>
+<td align="right">20.0</td>
+<td align="right">28.28667</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">2018293778</td>
+<td align="right">78</td>
+<td align="right">98.8</td>
+<td align="right">26.0</td>
+<td align="right">29.98667</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="right">2018280412</td>
+<td align="right">80</td>
+<td align="right">96.3</td>
+<td align="right">20.0</td>
+<td align="right">29.11167</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="right">2018230712</td>
+<td align="right">79</td>
+<td align="right">92.5</td>
+<td align="right">26.0</td>
+<td align="right">29.19167</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">2018293676</td>
+<td align="right">49</td>
+<td align="right">41.3</td>
+<td align="right">23.5</td>
+<td align="right">16.67833</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="right">2018269128</td>
+<td align="right">19</td>
+<td align="right">42.5</td>
+<td align="right">23.5</td>
+<td align="right">12.35833</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="right">2018643006</td>
+<td align="right">5</td>
+<td align="right">41.3</td>
+<td align="right">23.5</td>
+<td align="right">10.07833</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="right">2018215998</td>
+<td align="right">65</td>
+<td align="right">67.5</td>
+<td align="right">23.5</td>
+<td align="right">23.00833</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="right">2018671834</td>
+<td align="right">94</td>
+<td align="right">100.0</td>
+<td align="right">20.5</td>
+<td align="right">31.83333</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="right">2018239474</td>
+<td align="right">96</td>
+<td align="right">75.0</td>
+<td align="right">20.0</td>
+<td align="right">28.31667</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="right">2018253908</td>
+<td align="right">98</td>
+<td align="right">100.0</td>
+<td align="right">23.0</td>
+<td align="right">32.76667</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="right">2018255918</td>
+<td align="right">69</td>
+<td align="right">45.0</td>
+<td align="right">20.5</td>
+<td align="right">19.83333</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="right">2018675368</td>
+<td align="right">77</td>
+<td align="right">100.0</td>
+<td align="right">26.0</td>
+<td align="right">30.01667</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="right">2018213646</td>
+<td align="right">47</td>
+<td align="right">92.5</td>
+<td align="right">26.0</td>
+<td align="right">24.39167</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">2018213686</td>
+<td align="right">85</td>
+<td align="right">61.3</td>
+<td align="right">23.0</td>
+<td align="right">25.01167</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="right">2018210308</td>
+<td align="right">34</td>
+<td align="right">36.3</td>
+<td align="right">20.0</td>
+<td align="right">13.21167</td>
+</tr>
+<tr class="odd">
+<td align="right">19</td>
+<td align="right">2018255752</td>
+<td align="right">64</td>
+<td align="right">78.8</td>
+<td align="right">20.5</td>
+<td align="right">24.15333</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">2018242322</td>
+<td align="right">84</td>
+<td align="right">68.8</td>
+<td align="right">23.0</td>
+<td align="right">25.98667</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td align="right">2018684514</td>
+<td align="right">40</td>
+<td align="right">28.8</td>
+<td align="right">20.0</td>
+<td align="right">12.98667</td>
+</tr>
+<tr class="even">
+<td align="right">22</td>
+<td align="right">2018281262</td>
+<td align="right">91</td>
+<td align="right">100.0</td>
+<td align="right">26.0</td>
+<td align="right">32.11667</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="right">2018420362</td>
+<td align="right">100</td>
+<td align="right">100.0</td>
+<td align="right">20.5</td>
+<td align="right">32.73333</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="right">2018281904</td>
+<td align="right">57</td>
+<td align="right">85.0</td>
+<td align="right">23.0</td>
+<td align="right">24.36667</td>
+</tr>
+<tr class="odd">
+<td align="right">25</td>
+<td align="right">2018293922</td>
+<td align="right">37</td>
+<td align="right">91.3</td>
+<td align="right">20.5</td>
+<td align="right">21.97833</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="right">2018681914</td>
+<td align="right">99</td>
+<td align="right">100.0</td>
+<td align="right">23.0</td>
+<td align="right">32.91667</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Performance Summary</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">Test 1</th>
+<th align="center">Test 2</th>
+<th align="center">Quiz</th>
+<th align="center">Assignment</th>
+<th align="center">CM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td align="center">Min. : 5.00</td>
+<td align="center">Min. : 28.80</td>
+<td align="center">Mode:logical</td>
+<td align="center">Min. :20.00</td>
+<td align="center">Min. :10.08</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">1st Qu.: 50.00</td>
+<td align="center">1st Qu.: 49.08</td>
+<td align="center">NA’s:26</td>
+<td align="center">1st Qu.:20.50</td>
+<td align="center">1st Qu.:20.82</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">Median : 75.50</td>
+<td align="center">Median : 81.90</td>
+<td align="center">NA</td>
+<td align="center">Median :23.00</td>
+<td align="center">Median :24.79</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Mean : 67.92</td>
+<td align="center">Mean : 75.22</td>
+<td align="center">NA</td>
+<td align="center">Mean :22.52</td>
+<td align="center">Mean :24.47</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td align="center">3rd Qu.: 89.50</td>
+<td align="center">3rd Qu.: 98.17</td>
+<td align="center">NA</td>
+<td align="center">3rd Qu.:23.50</td>
+<td align="center">3rd Qu.:29.79</td>
+</tr>
+<tr class="even">
+<td></td>
+<td align="center">Max. :100.00</td>
+<td align="center">Max. :100.00</td>
+<td align="center">NA</td>
+<td align="center">Max. :26.00</td>
+<td align="center">Max. :32.92</td>
+</tr>
+</tbody>
+</table>
+<pre><code>## 
+##  INDEPENDENT SAMPLES T-TEST
+## 
+##  Independent Samples T-Test                                                                                   
+##  ------------------------------------------------------------------------------------------------------------ 
+##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Test 1        Student&#39;s t      -2.74      24.0    0.006             -31.60            11.53       -1.364   
+##    Test 2        Student&#39;s t      -3.41      24.0    0.001             -35.21            10.34       -1.695   
+##    Assignment    Student&#39;s t       1.11 &lt;U+1D43&gt;    24.0    0.860               1.21             1.10        0.550   
+##    CM            Student&#39;s t      -3.46      24.0    0.001              -9.86             2.85       -1.724   
+##  ------------------------------------------------------------------------------------------------------------ 
+##    Note. H&lt;U+2090&gt; L &lt; P
+##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
+## 
+## 
+##  Group Descriptives                                                
+##  ----------------------------------------------------------------- 
+##                  Group    N     Mean    Median    SD       SE      
+##  ----------------------------------------------------------------- 
+##    Test 1        L         5    42.4      49.0    29.58    13.23   
+##                  P        21    74.0      79.0    21.67    4.728   
+##                                                                    
+##    Test 2        L         5    46.8      41.3    11.59     5.19   
+##                  P        21    82.0      92.5    22.16    4.835   
+##                                                                    
+##    Assignment    L         5    23.5      23.5     0.00     0.00   
+##                  P        21    22.3      20.5     2.42    0.527   
+##                                                                    
+##    CM            L         5    16.5      16.7     5.39     2.41   
+##                  P        21    26.4      28.3     5.78    1.262   
+##  -----------------------------------------------------------------</code></pre>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

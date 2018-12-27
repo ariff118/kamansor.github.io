@@ -1,13 +1,14 @@
 ---
+title: "Academic Activities"
 output:
   html_document: 
-    toc: true
-    toc_float: true
+    toc: false
+    toc_float: false
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## RESEARCH AND PUBLICATION
+## {.tabset}
 
 ### Research
 “Integrating English Medium Mathematics Mobile Applications To Teach Low Achievers Students In tertiary Context”, ARAS Research Grant. (September 1, 2016 – August 31, 2018)
@@ -34,7 +35,7 @@ output:
 
 “Analisis Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar di Kawasan Parlimen Merbok, Kedah”, Internal Grant, March 2005
 
-### Proceedings & Colloquium Papers
+### Conferences
 Bosli, F., Mokhtar, S. F., Shamsuddin, N. R., Zawawi, T. K. F. T. A., Mansor, K. A., & Salleh, W. Z. W. (2017). Factors Affecting the Tendency of Drug Abuse among Drug Addicts: A Case Study in the Northern Region of Malaysia. The 6th International Conference on Public Policy and Social Science (iCOPS2017), 8th & 9th March 2017, The Hotel & convention Centre, Alor Setar, Malaysia. ICOPS2017 eProceedings, 545. (ISBN 978-967-0314-41-9)
 
 “The Antecedents Buying Intention of New Smartphone among University Students” (with Azira Rahim, Dr. Law Kuan Kheng, Kamarul Ariffin Mansor and Nurliyana Abas), 2nd International Conference on Information in Business and Technology Management (I2BM), 18 - 20 April 2017, Penang, Malaysia.
@@ -66,7 +67,7 @@ Mansor, K.A., & Ishak, W.I. (2015). Forecasting Tourist Arrivals to Langkawi Isl
 
 Mansor, K.A., Masduki, R.M.N., Mohamad, M., Zulkarnain, N., & Aziz, N.A. (2015). A Study on Factors Influencing Muslim’s Consumers Preferences Towards Takaful Products In Malaysia. Romanian Statistical Review, 63(2), 78-89. Indexing: ECSI Thompson Reuters and BDI http://www.revistadestatistica.ro/index.php/indexing/
 
-### Editorial and Article Review Activities
+### Editorial Activities {.tabset}
 Editorial Team - Independent Journal of Management & Production (IJM&P) E-ISSN: 2236-269X
 
 Editorial Team – Austrian Journal of Statistics
@@ -93,17 +94,17 @@ Article Review – Modeling and Simulation of Electrical Resonance in EHV Transm
 Article Review - Comparison Neural Networks Models for Short Term Forecasting of Natural Gas Consumption in Istanbul (First International Conference on the
 Applications of Digital Information and Web Technologies (ICADIWT 2008), Co-Sponsored by IEEE, VSB- Technical University of Ostrava, Czech Republic, August 4 - 6 2008)
 
-## SUPERVISION
+### Supervisions {.tabset}
 Statistical Advisor & Industrial Training Supervisor
 
-### 2017
+#### 2017
 Comparison Between Academic Staff And Non-Academic Staff On Relationship Of Mental Health And Quality Of Work Life In Uitm Kedah, Siti Shahidah Binti Md Saffar (2015208252)
 
 The Knowledge, Attitude And Perception Of Negative Presenteesim Among Academic Staff At Uitm Kedah, Norazira Bintii Mohd Yusuf Sulaiman (2015872906)
 
 Environmental Elements And Employees' Psychological Health: Are They Related? - A Case Study Of Astana Bayu City Group Sdn Bhd, Norhasikin Binti Moktar (2015830036)
 
-### 2016
+#### 2016
 The Factors That Influence The Non-Performing Loans (Npls) Among Private Staff In Penang, Norzubaidah Binti Abdul Aziz (2014926029) & Nur Insyirah Binti Mohd Zuki (2014190031)
 Factors That Affect The Purchasing Decision On Motocycles Among Students In Uitm Kedah, Marsyasa Binti Basri
 
@@ -114,7 +115,7 @@ Brands: In The Case Of UMK Pengkalan Chepa, Norshahirah Binti Suzilan
 
 Factors That Influence The Intention To Purchase Halal Cosmetics Among Academic Staffs In Uitm Merbok, Nur Amira Nailah Binti Razamud-Din
 
-### 2015
+#### 2015
 Determinants Of Dependency Levels Towards Baitulmal In Seremban, Negeri Sembilan, Syaridatul Syadana Binti Esdaud (2012309987) & Siti Nurjihan Binti Marzuki (2013223858)
 
 A Study On The Factors That Influence Retirement Saving Among Government Servants, Afa Husna Binti Md Radzi (2013771763) & Nur Izyani Binti Abdul Halim (2013822304)

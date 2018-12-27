@@ -1,4 +1,5 @@
 ---
+title: "About Me"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -10,10 +11,10 @@
 **Faculty of Computer and Mathematical Sciences**  
 **UiTM Kedah Branch Campus**  
 
-I like to analyze data to answer research questions and test hypotheses. Currently I investigate questions related to Tuberculosis (TB) through my work as a Statistical Research Member at [UiTM Kedah](https://kedah.uitm.edu.my/v1/faculties-a-academic-centres/computer-a-mathematical-sciences) in the faculty of Computer and Mathematical Sciences. 
+I like to analyze data to answer research questions and test hypotheses. Currently I investigate questions related to Tuberculosis (TB) through my work as a Statistical Research Member at the faculty of Computer and Mathematical Sciences, [UiTM Kedah](https://kedah.uitm.edu.my/v1/faculties-a-academic-centres/computer-a-mathematical-sciences). 
 
 I graduated from the [University of Kentucky](https://math.as.uky.edu/) with a BSc in mathematics in 1992. In 2010 I began working toward my MSc in decision science as a part-time student at [Universiti Utara Malaysia](http://www.sqs.uum.edu.my/index.php/en/), under the school of quantitative sciences where I did my partial thesis paper in Structural Eqauation Modeling (SEM) under the advisement of [Assoc. Prof. Dr. Zahayu Md Yusof](http://expertise.uum.edu.my/DOE/doe_view.aspx?ad_doe=zahayu). I graduated from UUM at the end of 2012.
 
-I am a well-known R enthusiast, including serving on the board and being an active member of [Malaysian R User Public  Group](https://www.meetup.com/Malaysia-R-User-Group/). 
+I am a beginner in R and being an active member of [Malaysian R User Public  Group](https://www.meetup.com/Malaysia-R-User-Group/). 
 
 My full CV is available [here](files/cv_kamansor.pdf).

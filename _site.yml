@@ -1,14 +1,12 @@
 name: "Kamarul Ariffin Mansor"
 output_dir: "."
 navbar:
-  title: "About KA Mansor"
+  title: "Kamarul Ariffin Mansor"
   left:
-    - text: "Writing"
+    - text: "Home"
+      href: index.html
+    - text: "Academic Activities"
       href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Programming"
-      href: software.html
     - text: "Teaching"
       href: teaching.html
   right:

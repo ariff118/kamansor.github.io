@@ -8,6 +8,20 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">  
 
+ **UNDERGRADUATE**  
+ 
+|No.| Course Code | Course Name                                |  
+|---|-------------|--------------------------------------------|  
+|1. | MAT037      | Essential Mathematics                      |  
+|2. | MAT111      | Mathematics with Business Applications     |  
+|3. | MAT112      | Business Mathematics                       |  
+|4. | QMT335      | Introduction to Time Series Forecasting    |  
+|5. | QMT339      | Spreadsheet Modeling and Decision Analysis |  
+  
+---  
+
+**COURSE DETAILS**  
+
 # {.tabset}
 
 ## MAT111 {.tabset}
@@ -183,10 +197,12 @@ Course Work (Continuous assessments) 	: 40%
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
+library(DT)
 data_kba1111e <- readxl::read_excel("files/KBA1111E.xls")
 
 knitr::kable(data_kba1111e[ , -c(3,4,7)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
+datatable(head(data_kba1111e[ , -c(3,4,7)], n = nrow(data_kba1111e[ , -c(3,4,7)])), options = list(pageLength = 5))
 ```
 
 ``` {r echo = FALSE}
@@ -309,3 +325,22 @@ jmv::ttestIS(
     desc = TRUE)
 ```  
 
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(datadigest)
+
+codebook(data = data_kac1101e)
+```  
+
+
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(datadigest)
+
+codebook(data = data_kba1181d)
+```  
+
+
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(datadigest)
+
+codebook(data = data_kba1191d)
+```  

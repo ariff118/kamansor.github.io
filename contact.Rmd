@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/profile1.jpeg" style="width:20%; border:10px solid; margin-right: 18px" align="left">
+<img src="images/profile1.jpeg" style="width:20%; border:10px solid; margin-right: 18px" align="center">
 
 **Kamarul Ariffin Mansor**  
 **Senior Lecturer**  
@@ -18,4 +18,6 @@ Faculty of Computer and Mathematical Sciences<br>
 Kedah Darul Aman, MALAYSIA<br>
 ariff118@kedah.uitm.edu.my<br>
 
-Or connect with me on GitHub, Facebook, or Linkedin (links in top right).
+Or connect with me on GitHub, Facebook, or Linkedin (links in top right).  
+
+***  

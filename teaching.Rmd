@@ -8,7 +8,35 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">  
 
- **UNDERGRADUATE**  
+**TIMETABLE**  
+
+# {.tabset}  
+
+## MAC 2019  
+
+| TIME / DAY | Sunday | Monday | Tuesday | Wednesday | Thursday |  
+|:----------:|:------:|:------:|:-------:|:---------:|:--------:|  
+| 8 - 9 | STA104 (KAC1102F) | | | MAT112 (KAM1101R) | |  
+| 9 - 10 | STA104 (KAC1102F) | | | MAT112 (KAM1101R) | |  
+| 10 - 11 | | | | QMT181 (KBA1193A) | |  
+| 11 - 12 | | | | QMT181 (KBA1193A) | |  
+| 12 - 1 | MAT112 (KBA1111R1) | QMT181 (KBA1193A) | MAT112 (KAM1101R) | | |  
+| 1 - 2 | MAT112 (KBA1111R1) | QMT181 (KBA1193A) | MAT112 (KAM1101R) | | |  
+| 2 - 3 | | | | | |  
+| 3 - 4 | | | | | |  
+| 4 - 5 | | MAT112 (KBA1111R1) | STA104 (KAC1102F) | | |  
+| 5 - 6 | | MAT112 (KBA1111R1) | STA104 (KAC1102F) | | |  
+
+|<img src="images/tt_mac2019.png" style="width:100%; border:0px solid" align="center">|  
+
+***  
+
+**Office:** Academic Affairs Building, Room A2-1020  
+**Office Hours:** Monday & Tuesday (9 - 10)  
+
+***  
+
+**UNDERGRADUATE**  
  
 |No.| Course Code | Course Name                                |  
 |---|-------------|--------------------------------------------|  
@@ -79,6 +107,7 @@ Course Work (Continuous assessments) 	: 40%
     - Test (3)	    : 30%  
     - Quizzes (4) 	: 10%  
 
+***  
 
 ### Continuous Assessment Marks {.tabset}
 
@@ -88,7 +117,7 @@ library(dplyr)
 library(scales)
 data_kba1181d <- readxl::read_excel("files/MAT111-KBA1181D.xls")
 
-knitr::kable(data_kba1181d[ , -c(3,4,8,9)], caption = "Continuous Assessment (40%)") 
+knitr::kable(data_kba1181d[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
 ```
 
@@ -200,9 +229,9 @@ library(scales)
 library(DT)
 data_kba1111e <- readxl::read_excel("files/KBA1111E.xls")
 
-knitr::kable(data_kba1111e[ , -c(3,4,7)], caption = "Continuous Assessment (40%)") 
+knitr::kable(data_kba1111e[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
-datatable(head(data_kba1111e[ , -c(3,4,7)], n = nrow(data_kba1111e[ , -c(3,4,7)])), options = list(pageLength = 5))
+datatable(head(data_kba1111e[ , -c(3,4)], n = nrow(data_kba1111e[ , -c(3,4)])), options = list(pageLength = 5))
 ```
 
 ``` {r echo = FALSE}
@@ -216,7 +245,7 @@ library(jmv)
 
 jmv::ttestIS(
     data = data_kba1111e,
-    vars = c("Test 1", "Test 2", "Assignment", "CM"),
+    vars = c("Test 1", "Test 2", "Quiz", "Assignment", "CM"),
     group = "Jantina",
     hypothesis = "twoGreater",
     meanDiff = TRUE,
@@ -235,7 +264,7 @@ library(dplyr)
 library(scales)
 data_kba1191c <- readxl::read_excel("files/KBA1191C.xls")
 
-knitr::kable(data_kba1191c[ , -c(3,4,7)], caption = "Continuous Assessment (40%)") 
+knitr::kable(data_kba1191c[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
 ```
 
@@ -249,7 +278,7 @@ library(jmv)
 
 jmv::ttestIS(
     data = data_kba1191c,
-    vars = c("Test 1", "Test 2", "Assignment", "CM"),
+    vars = c("Test 1", "Test 2", "Quiz", "Assignment", "CM"),
     group = "Jantina",
     hypothesis = "twoGreater",
     meanDiff = TRUE,
@@ -268,7 +297,7 @@ library(dplyr)
 library(scales)
 data_kba1191d <- readxl::read_excel("files/KBA1191D.xls")
 
-knitr::kable(data_kba1191d[ , -c(3,4,7)], caption = "Continuous Assessment (40%)") 
+knitr::kable(data_kba1191d[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
 ```
 
@@ -283,7 +312,7 @@ library(jmv)
 
 jmv::ttestIS(
     data = data_kba1191d,
-    vars = c("Test 1", "Test 2", "Assignment", "CM"),
+    vars = c("Test 1", "Test 2", "Quiz", "Assignment", "CM"),
     group = "Jantina",
     hypothesis = "twoGreater",
     meanDiff = TRUE,
@@ -302,7 +331,7 @@ library(dplyr)
 library(scales)
 data_kac1101e <- readxl::read_excel("files/KAC1101E.xls")
 
-knitr::kable(data_kac1101e[ , -c(3,4,7)], caption = "Continuous Assessment (40%)") 
+knitr::kable(data_kac1101e[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
 ```
 
@@ -312,12 +341,12 @@ knitr::kable(data_summary, caption = "Performance Summary")
 ```
   
 
-``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi = 1}
 library(jmv)
 
 jmv::ttestIS(
     data = data_kac1101e,
-    vars = c("Test 1", "Test 2", "Assignment", "CM"),
+    vars = c("Test 1", "Test 2", "Quiz", "Assignment", "CM"),
     group = "Jantina",
     hypothesis = "twoGreater",
     meanDiff = TRUE,
@@ -344,3 +373,160 @@ library(datadigest)
 
 codebook(data = data_kba1191d)
 ```  
+
+## QMT181/216/212/STA104 {.tabset}  
+
+### Course Information  
+
+#### *Course Learning Outcomes*  
+
+At the end of the course, students should be able to:  
+- Explain the concept, the use and the application of basic statistical tools in descriptive and inferential statistics. (C2)  
+- Determine appropriate statistical solution and interpreting the real world problem. (C5)  
+- Propose the use of descriptive statistics in the area of computing. (A3)  
+
+#### *Course Description*  
+
+This course introduces the basic statistical concepts in general applications. The topics include basic concepts of sampling methods, method of data collection, introductory methods in descriptive and inferential statistics. Specific topics include methods of describing data, correlation & regression analysis, time series analysis, index numbers and probability. Students will be exposed to statistical project which involve analyzing primary or secondary data in enhancing their understanding in solving real problems. Statistical Analysis using Excel or SPSS will be introduced.  
+
+#### *Syllabus Content*  
+
+1. Introduction to Statistics  
+    - Definition of statistics  
+    - Terms in statistics  
+    - Types of statistics  
+    - Sources of data  
+    - Types of variable  
+    - Scale of measurement  
+    - Sampling techniques  
+    - Data Collection Methods  
+2. Describing Data  
+    - Data organization and presentation  
+    - Measures of Central Tendency  
+    - Measures of Location  
+    - Measures of Dispersion  
+    - Measures of Skewness  
+3. Correlation & Simple Linear Regression  
+    - Correlation (Pearson’s Product Moment Correlation)  
+    - Simple linear regression  
+4. Index Numbers  
+    - Types of index numbers  
+    - Calculate and explain unweighted index numbers  
+    - Calculate and explain weighted index number  
+5. Time Series Analysis  
+    - Component of time series  
+    - Multiplicative time series model  
+    - Trend Analysis (Moving Average Method)  
+    - Seasonal Variations  
+    - Forecasting  
+6. Probability  
+    - Set theory  
+    - Addition rules  
+    - Multiplication rules and conditional probability  
+    - Counting Rules (Permutation and Combination)  
+    - Tree Diagram  
+    - Bayes’ Theorem  
+
+#### *Teaching Methodology*  
+Lectures, Tutorial, Discussion  
+
+#### *Assessment*  
+
+Test 1 (Topic 1 & 2) : 15% (CLO1 -15%)  
+Test 2 (Topic 3 & 5) : 15% (CLO2- 15%)  
+Quiz (Topic 4) : 5% (CLO2- 5%)  
+Assignment (Topic 6 ) : 5% (CLO2 -5%)  
+Group Project (Topic 1 & Topic 2) : 10% (CLO 3-10%)  
+Final Examination : 50%  
+
+#### *Recommended Text*  
+
+1. Allan Bluman, Elementary Statistics: A Step By Step Approach, 8, McGraw-Hill Science/Engineering/Math, 2013, ISBN: 0073534986  
+
+#### *References*  
+
+1. William G Marchal, Samuel A Wathen Douglas A Lind, Statistical Techniques in Business and Economics - 13th Edition, 13, McGraw Hill Companies, 2007, ISBN: 9780070667075.  
+2. Prem S. Mann, Introductory Statistics, 8, John Wiley & Sons, 2010, ISBN: 97804704446652.  
+3. Muhammad Rozi, M & Faridah, A.H, Business Statistics, Oxford Fajar Bakti Sdn. Bhd, 2011, ISBN: 13-97898345093. 
+4. Lau Too Kya, Phang Yook Ngor, Zainuddin Awang, Statistics for UiTM, 2, Penerbit Fajar Bakti Sdn. Bhd., 2009, ISBN: n/a  
+5. Halilah Haron, Understanding Statistics with SPSS, 1, University Publication Center (UPENA), 2010, ISBN: 9789673631520.  
+
+***  
+
+### Scheme of Work  
+
+***  
+
+### Group Project Guidelines  
+
+**OBJECTIVES PROJECT:**  
+
+The main objective of this project is to expose the students to the application of statistics techniques towards on the primary/secondary data. Besides that, to overview the students to the Final Year Project report nature.  
+
+**OUTCOMES PROJECT**  
+
+At the end of the project, students should be able:  
+1. Describe the actual data.  
+2. Explain and analyze the appropriate statistics techniques in analyzing the actual data.  
+3. Produce a good class project report.  
+
+#### **SUGGESTED GUIDELINES FOR PROJECT**  {.tabset}  
+
+##### 1. GROUP MEMBERS  
+Students are required to perform a group with 3 – 4 members. (The number of members per group depending on the number of students in the class and the number of class)  
+
+***  
+
+##### 2. SOURCE OF DATA  
+Students are allowed to use primary / secondary data. There is no restricted on the number of sample size.  
+
+***  
+
+##### 3. COVER PAGE:  
+Cover page should include UiTM logo, report title, name, student number and group.  
+
+***  
+
+##### 4. ACKNOWLEDGEMENT  
+
+***  
+
+##### 5. STANDARD TABLE OF CONTENT  
+
+***  
+
+##### 6. CONTENT OF PROJECT  
+
+1. INTRODUCTION  
+  1.1 Background of Study  
+  1.2 Objectives of Study  
+2. METHODOLOGY  
+  2.1 Description of Data  
+      - Population  
+      - Sample  
+      - Sampling technique  
+      - Data Collection Method  
+      - The descriptions on the variables (variable, types of variable and level measurement) are given as follow.  
+      Example :
+              Insert Image Here  
+  2.2 Method of analysis (Topic 2)  
+3. FINDINGS  
+  It should include organizing and presenting data supported by numerical descriptive measures  
+    - Use suitable chart/plot/table  
+    - Comment the chart/plot/table  
+4. FORMATTING  
+    - Font : Arial, 11  
+    - Spacing : 1.5  
+    - Language : English Language  
+    - Length report : Minimum 8 pages including cover page and report content  
+
+***  
+
+#### **DETAILS OF DATE SUBMISSION**  
+Please ensure to submit the hardcopy and softcopy (burn in CD) **BEFORE OR ON WEEK 11.**  
+
+***  
+
+### Course Assessment  
+
+***  

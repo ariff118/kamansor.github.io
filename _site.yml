@@ -20,5 +20,7 @@ navbar:
       href: https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/
 output:
   html_document:
-    theme: sandstone
+    include:
+      after_body: footer.html
+    theme: cerulean
     css: 'styles.css'

@@ -496,6 +496,7 @@ Week 1
 <br>
 **Remark:**  
 Complete Entrance Survey  
+[Slides](files/Introduction to Statistics.pdf)  
 </div>
 </div>
 ***  
@@ -505,24 +506,24 @@ Week 2
 </div>
 
 <div class = "col-md-6">
-Sampling techniques  
+7. Sampling techniques  
 
-1. Probability Sampling  
+  a. Probability Sampling  
       - Simple random sampling (SRS)  
       - Systematic sampling  
       - Stratified sampling  
       - Cluster sampling  
       - Multistage sampling  
       
-2. Nonprobability Sampling  
+  b. Nonprobability Sampling  
       - Convenience sampling  
       - Quota sampling  
       
-Data Collection Methods  
-  - Interview (Face to face and telephone)  
-  - Direct Observation  
-  - Questionnaire ( self administered, electronic media)  
-  - Others  
+8. Data Collection Methods  
+  a. Interview (Face to face and telephone)  
+  b. Direct Observation  
+  c. Questionnaire ( self administered, electronic media)  
+  d. thers  
 </div>
 
 <div class = "col-md-4">
@@ -573,12 +574,12 @@ Week 4
 </div>
 
 <div class = "col-md-6">  
-Numerical methods  
+4. Numerical methods  
 
-1. Measure of central tendency for ungrouped and grouped  
-    - Mean  
-    - Median  
-    - Mode  
+  a. Measure of central tendency for ungrouped and grouped  
+      - Mean  
+      - Median  
+      - Mode  
 </div>  
 
 <div class = "col-md-4">
@@ -590,7 +591,65 @@ Interpret result from calculation.
 (Emphasizing the interpretation on mean, median, mode, skewness and coefficient variation)  
 </div>
 </div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 5
+</div>
 
+<div class = "col-md-6">
+  b. Measure of position for ungrouped and grouped  
+      - Q1, Q2 and Q3  
+      - IQR  
+      - Quartile deviation  
+      - Box and whisker plot  
+</div>
+
+<div class = "col-md-4">
+**Remarks:**  
+</div>
+</div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 6
+</div>
+
+<div class = "col-md-6">
+  c. Measure of dispersion for ungrouped and grouped  
+      - Range  
+      - Variance  
+      - Standard deviation  
+  d. Coefficient of variation for ungrouped and grouped  
+  e. Measure of skewness for ungrouped and grouped  
+</div>
+
+<div class = "col-md-4">
+**Remarks:**  
+Using calculator to obtain sample mean and standard deviation. (Substitute all the summation values into the respective formula)  
+Interpret result from calculation. (Emphasizing the interpretation on mean, median, mode, skewness and coefficient variation)
+</div>
+</div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 7
+</div>
+
+<div class = "col-md-6">
+**Topic 3: Correlation and Regression**  
+
+1. Correlation  
+    - Define dependent and independent variable  
+    - Scatter Plot  
+    - Pearson’s correlation coefficient **(exclude Spearman’s rank correlation coefficient)**  
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+Using calculator to obtain the Pearson’s Correlation Coefficient and Regression Line Equation by applying Least Square Method. (Substitute all the summation values into the respective formula)  
+</div>
+</div>
 ***  
 
 ### Group Project Guidelines  

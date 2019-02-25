@@ -455,6 +455,142 @@ Final Examination : 50%
 
 ### Scheme of Work  
 
+<div class = "row">
+<div class = "col-md-2">
+<br>
+Week 1  
+</div>
+
+<div class = "col-md-6">
+<br>
+**Topic 1: Introduction to Statistics**  
+
+1. Definition of statistics  
+
+2. Terms in statistics  
+      - Population and sample  
+      - Parameter and statistic  
+      - Variable  
+      - Census and sample survey (sampling)  
+  
+3. Types of statistics  
+      - Descriptive statistics  
+      - Inferential statistics  
+  
+4. Sources of data  
+      - Primary data  
+      - Secondary data  
+  
+5. Types of variable  
+      - Qualitative data  
+      - Quantitative data (Discrete and continuous)  
+  
+6. Scale of measurement  
+      - Nominal  
+      - Ordinal  
+      - Interval  
+      - Ratio  
+</div>
+
+<div class = "col-md-4">
+<br>
+**Remark:**  
+Complete Entrance Survey  
+</div>
+</div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 2  
+</div>
+
+<div class = "col-md-6">
+Sampling techniques  
+
+1. Probability Sampling  
+      - Simple random sampling (SRS)  
+      - Systematic sampling  
+      - Stratified sampling  
+      - Cluster sampling  
+      - Multistage sampling  
+      
+2. Nonprobability Sampling  
+      - Convenience sampling  
+      - Quota sampling  
+      
+Data Collection Methods  
+  - Interview (Face to face and telephone)  
+  - Direct Observation  
+  - Questionnaire ( self administered, electronic media)  
+  - Others  
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+Define term of sampling unit and sampling frame.  
+
+Emphasizing calculation on SRS, systematic and stratified sampling.  
+
+Guidelines to construct the questionnaires.  
+</div>
+</div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 3
+</div>
+
+<div class = "col-md-6">
+**Topic 2: Describing Data**  
+Data organization and presentation  
+
+1. Graphical method for qualitative data  
+      - Frequency Distribution Table  
+      - Pie Chart  
+      - Bar chart (Cluster, Stacked)  
+      - Cross tabulation  
+      
+2. Graphical method for quantitative data  
+      - Frequency Distribution Table  
+      - Stem and Leaf  
+      - Histogram  
+      - Frequency Polygon  
+      - Ogive  
+      
+3. Types of distribution  
+
+</div>
+
+<div class = "col-md-4">
+**Remarks:**
+Constructing histogram and ogive using graph paper. (compulsory)  
+</div>
+</div>
+***  
+<div class = "row">
+<div class = "col-md-2">
+Week 4
+</div>
+
+<div class = "col-md-6">  
+Numerical methods  
+
+1. Measure of central tendency for ungrouped and grouped  
+    - Mean  
+    - Median  
+    - Mode  
+</div>  
+
+<div class = "col-md-4">
+**Remarks:**  
+
+Using calculator to obtain sample mean and standard deviation. (Substitute all the summation values into the respective formula)  
+
+Interpret result from calculation. 
+(Emphasizing the interpretation on mean, median, mode, skewness and coefficient variation)  
+</div>
+</div>
+
 ***  
 
 ### Group Project Guidelines  

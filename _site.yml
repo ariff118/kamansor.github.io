@@ -4,10 +4,13 @@ navbar:
   title: "Kamarul Ariffin Mansor"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Academic Activities"
+      icon: fa-pen-nib
       href: research.html
     - text: "Teaching"
+      icon: fa-chalkboard-teacher
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg

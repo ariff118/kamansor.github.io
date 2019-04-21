@@ -1,7 +1,8 @@
 name: "Kamarul Ariffin Mansor"
 output_dir: "."
+google_analytics: "UA-77306155-2"
 navbar:
-  title: "Kamarul Ariffin Mansor"
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/profile 3.png\" />"
   left:
     - text: "Home"
       icon: fa-home
@@ -12,6 +13,12 @@ navbar:
     - text: "Teaching"
       icon: fa-chalkboard-teacher
       href: teaching.html
+    - text: "Training"
+      menu:
+      - text: "R"
+        href: workshopR.html
+      - text: "SmartPLS"
+        href: workshopSmartPLS.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

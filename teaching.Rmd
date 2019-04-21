@@ -2,13 +2,13 @@
 title: "Teaching Activities"
 output:
   html_document: 
-    toc: false
-    toc_float: false
+    toc: true
+    toc_float: true
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">  
 
-**TIMETABLE**  
+# **TIMETABLE**  
 
 # {.tabset}  
 
@@ -48,7 +48,7 @@ output:
   
 ---  
 
-**COURSE DETAILS**  
+# **COURSE DETAILS**  
 
 # {.tabset}
 
@@ -648,6 +648,7 @@ Week 7
 <div class = "col-md-4">
 **Remark:**  
 Using calculator to obtain the Pearson’s Correlation Coefficient and Regression Line Equation by applying Least Square Method. (Substitute all the summation values into the respective formula)  
+[Slides](files/CORRELATION AND REGRESSION.pdf)
 </div>
 </div>
 ***  

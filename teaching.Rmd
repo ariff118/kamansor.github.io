@@ -48,6 +48,12 @@ output:
   
 ---  
 
+
+
+##############################################
+##############################################
+##############################################
+
 # **COURSE DETAILS**  
 
 # {.tabset}
@@ -125,6 +131,11 @@ knitr::kable(data_kba1181d[ , -c(3,4)], caption = "Continuous Assessment (40%)")
 data_summary <- summary(data_kba1181d[,c(5:12)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
+
+
+##############################################
+##############################################
+##############################################
 
 ## MAT112 {.tabset}
 
@@ -354,25 +365,17 @@ jmv::ttestIS(
     desc = TRUE)
 ```  
 
-``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
-library(datadigest)
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+library(esquisse)
 
-codebook(data = data_kac1101e)
-```  
-
-
-``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
-library(datadigest)
-
-codebook(data = data_kba1181d)
-```  
+esquisse::esquisser(data = data_kac1101e)
+```
+  
 
 
-``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
-library(datadigest)
-
-codebook(data = data_kba1191d)
-```  
+##############################################
+##############################################
+##############################################
 
 ## QMT181/216/212/STA104 {.tabset}  
 
@@ -723,6 +726,95 @@ Please ensure to submit the hardcopy and softcopy (burn in CD) **BEFORE OR ON WE
 
 ***  
 
-### Course Assessment  
+### Course Assessment {.tabset}  
+
+#### Sem 20192 {.tabset}
+
+##### KAC1102F  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+data_kac1102f <- readxl::read_excel("files/20192/STA104-KAC1102F.xlsx")
+
+knitr::kable(data_kac1102f[ , -c(3:4,11:15)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(data_kac1102f[,c(5:10)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+  
+
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi = 1}
+library(jmv)
+
+jmv::ttestIS(
+    data = data_kac1102f,
+    vars = c("Test 1", "Test 2", "Quiz", "Assign", "Total (50%)"),
+    group = "Jantina",
+    hypothesis = "twoGreater",
+    meanDiff = TRUE,
+    effectSize = TRUE,
+    desc = TRUE)
+```  
+
+##### KBA1193A  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+data_kba1193a <- readxl::read_excel("files/20192/QMT181-KBA1193A.xlsx")
+
+knitr::kable(data_kba1193a[ , -c(3:4,11:15)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(data_kba1193a[,c(5:10)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+  
+
+``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi = 1}
+library(jmv)
+
+jmv::ttestIS(
+    data = data_kba1193a,
+    vars = c("Test 1", "Test 2", "Quiz", "Assign", "Total (50%)"),
+    group = "Jantina",
+    hypothesis = "twoGreater",
+    meanDiff = TRUE,
+    effectSize = TRUE,
+    desc = TRUE)
+```  
+
+##### KBA1193A-1  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+data_kba1193a_1 <- readxl::read_excel("files/20192/QMT181-KBA1193A-1.xlsx")
+
+knitr::kable(data_kba1193a_1[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(data_kba1193a_1[,c(5:10)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+  
+
+```{undefined eval=FALSE, include=FALSE}
+library(jmv)
+
+jmv::ttestIS(
+    data = data_kba1193a_1,
+    vars = c("Test 1", "Test 2", "Quiz", "Assign", "Total (50%)"),
+    group = "Jantina",
+    hypothesis = "twoGreater",
+    meanDiff = TRUE,
+    effectSize = TRUE,
+    desc = TRUE)
+```  
 
 ***  

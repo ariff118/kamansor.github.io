@@ -70,11 +70,25 @@ Mansor, K.A., & Ishak, W.I. (2015). Forecasting Tourist Arrivals to Langkawi Isl
 Mansor, K.A., Masduki, R.M.N., Mohamad, M., Zulkarnain, N., & Aziz, N.A. (2015). A Study on Factors Influencing Muslim’s Consumers Preferences Towards Takaful Products In Malaysia. Romanian Statistical Review, 63(2), 78-89. Indexing: [ECSI Thompson Reuters and BDI](http://www.revistadestatistica.ro/index.php/indexing/) [PDF](RRS2_2015_A08.pdf)
 
 ### Editorial Activities {.tabset}
+Kor, L.-K., Ahmad, A.-R., Idrus, Z., Mansor, K.A. (Eds.), *Proceedings of the Third International Conference on Computing, Mathematics and Statistics (iCMS2017) - Transcending Boundaries, Embracing Multidisciplinary Diversities*  [Springer Link](https://www.springer.com/gp/book/9789811372780)  
+
 Editorial Team - Independent Journal of Management & Production (IJM&P) E-ISSN: 2236-269X
 
 Editorial Team – Austrian Journal of Statistics
 
 Lee, K.L., Mansor, K.A., Nayan, A., Zakaria, S.F., & Idrus, Z. (2015). Quest for Research Excellence on Computing, Mathematics and Statistics.
+
+#### 2019  
+Article Review - "Visualization of association rules using R", The 4th International Conference on Computing, Mathematics and Statistics 2019 (iCMS2019)  
+
+Article Review - "Modularity in Pass Network", The 4th International Conference on Computing, Mathematics and Statistics 2019 (iCMS2019)  
+
+Abstract Review - "Detection of Business Cycle Turning Points in the Serbian Economic Activity", The 7th International Conference on New Challenges for Statistical Software: The use of R in Official Statistics (uRos2019)  
+
+Abstract Review - "Utilization of big data for improving Consumption Trend Index: Estimation of the number of person per household based on the characteristic of purchase items", The 7th International Conference on New Challenges for Statistical Software: The use of R in Official Statistics (uRos2019)  
+
+Abstract Review - "Implementation of the cell-key method based random noise approach in R", The 7th International Conference on New Challenges for Statistical Software: The use of R in Official Statistics (uRos2019)  
+
 
 #### 2017
 Article Review – “Job Satisfaction among Academic Staff: A Structural Equation Modeling Approach”, The 3rd International Conference on Computing, Mathematics and Statistics 2017 (iCMS2017) & The 5th Joint International Conference on New Challenges for Statistical Software: The Use of R in Official Statistics (UROS2017) – Asia Pacific.

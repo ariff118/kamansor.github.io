@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -432,18 +420,6 @@ Welcome to My Personal Websites
 <br>
 <br>
 
-<center><a href='http://xn--besucherzhlerkostenlos-84b.com/'>Besucherzähler für Webseiten</a> 
-<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=fd9fa2c394bf23460a13782f6c44e7b95f19a50d'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/494234/t/10"></script>
-</center>
-
-<br>
-<br>
-
-<center>
-<a href="https://info.flagcounter.com/pqPR"><img src="https://s01.flagcounter.com/count2/pqPR/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-</center>
-
 
 
 </div>
@@ -460,6 +436,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

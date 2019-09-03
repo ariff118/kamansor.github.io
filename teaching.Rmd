@@ -31,8 +31,13 @@ output:
 
 ***  
 
+## SEPTEMBER 2019
+|<img src="images/tt_sept2019.png" style="width:100%; border:0px solid" align="center">|  
+
+***
+
 **Office:** Academic Affairs Building, Room A2-1020  
-**Office Hours:** Monday & Tuesday (9 - 10)  
+**Office Hours:** Wednesday (10 - 12)  
 
 ***  
 
@@ -224,13 +229,14 @@ Mohd Alias Lazim, Azizah Murad, Wan Hartini Wan Hassan.  Matematik Perniagaan. B
   
   
 #### *Course Assessment*  
-Final examination – One 3-hour paper	: 60%  
+Final examination – On(e 3-hour paper	: 60%  
 Course Work (Continuous assessments) 	: 40%  
     - Test (2)	    : 30%  
     - Quizzes (3) 	:  6%  
     - Assignment (1):  4%  
   
-  
+
+   
 ### Continuous Assessment Marks {.tabset}  
 
 #### KBA1111E  
@@ -441,6 +447,17 @@ Quiz (Topic 4) : 5% (CLO2- 5%)
 Assignment (Topic 6 ) : 5% (CLO2 -5%)  
 Group Project (Topic 1 & Topic 2) : 10% (CLO 3-10%)  
 Final Examination : 50%  
+  
+| **ITEM**                            | **WEIGHT** | **REMARK **    |
+|:-----------------------------------:|:----------:|:--------------:|
+| Test 1 \(Topic 1 & 2\)              | 15%        | CLO1           |
+| Test 2 \(Topic 3 & 5\)              | 15%        | CLO2           |
+| Quiz \(Topic 4\)                    | 5%         | CLO2           |
+| Assignment \(Topic 6\)              | 5%         | CLO2           |
+| Group Project \(Topic 1 & Topic 2\) | 10%        | CLO3           |
+| Final Examination                   | 50%        |                |  
+
+
 
 #### *Recommended Text*  
 

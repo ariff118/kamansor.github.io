@@ -157,7 +157,7 @@ The course is primarily designed to develop the mathematical knowledge needed by
   
   
 #### *Syllabus Content*  
-1.   Sequence  
+1.   Sequence [Presentation](Sequence.html) [Download](files/slides/Sequence.pdf)  
       •	Introduction to sequence  
       •	Arithmetic sequence  
       •	Finding the nth term and the sum of the first n terms  
@@ -229,7 +229,7 @@ Mohd Alias Lazim, Azizah Murad, Wan Hartini Wan Hassan.  Matematik Perniagaan. B
   
   
 #### *Course Assessment*  
-Final examination – On(e 3-hour paper	: 60%  
+Final examination – One 3-hour paper	: 60%  
 Course Work (Continuous assessments) 	: 40%  
     - Test (2)	    : 30%  
     - Quizzes (3) 	:  6%  

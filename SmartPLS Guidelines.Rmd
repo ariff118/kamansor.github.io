@@ -1,0 +1,67 @@
+# PLS-SEM with SmartPLS 3.2.7 Analysis Procedure
+
+## Things to consider? 
+  
+  
+  
+Data Preparation and Preliminary Analysis for PLS-SEM Using SmartPLS  
+1. Data must be in .csv format.  If data in in Excel  
+2. No missing values (preferable)  
+3. Normality Assumption (optional but preferable based on recent research development). Can be done through assessing:  
+    - Skewness  
+    - Kurtosis
+
+## Basic PLS_SEM Modeling using SmartPLS 3.2.7
+
+2 Stage:  
+- Measurement Model (Outer Model)  
+- Structural Model (Inner Model)  
+
+### Measurement Model
+
+1. Reflective Model  
+    - Internal Consistency  
+      .	Cronbach's Alpha >= 0.7  
+      .	composite reliability >= 0.7 (in exploratory studies loading of 0.60 are acceptable)  
+      .	Dijakstra-Henseler rho >= 0.7     
+      .	Indicator reliability (square of factor loading): Standardized indicator loading >= 0.5; (in exploratory studies loading of 0.40 are acceptable)  
+      
+    - Convergent Validity  
+      .	Factor loading: Loading for each item should be >= 0.708  
+      .	AVE >= 0.5  
+    
+    - Discriminant Validity  
+      .	Fornell-Larcker Each construct's AVE should be higher than its squared correlation with any other construct  
+      .	Cross Loading: Each indicator should load highest on construct it is intended to measure  
+      .	Heterotrait-Monotrait Ratio (HTMT): HTMT85, HTMT90, HTMTinf.  
+
+**Reference:**  
+(Hulland, 1999); (Bagozzi and Yi, 1988); (Fornell and Larcker, 1981); (Chin, 1998); (Gregoire and Fisher, 2006)  
+
+Henseler, J., Ringle, C. M., & Sarstedt, M. (2015). A new criterion for assessing discriminant validity in variance-based structural equation modeling.Journal of the Academy of Marketing Science,43(1), 115-135.  
+
+2. Formative Model  
+    - Convergent Validity: path coefficient > 0.7  
+    - Colinearity: VIF < 5 / tolerance > 0.20; condition index < 30  
+    - Indicator's relative contribution to the construct: weights must be significance  
+
+**Reference:**  
+(Hair et. al., 2011);  
+
+### Structural Model  
+R Square
+Acceptable level depends on research context
+
+Effect size f square
+0.02,   0.15,   0.35 for weak, moderate, strong effects
+
+
+Path coefficient estimates
+Use bootstrapping to assess significance; provide confidence interval
+
+Predictive relevance Q square and q square
+Use blindfolding; Q square > 0 is indicative of predictive relevance;
+q square: 0.02, 0.15,   0.35 for weak, moderate, strong effects of predictive relevance
+
+
+

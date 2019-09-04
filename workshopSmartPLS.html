@@ -352,6 +352,93 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p>Insert info on SmartPLS workshop here.</p>
+<div id="pls-sem-with-smartpls-3.2.7-analysis-procedure" class="section level1">
+<h1>PLS-SEM with SmartPLS 3.2.7 Analysis Procedure</h1>
+<div id="things-to-consider" class="section level2">
+<h2>Things to consider?</h2>
+<p>Data Preparation and Preliminary Analysis for PLS-SEM Using SmartPLS</p>
+<ol style="list-style-type: decimal">
+<li>Data must be in .csv format. If data in in Excel<br />
+</li>
+<li>No missing values (preferable)<br />
+</li>
+<li>Normality Assumption (optional but preferable based on recent research development). Can be done through assessing:
+<ol style="list-style-type: lower-roman">
+<li>Skewness<br />
+</li>
+<li>Kurtosis</li>
+</ol></li>
+</ol>
+</div>
+<div id="basic-pls_sem-modeling-using-smartpls-3.2.7" class="section level2">
+<h2>Basic PLS_SEM Modeling using SmartPLS 3.2.7</h2>
+<p>2 Stage:<br />
+a. Measurement Model (Outer Model)<br />
+b. Structural Model (Inner Model)</p>
+<div id="measurement-model" class="section level3">
+<h3>Measurement Model</h3>
+<ol style="list-style-type: decimal">
+<li>Reflective Model
+<ul>
+<li>Internal Consistency
+<ul>
+<li>Cronbach’s Alpha &gt;= 0.7<br />
+</li>
+<li>composite reliability &gt;= 0.7 (in exploratory studies loading of 0.60 are acceptable)<br />
+</li>
+<li>Dijakstra-Henseler rho &gt;= 0.7<br />
+</li>
+<li>Indicator reliability (square of factor loading): Standardized indicator loading &gt;= 0.5; (in exploratory studies loading of 0.40 are acceptable)</li>
+</ul></li>
+<li>Convergent Validity
+<ul>
+<li>Factor loading: Loading for each item should be &gt;= 0.708<br />
+</li>
+<li>AVE &gt;= 0.5</li>
+</ul></li>
+<li>Discriminant Validity
+<ul>
+<li>Fornell-Larcker Each construct’s AVE should be higher than its squared correlation with any other construct<br />
+</li>
+<li>Cross Loading: Each indicator should load highest on construct it is intended to measure<br />
+</li>
+<li>Heterotrait-Monotrait Ratio (HTMT): HTMT85, HTMT90, HTMTinf.</li>
+</ul></li>
+<li><strong>Reference:</strong>
+<ul>
+<li>(Hulland, 1999); (Bagozzi and Yi, 1988); (Fornell and Larcker, 1981); (Chin, 1998); (Gregoire and Fisher, 2006)<br />
+</li>
+<li>Henseler, J., Ringle, C. M., &amp; Sarstedt, M. (2015). A new criterion for assessing discriminant validity in variance-based structural equation modeling.Journal of the Academy of Marketing Science,43(1), 115-135.</li>
+</ul></li>
+</ul></li>
+<li>Formative Model
+<ul>
+<li><p>Convergent Validity: path coefficient &gt; 0.7<br />
+</p></li>
+<li><p>Colinearity: VIF &lt; 5 / tolerance &gt; 0.20; condition index &lt; 30<br />
+</p></li>
+<li><p>Indicator’s relative contribution to the construct: weights must be significance</p></li>
+<li><p><strong>Reference:</strong></p>
+<ul>
+<li>(Hair et. al., 2011);</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+<div id="structural-model" class="section level3">
+<h3>Structural Model</h3>
+<p><strong>R Square</strong><br />
+Acceptable level depends on research context</p>
+<p><strong>Effect size f square</strong><br />
+0.02, 0.15, 0.35 for weak, moderate, strong effects</p>
+<p><strong>Path coefficient estimates</strong><br />
+Use bootstrapping to assess significance; provide confidence interval</p>
+<p><strong>Predictive relevance Q square and q square</strong><br />
+Use blindfolding; Q square &gt; 0 is indicative of predictive relevance;<br />
+q square: 0.02, 0.15, 0.35 for weak, moderate, strong effects of predictive relevance</p>
+</div>
+</div>
+</div>
 
 <style>
 .footer {

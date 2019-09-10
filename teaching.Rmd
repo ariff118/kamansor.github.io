@@ -31,7 +31,17 @@ output:
 
 ***  
 
-## SEPTEMBER 2019
+## SEPTEMBER 2019  
+
+| TIME / DAY | Sunday | Monday | Tuesday | Wednesday | Thursday |  
+|:----------:|:------:|:------:|:-------:|:---------:|:--------:|  
+| 8 - 10 | MAT112 (KAM1101I) | MAT112 (KAM1101I)| | MAT112 (KAM1101J) | |  
+| 10 - 12 | | MAT112 (KAC1101F) | MAT112 (KBA1191C) |  | MAT112 (KBA1191C) |  
+| 12 - 2 | MAT112 (KBA1191F) |  | MAT112 (KBA1191F) | | MAT112 (KAC1101F) |  
+| 2 - 4 | | | | | |  
+| 4 - 6 | |  | MAT112 (KBA1101J) | | |  
+
+
 |<img src="images/tt_sept2019.png" style="width:100%; border:0px solid" align="center">|  
 
 ***
@@ -164,7 +174,7 @@ The course is primarily designed to develop the mathematical knowledge needed by
       •	Geometric sequence  
       •	Finding the nth term and the sum of the first n terms  
   
-2.   Simple Interest  
+2.   Simple Interest [Presentation](Simple Interest.html) [Download](files/slides/Simple Interest.pdf)  
       •	Introduction to interest  
       •	Simple interest formula  
       •	Simple amount formula  
@@ -173,7 +183,7 @@ The course is primarily designed to develop the mathematical knowledge needed by
       •	Banker’s Rule  
       •	Present Value  
   
-3.   Bank Discount and Promissory Notes  
+3.   Bank Discount and Promissory Notes [Presentation](Promissory Note & Bank Discount.html) [Download](files/slides/Promissory Note & Bank Discount.pdf)    
       •	Introduction to promissory notes  
       •	Introduction to bank discount  
       •	Simple interest rate equivalent to bank discount rate  

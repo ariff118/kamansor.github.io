@@ -245,11 +245,15 @@ Course Work (Continuous assessments) 	: 40%
     - Quizzes (3) 	:  6%  
     - Assignment (1):  4%  
   
+### Support Materials
+
 
    
 ### Continuous Assessment Marks {.tabset}  
 
-#### KBA1111E  
+#### Semester 20192 {.tabset}
+
+##### KBA1111E  
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
@@ -285,7 +289,7 @@ jmv::ttestIS(
 |<img src="images/KBA1111E/1.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1111E/2.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 |<img src="images/KBA1111E/3.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1111E/7.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 
-#### KBA1191C  
+##### KBA1191C  
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
@@ -318,7 +322,7 @@ jmv::ttestIS(
 |<img src="images/KBA1191C/1.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1191C/3.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 |<img src="images/KBA1191C/5.jpg" data-rotate="90" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1191C/6.jpg" data-rotate="90" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 
-#### KBA1191D  
+##### KBA1191D  
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
@@ -352,7 +356,7 @@ jmv::ttestIS(
 |<img src="images/KBA1191D/1.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1191D/2.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 |<img src="images/KBA1191D/10.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|<img src="images/KBA1191D/11.jpg" style="width:100%; border:10px solid; margin-right: 18px" align="left">|  
 
-#### KAC1101E  
+##### KAC1101E  
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
@@ -387,7 +391,97 @@ library(esquisse)
 esquisse::esquisser(data = data_kac1101e)
 ```
   
+#### Semester 20194 {.tabset}
 
+##### KAC1101F
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kac1101f <- readxl::read_excel("files/20194/MAT112-KAC1101F.xlsx")
+
+knitr::kable(mat112_20194_kac1101f[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kac1101f[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+
+##### KAM1101I
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kam1101i <- readxl::read_excel("files/20194/MAT112-KAM1101I.xlsx")
+
+knitr::kable(mat112_20194_kam1101i[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kam1101i[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+
+##### KAM1101J
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kam1101j <- readxl::read_excel("files/20194/MAT112-KAM1101J.xlsx")
+
+knitr::kable(mat112_20194_kam1101j[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kam1101j[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+
+##### KBA1191B
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kba1191b <- readxl::read_excel("files/20194/MAT112-KBA1191B.xlsx")
+
+knitr::kable(mat112_20194_kba1191b[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kba1191b[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+
+##### KBA1191C
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kba1191c <- readxl::read_excel("files/20194/MAT112-KBA1191C.xlsx")
+
+knitr::kable(mat112_20194_kba1191c[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kba1191c[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
+
+##### KBA1191F
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+mat112_20194_kba1191f <- readxl::read_excel("files/20194/MAT112-KBA1191F.xlsx")
+
+knitr::kable(mat112_20194_kba1191f[ , -c(3:4)], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+```
+
+``` {r echo = FALSE}
+data_summary <- summary(mat112_20194_kba1191f[,c(5:11)])
+knitr::kable(data_summary, caption = "Performance Summary")
+```
 
 ##############################################
 ##############################################

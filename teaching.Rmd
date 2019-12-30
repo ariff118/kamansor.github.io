@@ -258,6 +258,13 @@ Course Work (Continuous assessments) 	: 40%
 [Test 2 Dec 2019](files/support document/mat112/Test 2 Dec 2019.pdf)  
 [Test 1 Nov 2019](files/support document/mat112/Test 1 Nov 2019.pdf)  
 
+**Workshops Questions With Answers**  
+[Nov 2019 Session 1](files/support document/mat112/BENGKEL MAT112 NOV 2019 SESI 1.pdf) [Answers](files/support document/mat112/Answer MAT112 Workshop Nov 2019 Session 1.pdf)  
+
+[Nov 2019 Session 2](files/support document/mat112/BENGKEL MAT112 NOV 2019 SESI 2.pdf)  
+
+
+
    
 ### Continuous Assessment Marks {.tabset}  
 
@@ -418,7 +425,7 @@ data_summary <- summary(mat112_20194_kac1101f[,c(5:11)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
-<img src="images/20194/20194 KAC1101F.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+<img src="images/20194/20194 KAC1101F.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
 
 ##### KAM1101I
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
@@ -435,7 +442,7 @@ data_summary <- summary(mat112_20194_kam1101i[,c(5:11)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
-<img src="images/20194/20194 KAM1101I.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+<img src="images/20194/20194 KAM1101I.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
 
 ##### KAM1101J
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
@@ -452,7 +459,7 @@ data_summary <- summary(mat112_20194_kam1101j[,c(5:11)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
-<img src="images/20194/20194 KAM1101J.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+<img src="images/20194/20194 KAM1101J.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
 
 ##### KBA1191B
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
@@ -484,7 +491,7 @@ data_summary <- summary(mat112_20194_kba1191c[,c(5:11)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
-<img src="images/20194/20194 KBA1191C.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+<img src="images/20194/20194 KBA1191C.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
 
 ##### KBA1191F
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
@@ -501,7 +508,7 @@ data_summary <- summary(mat112_20194_kba1191f[,c(5:11)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
-<img src="images/20194/20194 KBA1191F.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+<img src="images/20194/20194 KBA1191F.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
 
 ##############################################
 ##############################################

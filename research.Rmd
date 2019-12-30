@@ -56,7 +56,10 @@ Marzuki, Marzlin; Zakaria, Maheran; Ab Ghani, Nazri; Abdul Rasit, Zarinah; Manso
 
 “Analisis Tahap Pengetahuan Penduduk Terhadap Program Pembasmian Kemiskinan Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Colloquium Paper presented in UiTM Kedah Colloquium 2005, 26 May 2005, Sg Petani Kedah.
 
-### Academic Papers
+### Academic Papers  
+Kalantan, Z.I., Alrewely, F., & Mansor, K.A. (2019). Study on the Convergence
+Behavior of Expectation Maximization Algorithm for Laplace Mixture Model. Romanian Statistical Review, 3(2019), 35-45. Indexing: [ECSI Thompson Reuters and BDI](http://www.revistadestatistica.ro/index.php/indexing/) [PDF](files/A4_RRS-3_2019.pdf)  
+
 Safin, Z., Ali, N.A., Jamalurus, H.L., Zani, R.M., & Mansor, K.A. (2018). Performance in Industrial Training: Industry Evaluation on Business and Management Students. Gading Journal for the Social Sciences, 21(01). [PDF](files/163-Full Paper-492-1-10-20180828.pdf)
 
 Shamsinar Ibrahim, Hasyimah Razali, Masilah Mohamad, Siti Fairuza Hassam, & Kamarul Ariffin Mansor (2018). Assessing Passengers’ Satisfaction Towards The Northern Region Airlines Service Quality. Journal of Global Business and Social Entrepreneurship (GBSE). 4(10), 72 -86. [PDF](International Conference on Public Policy and Social Science 2010 (iCOPS).pdf)

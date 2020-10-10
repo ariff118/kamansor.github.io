@@ -35,8 +35,10 @@ output:
 
 “Analisis Program Pembasmian Kemiskinan Dari Perspektif Penduduk Miskin Tegar di Kawasan Parlimen Merbok, Kedah”, Internal Grant, March 2005
 
-### Conferences
-Bosli, F., Mokhtar, S. F., Shamsuddin, N. R., Zawawi, T. K. F. T. A., Mansor, K. A., & Salleh, W. Z. W. (2017). Factors Affecting the Tendency of Drug Abuse among Drug Addicts: A Case Study in the Northern Region of Malaysia. The 6th International Conference on Public Policy and Social Science (iCOPS2017), 8th & 9th March 2017, The Hotel & convention Centre, Alor Setar, Malaysia. ICOPS2017 eProceedings, 545. (ISBN 978-967-0314-41-9) [PDF](FULL-PAPER-ICOPSS2017.pdf)
+### Conferences  
+Kamarul Ariffin Mansor, Wan Irham Ishak, Shafinah Md Salleh, Ab Razak Mansor (2020). INTEGRATING ENGLISH MEDIUM MATHEMATICS MOBILE APPLICATIONS TO TEACH LOW ACHIEVER UNIVERSITY STUDENTS. The 5th National & the 2nd International Academic Conference “Roles of the university as the driver for changes and Innovation-based society, 13th – 14th February 2020 At Rattanathepsatri Building, Thepsatri Rajabhat University. Conference Proceedings, 92-102. [PDF](files/Full paper in conference PROCEEDINGS 2020 Roles of the university as the driver for changes and Innovation-based society.pdf)  
+
+Bosli, F., Mokhtar, S. F., Shamsuddin, N. R., Zawawi, T. K. F. T. A., Mansor, K. A., & Salleh, W. Z. W. (2017). Factors Affecting the Tendency of Drug Abuse among Drug Addicts: A Case Study in the Northern Region of Malaysia. The 6th International Conference on Public Policy and Social Science (iCOPS2017), 8th & 9th March 2017, The Hotel & convention Centre, Alor Setar, Malaysia. ICOPS2017 eProceedings, 545. (ISBN 978-967-0314-41-9) [PDF](files/FULL-PAPER-ICOPSS2017.pdf)
 
 “The Antecedents Buying Intention of New Smartphone among University Students” (with Azira Rahim, Dr. Law Kuan Kheng, Kamarul Ariffin Mansor and Nurliyana Abas), 2nd International Conference on Information in Business and Technology Management (I2BM), 18 - 20 April 2017, Penang, Malaysia.
 
@@ -57,6 +59,8 @@ Marzuki, Marzlin; Zakaria, Maheran; Ab Ghani, Nazri; Abdul Rasit, Zarinah; Manso
 “Analisis Tahap Pengetahuan Penduduk Terhadap Program Pembasmian Kemiskinan Tegar Di Kawasan Parlimen Merbok, Kedah” (with Haswira Nor Mohamad Hashim, Muhammad Sazri Khamis and Zauyah Abd Razak), Colloquium Paper presented in UiTM Kedah Colloquium 2005, 26 May 2005, Sg Petani Kedah.
 
 ### Academic Papers  
+NRNA Rashid, C Wangbenmad, KA Mansor (2020). Halal Tourism: Lessons for Destination Managers of Non-Muslim Majority Countries. International Journal of Business and Society, Vol. 21 No. 1, 473-490. Indexing: Scopus. [PDF](files/P28.pdf) 
+
 Kalantan, Z.I., Alrewely, F., & Mansor, K.A. (2019). Study on the Convergence
 Behavior of Expectation Maximization Algorithm for Laplace Mixture Model. Romanian Statistical Review, 3(2019), 35-45. Indexing: [ECSI Thompson Reuters and BDI](http://www.revistadestatistica.ro/index.php/indexing/) [PDF](files/A4_RRS-3_2019.pdf)  
 
@@ -73,6 +77,8 @@ Mansor, K.A., & Ishak, W.I. (2015). Forecasting Tourist Arrivals to Langkawi Isl
 Mansor, K.A., Masduki, R.M.N., Mohamad, M., Zulkarnain, N., & Aziz, N.A. (2015). A Study on Factors Influencing Muslim’s Consumers Preferences Towards Takaful Products In Malaysia. Romanian Statistical Review, 63(2), 78-89. Indexing: [ECSI Thompson Reuters and BDI](http://www.revistadestatistica.ro/index.php/indexing/) [PDF](RRS2_2015_A08.pdf)
 
 ### Editorial Activities {.tabset}
+Mansor, K.A., Ciprian, A. & Templ, M. (Eds), Vol. 49 No. 3 (2020) Special Issue iCMS2019, Austrian Journal of Statistics.  
+
 Kor, L.-K., Ahmad, A.-R., Idrus, Z., Mansor, K.A. (Eds.), *Proceedings of the Third International Conference on Computing, Mathematics and Statistics (iCMS2017) - Transcending Boundaries, Embracing Multidisciplinary Diversities*  [Springer Link](https://www.springer.com/gp/book/9789811372780)  
 
 Editorial Team - Independent Journal of Management & Production (IJM&P) E-ISSN: 2236-269X

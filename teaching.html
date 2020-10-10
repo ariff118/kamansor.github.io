@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -14,6 +13,7 @@
 
 <title>Teaching Activities</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -26,14 +26,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.8/datatables.js"></script>
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<script src="site_libs/datatables-binding-0.13/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -246,6 +246,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -274,6 +275,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -348,7 +355,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 30px;" src="images/profile 3.png" /></a>
+      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 30px;" src="images/profile%203.png" /></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -429,11 +436,58 @@ div.tocify {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<hr />
+<p><strong>Office:</strong> Academic Affairs Building, Room A2-1020<br />
+<strong>Office Hours:</strong> Refer my class timetable for available slot for appointment.</p>
+<hr />
+<p><strong>UNDERGRADUATE</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Course Code</th>
+<th>Course Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.</td>
+<td>MAT037</td>
+<td>Essential Mathematics</td>
+</tr>
+<tr class="even">
+<td>2.</td>
+<td>MAT111</td>
+<td>Mathematics with Business Applications</td>
+</tr>
+<tr class="odd">
+<td>3.</td>
+<td>MAT112</td>
+<td>Business Mathematics</td>
+</tr>
+<tr class="even">
+<td>4.</td>
+<td>MAT402</td>
+<td>Business Mathematics (Degree Level)</td>
+</tr>
+<tr class="odd">
+<td>5.</td>
+<td>QMT335</td>
+<td>Introduction to Time Series Forecasting</td>
+</tr>
+<tr class="even">
+<td>6.</td>
+<td>QMT339</td>
+<td>Spreadsheet Modeling and Decision Analysis</td>
+</tr>
+</tbody>
+</table>
+<hr />
 <div id="timetable" class="section level1">
 <h1><strong>TIMETABLE</strong></h1>
 </div>
 <div id="section" class="section level1 tabset">
-<h1></h1>
+<h1 class="tabset"></h1>
 <div id="mac-2019" class="section level2">
 <h2>MAC 2019</h2>
 <table>
@@ -591,55 +645,19 @@ div.tocify {
 </table>
 <p>|<img src="images/tt_sept2019.png" style="width:100%; border:0px solid" align="center">|</p>
 <hr />
-<p><strong>Office:</strong> Academic Affairs Building, Room A2-1020<br />
-<strong>Office Hours:</strong> Wednesday (10 - 12)</p>
-<hr />
-<p><strong>UNDERGRADUATE</strong></p>
-<table>
-<thead>
-<tr class="header">
-<th>No.</th>
-<th>Course Code</th>
-<th>Course Name</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1.</td>
-<td>MAT037</td>
-<td>Essential Mathematics</td>
-</tr>
-<tr class="even">
-<td>2.</td>
-<td>MAT111</td>
-<td>Mathematics with Business Applications</td>
-</tr>
-<tr class="odd">
-<td>3.</td>
-<td>MAT112</td>
-<td>Business Mathematics</td>
-</tr>
-<tr class="even">
-<td>4.</td>
-<td>QMT335</td>
-<td>Introduction to Time Series Forecasting</td>
-</tr>
-<tr class="odd">
-<td>5.</td>
-<td>QMT339</td>
-<td>Spreadsheet Modeling and Decision Analysis</td>
-</tr>
-</tbody>
-</table>
+</div>
+<div id="oct-2020---feb-2021-20204" class="section level2">
+<h2>OCT 2020 - FEB 2021 (20204)</h2>
+<p>|<img src="images/tt_oct2020.png" style="width:100%; border:0px solid" align="center">|</p>
 <hr />
 <div id="section-1" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-2" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-3" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 </div>
 </div>
@@ -647,9 +665,9 @@ div.tocify {
 <h1><strong>COURSE DETAILS</strong></h1>
 </div>
 <div id="section-4" class="section level1 tabset">
-<h1></h1>
+<h1 class="tabset"></h1>
 <div id="mat111" class="section level2 tabset">
-<h2>MAT111</h2>
+<h2 class="tabset">MAT111</h2>
 <div id="course-information" class="section level3">
 <h3>Course Information</h3>
 <div id="course-learning-outcomes" class="section level4">
@@ -742,7 +760,7 @@ Course Work (Continuous assessments) : 40%<br />
 </div>
 </div>
 <div id="continuous-assessment-marks" class="section level3 tabset">
-<h3>Continuous Assessment Marks</h3>
+<h3 class="tabset">Continuous Assessment Marks</h3>
 <div id="kba1111d" class="section level4">
 <h4>KBA1111D</h4>
 <table>
@@ -1173,19 +1191,19 @@ Course Work (Continuous assessments) : 40%<br />
 </tbody>
 </table>
 <div id="section-5" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-6" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-7" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 </div>
 </div>
 </div>
 <div id="mat112" class="section level2 tabset">
-<h2>MAT112</h2>
+<h2 class="tabset">MAT112</h2>
 <div id="course-information-1" class="section level3">
 <h3>Course Information</h3>
 <div id="course-outcomes" class="section level4">
@@ -1304,9 +1322,9 @@ Course Work (Continuous assessments) : 40%<br />
 <p><a href="files/support%20document/mat112/BENGKEL%20MAT112%20NOV%202019%20SESI%202.pdf">Nov 2019 Session 2</a> <a href="files/support%20document/mat112/Answer%20MAT112%20Workshop%20Nov%202019%20Session%202.pdf">Answers</a></p>
 </div>
 <div id="continuous-assessment-marks-1" class="section level3 tabset">
-<h3>Continuous Assessment Marks</h3>
+<h3 class="tabset">Continuous Assessment Marks</h3>
 <div id="semester-20192" class="section level4 tabset">
-<h4>Semester 20192</h4>
+<h4 class="tabset">Semester 20192</h4>
 <div id="kba1111e" class="section level5">
 <h5>KBA1111E</h5>
 <table>
@@ -1586,8 +1604,8 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<div id="htmlwidget-ce6191ec1ef92ecadf00" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ce6191ec1ef92ecadf00">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29"],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],[2018242234,2018271588,2018633384,2018272212,2018413816,2018410072,2018296772,2018413124,2018413458,2018426856,2018241022,2018639748,2018285338,2018256458,2018211454,2018239458,2018405706,2018409308,2018416636,2018231208,2018429102,2018244194,2018416436,2018673146,2018428266,2018655382,2018696446,2018696462,2018253544],[65,38,55,79,31,87,85,72,56,32,56,86,90,95,86,83,98,80,57,88,65,76,79,71,79,57,68,82,59],[74,30,59,88,37,85,95,80,55,42,57,100,84,98,85,100,100,80,58,92,64,77,75,72,73,58,65,87,55],[6,4,5,6,4,6,6,6,6,4,4,5,6,5,5,5,6,4,6,5,4,4,4,5,5,4,5,6,5],[22.5,21.5,23,22,23,22,22.5,22.5,22,21.5,18,22.5,18,22.5,18,22.5,22.5,18,21.5,23,23,22,22,22,23,22.5,23,22.5,21.5],[29.9,17.1,25.2,34,17.3,34.7,36,31.8,25.6,18,23.4,35.9,34.5,37,33.1,35.5,38.7,30.4,26.1,35.1,26.4,29.9,30,29.4,30.9,24.3,28,34.4,25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Bil<\/th>\n      <th>No Pelajar<\/th>\n      <th>Test 1<\/th>\n      <th>Test 2<\/th>\n      <th>Quiz<\/th>\n      <th>Assignment<\/th>\n      <th>CM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-9ce5f9b89623f7d8a436" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9ce5f9b89623f7d8a436">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29"],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],[2018242234,2018271588,2018633384,2018272212,2018413816,2018410072,2018296772,2018413124,2018413458,2018426856,2018241022,2018639748,2018285338,2018256458,2018211454,2018239458,2018405706,2018409308,2018416636,2018231208,2018429102,2018244194,2018416436,2018673146,2018428266,2018655382,2018696446,2018696462,2018253544],[65,38,55,79,31,87,85,72,56,32,56,86,90,95,86,83,98,80,57,88,65,76,79,71,79,57,68,82,59],[74,30,59,88,37,85,95,80,55,42,57,100,84,98,85,100,100,80,58,92,64,77,75,72,73,58,65,87,55],[6,4,5,6,4,6,6,6,6,4,4,5,6,5,5,5,6,4,6,5,4,4,4,5,5,4,5,6,5],[22.5,21.5,23,22,23,22,22.5,22.5,22,21.5,18,22.5,18,22.5,18,22.5,22.5,18,21.5,23,23,22,22,22,23,22.5,23,22.5,21.5],[29.9,17.1,25.2,34,17.3,34.7,36,31.8,25.6,18,23.4,35.9,34.5,37,33.1,35.5,38.7,30.4,26.1,35.1,26.4,29.9,30,29.4,30.9,24.3,28,34.4,25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Bil<\/th>\n      <th>No Pelajar<\/th>\n      <th>Test 1<\/th>\n      <th>Test 2<\/th>\n      <th>Quiz<\/th>\n      <th>Assignment<\/th>\n      <th>CM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <table>
 <caption>Performance Summary</caption>
 <thead>
@@ -1654,39 +1672,39 @@ Course Work (Continuous assessments) : 40%<br />
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                    
-##  ------------------------------------------------------------------------------------------------------------- 
-##                                 statistic    df      p         Mean difference    SE difference    Cohen&#39;s d   
-##  ------------------------------------------------------------------------------------------------------------- 
-##    Test 1        Student&#39;s t      2.769      27.0     0.995            18.4881            6.677       1.1504   
-##    Test 2        Student&#39;s t      2.841      27.0     0.996            20.3333            7.156       1.1805   
-##    Quiz          Student&#39;s t     -0.137      27.0     0.446            -0.0476            0.348      -0.0568   
-##    Assignment    Student&#39;s t     -3.768 &lt;U+1D43&gt;    27.0    &lt; .001            -2.0595            0.547      -1.5654   
-##    CM            Student&#39;s t      2.422      27.0     0.989             5.5101            2.275       1.0061   
-##  ------------------------------------------------------------------------------------------------------------- 
+##  Independent Samples T-Test                                                                                                
+##  ------------------------------------------------------------------------------------------------------------------------- 
+##                                 Statistic       df          p            Mean difference    SE difference    Cohen&#39;s d     
+##  ------------------------------------------------------------------------------------------------------------------------- 
+##    Test 1        Student&#39;s t     2.7689188      27.00000    0.9949790        18.48809524        6.6770088     1.15041512   
+##    Test 2        Student&#39;s t     2.8412652      27.00000    0.9957765        20.33333333        7.1564362     1.18047320   
+##    Quiz          Student&#39;s t    -0.1368001      27.00000    0.4461019        -0.04761905        0.3480923    -0.05683694   
+##    Assignment    Student&#39;s t    -3.7676351 &lt;U+1D43&gt;    27.00000    0.0004078        -2.05952381        0.5466357    -1.56535626   
+##    CM            Student&#39;s t     2.4216535      27.00000    0.9887791         5.51011905        2.2753541     1.00613523   
+##  ------------------------------------------------------------------------------------------------------------------------- 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
 ## 
 ## 
-##  Group Descriptives                                                  
-##  ------------------------------------------------------------------- 
-##                  Group    N     Mean     Median    SD        SE      
-##  ------------------------------------------------------------------- 
-##    Test 1        L         8    84.25     86.00    12.881    4.554   
-##                  P        21    65.76     68.00    17.047    3.720   
-##                                                                      
-##    Test 2        L         8    88.00     91.50    15.033    5.315   
-##                  P        21    67.67     72.00    17.929    3.912   
-##                                                                      
-##    Quiz          L         8     5.00      5.00     0.756    0.267   
-##                  P        21     5.05      5.00     0.865    0.189   
-##                                                                      
-##    Assignment    L         8    20.25     20.25     2.405    0.850   
-##                  P        21    22.31     22.50     0.558    0.122   
-##                                                                      
-##    CM            L         8    33.56     35.00     4.808    1.700   
-##                  P        21    28.05     29.40     5.692    1.242   
-##  -------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                 
+##  ---------------------------------------------------------------------------------- 
+##                  Group    N     Mean         Median       SD            SE          
+##  ---------------------------------------------------------------------------------- 
+##    Test 1        L         8    84.250000    86.000000    12.8813265    4.5542366   
+##                  P        21    65.761905    68.000000    17.0467145    3.7198981   
+##                                                                                     
+##    Test 2        L         8    88.000000    91.500000    15.0332964    5.3150729   
+##                  P        21    67.666667    72.000000    17.9285619    3.9123330   
+##                                                                                     
+##    Quiz          L         8     5.000000     5.000000     0.7559289    0.2672612   
+##                  P        21     5.047619     5.000000     0.8646497    0.1886820   
+##                                                                                     
+##    Assignment    L         8    20.250000    20.250000     2.4053512    0.8504201   
+##                  P        21    22.309524    22.500000     0.5584843    0.1218713   
+##                                                                                     
+##    CM            L         8    33.562500    35.000000     4.8077133    1.6997833   
+##                  P        21    28.052381    29.400000     5.6920663    1.2421107   
+##  ----------------------------------------------------------------------------------</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -2069,38 +2087,38 @@ Course Work (Continuous assessments) : 40%<br />
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                   
-##  ------------------------------------------------------------------------------------------------------------ 
-##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
-##  ------------------------------------------------------------------------------------------------------------ 
-##    Test 1        Student&#39;s t        0.693    29.0    0.753              6.049            8.725        0.285   
-##    Test 2        Student&#39;s t        0.378    29.0    0.646              2.924            7.743        0.155   
-##    Quiz          Student&#39;s t       -1.611    29.0    0.059             -0.554            0.344       -0.661   
-##    Assignment    Student&#39;s t        1.398    29.0    0.914              0.978            0.700        0.574   
-##    CM            Student&#39;s t        0.354    29.0    0.637              0.921            2.604        0.145   
-##  ------------------------------------------------------------------------------------------------------------ 
+##  Independent Samples T-Test                                                                                             
+##  ---------------------------------------------------------------------------------------------------------------------- 
+##                                 Statistic     df          p            Mean difference    SE difference    Cohen&#39;s d    
+##  ---------------------------------------------------------------------------------------------------------------------- 
+##    Test 1        Student&#39;s t     0.6932653    29.00000    0.7531707          6.0489130        8.7252494     0.2845584   
+##    Test 2        Student&#39;s t     0.3776024    29.00000    0.6457622          2.9239130        7.7433646     0.1549911   
+##    Quiz          Student&#39;s t    -1.6114563    29.00000    0.0589561         -0.5543478        0.3440043    -0.6614400   
+##    Assignment    Student&#39;s t     1.3983787    29.00000    0.9136987          0.9782609        0.6995679     0.5739800   
+##    CM            Student&#39;s t     0.3537829    29.00000    0.6369696          0.9211957        2.6038446     0.1452141   
+##  ---------------------------------------------------------------------------------------------------------------------- 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ## 
 ## 
-##  Group Descriptives                                                  
-##  ------------------------------------------------------------------- 
-##                  Group    N     Mean     Median    SD        SE      
-##  ------------------------------------------------------------------- 
-##    Test 1        L         8    74.88     71.00    17.125    6.055   
-##                  P        23    68.83     73.00    22.413    4.673   
-##                                                                      
-##    Test 2        L         8    73.75     73.50    16.403    5.799   
-##                  P        23    70.83     67.00    19.584    4.083   
-##                                                                      
-##    Quiz          L         8     4.75      4.50     0.886    0.313   
-##                  P        23     5.30      6.00     0.822    0.171   
-##                                                                      
-##    Assignment    L         8    21.00     19.50     2.070    0.732   
-##                  P        23    20.02     20.00     1.570    0.327   
-##                                                                      
-##    CM            L         8    29.84     29.35     5.130    1.814   
-##                  P        23    28.92     29.73     6.684    1.394   
-##  -------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                 
+##  ---------------------------------------------------------------------------------- 
+##                  Group    N     Mean         Median       SD            SE          
+##  ---------------------------------------------------------------------------------- 
+##    Test 1        L         8    74.875000    71.000000    17.1250652    6.0546249   
+##                  P        23    68.826087    73.000000    22.4127646    4.6733845   
+##                                                                                     
+##    Test 2        L         8    73.750000    73.500000    16.4033969    5.7994766   
+##                  P        23    70.826087    67.000000    19.5835092    4.0834440   
+##                                                                                     
+##    Quiz          L         8     4.750000     4.500000     0.8864053    0.3133916   
+##                  P        23     5.304348     6.000000     0.8221249    0.1714249   
+##                                                                                     
+##    Assignment    L         8    21.000000    19.500000     2.0701967    0.7319251   
+##                  P        23    20.021739    20.000000     1.5701640    0.3274018   
+##                                                                                     
+##    CM            L         8    29.842500    29.350000     5.1304100    1.8138739   
+##                  P        23    28.921304    29.730000     6.6837260    1.3936532   
+##  ----------------------------------------------------------------------------------</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -2501,39 +2519,39 @@ Course Work (Continuous assessments) : 40%<br />
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                   
-##  ------------------------------------------------------------------------------------------------------------ 
-##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
-##  ------------------------------------------------------------------------------------------------------------ 
-##    Test 1        Student&#39;s t     -0.566      31.0    0.288            -3.1783            5.616      -0.2144   
-##    Test 2        Student&#39;s t     -0.669      31.0    0.254            -4.7130            7.048      -0.2533   
-##    Quiz          Student&#39;s t      0.165      31.0    0.565             0.0522            0.316       0.0625   
-##    Assignment    Student&#39;s t      2.090 &lt;U+1D43&gt;    31.0    0.978             1.2391            0.593       0.7917   
-##    CM            Student&#39;s t     -0.475      31.0    0.319            -0.9530            2.005      -0.1800   
-##  ------------------------------------------------------------------------------------------------------------ 
+##  Independent Samples T-Test                                                                                                
+##  ------------------------------------------------------------------------------------------------------------------------- 
+##                                 Statistic       df          p            Mean difference    SE difference    Cohen&#39;s d     
+##  ------------------------------------------------------------------------------------------------------------------------- 
+##    Test 1        Student&#39;s t    -0.5659543      31.00000    0.2877496        -3.17826087        5.6157549    -0.21437515   
+##    Test 2        Student&#39;s t    -0.6686827      31.00000    0.2543235        -4.71304348        7.0482515    -0.25328712   
+##    Quiz          Student&#39;s t     0.1649452      31.00000    0.5649710         0.05217391        0.3163107     0.06247879   
+##    Assignment    Student&#39;s t     2.0901836 &lt;U+1D43&gt;    31.00000    0.9775518         1.23913043        0.5928333     0.79173072   
+##    CM            Student&#39;s t    -0.4753331      31.00000    0.3189409        -0.95304348        2.0050012    -0.18004917   
+##  ------------------------------------------------------------------------------------------------------------------------- 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
 ## 
 ## 
-##  Group Descriptives                                                  
-##  ------------------------------------------------------------------- 
-##                  Group    N     Mean     Median    SD        SE      
-##  ------------------------------------------------------------------- 
-##    Test 1        L        10    72.30     75.50    16.932    5.354   
-##                  P        23    75.48     79.00    13.872    2.893   
-##                                                                      
-##    Test 2        L        10    72.20     76.50    22.533    7.126   
-##                  P        23    76.91     79.00    16.738    3.490   
-##                                                                      
-##    Quiz          L        10     5.40      6.00     0.843    0.267   
-##                  P        23     5.35      6.00     0.832    0.173   
-##                                                                      
-##    Assignment    L        10    24.50     24.50     2.108    0.667   
-##                  P        23    23.26     23.50     1.278    0.266   
-##                                                                      
-##    CM            L        10    30.36     30.90     6.471    2.046   
-##                  P        23    31.31     33.40     4.728    0.986   
-##  -------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                 
+##  ---------------------------------------------------------------------------------- 
+##                  Group    N     Mean         Median       SD            SE          
+##  ---------------------------------------------------------------------------------- 
+##    Test 1        L        10    72.300000    75.500000    16.9315616    5.3542299   
+##                  P        23    75.478261    79.000000    13.8723714    2.8925894   
+##                                                                                     
+##    Test 2        L        10    72.200000    76.500000    22.5329389    7.1255409   
+##                  P        23    76.913043    79.000000    16.7383964    3.4901969   
+##                                                                                     
+##    Quiz          L        10     5.400000     6.000000     0.8432740    0.2666667   
+##                  P        23     5.347826     6.000000     0.8316848    0.1734183   
+##                                                                                     
+##    Assignment    L        10    24.500000    24.500000     2.1081851    0.6666667   
+##                  P        23    23.260870    23.500000     1.2780451    0.2664908   
+##                                                                                     
+##    CM            L        10    30.360000    30.900000     6.4711668    2.0463626   
+##                  P        23    31.313043    33.400000     4.7275118    0.9857543   
+##  ----------------------------------------------------------------------------------</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -2871,43 +2889,43 @@ Course Work (Continuous assessments) : 40%<br />
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                   
-##  ------------------------------------------------------------------------------------------------------------ 
-##                                 statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
-##  ------------------------------------------------------------------------------------------------------------ 
-##    Test 1        Student&#39;s t    -3.1519      24.0    0.002          -13.04762            4.140      -1.5684   
-##    Test 2        Student&#39;s t    -3.1826 &lt;U+1D43&gt;    24.0    0.002          -12.27619            3.857      -1.5837   
-##    Quiz          Student&#39;s t    -0.0467      24.0    0.482           -0.00952            0.204      -0.0232   
-##    Assignment    Student&#39;s t     1.1062 &lt;U+1D43&gt;    24.0    0.860            1.21429            1.098       0.5505   
-##    CM            Student&#39;s t    -2.9843      24.0    0.003           -3.65714            1.225      -1.4850   
-##  ------------------------------------------------------------------------------------------------------------ 
+##  Independent Samples T-Test                                                                                                 
+##  -------------------------------------------------------------------------------------------------------------------------- 
+##                                 Statistic        df          p            Mean difference    SE difference    Cohen&#39;s d     
+##  -------------------------------------------------------------------------------------------------------------------------- 
+##    Test 1        Student&#39;s t    -3.15185532      24.00000    0.0021572      -13.047619048        4.1396631    -1.56840529   
+##    Test 2        Student&#39;s t    -3.18264975 &lt;U+1D43&gt;    24.00000    0.0020027      -12.276190476        3.8572232    -1.58372901   
+##    Quiz          Student&#39;s t    -0.04665906      24.00000    0.4815855       -0.009523810        0.2041149    -0.02321817   
+##    Assignment    Student&#39;s t     1.10621520 &lt;U+1D43&gt;    24.00000    0.8602005        1.214285714        1.0976939     0.55046745   
+##    CM            Student&#39;s t    -2.98433303      24.00000    0.0032204       -3.657142857        1.2254473    -1.48504396   
+##  -------------------------------------------------------------------------------------------------------------------------- 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ##    &lt;U+1D43&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
 ## 
 ## 
-##  Group Descriptives                                                   
-##  -------------------------------------------------------------------- 
-##                  Group    N     Mean     Median    SD        SE       
-##  -------------------------------------------------------------------- 
-##    Test 1        L         5    80.00     76.00    10.416     4.658   
-##                  P        21    93.05     96.00     7.832    1.7092   
-##                                                                       
-##    Test 2        L         5    83.20     88.00    14.325     6.406   
-##                  P        21    95.48     97.00     5.573    1.2162   
-##                                                                       
-##    Quiz          L         5     5.80      6.00     0.447     0.200   
-##                  P        21     5.81      6.00     0.402    0.0878   
-##                                                                       
-##    Assignment    L         5    23.50     23.50     0.000     0.000   
-##                  P        21    22.29     20.50     2.416    0.5273   
-##                                                                       
-##    CM            L         5    33.40     33.60     3.908     1.748   
-##                  P        21    37.06     37.80     2.055    0.4484   
-##  --------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                  
+##  ----------------------------------------------------------------------------------- 
+##                  Group    N     Mean         Median       SD            SE           
+##  ----------------------------------------------------------------------------------- 
+##    Test 1        L         5    80.000000    76.000000    10.4163333     4.6583259   
+##                  P        21    93.047619    96.000000     7.8324721    1.70918553   
+##                                                                                      
+##    Test 2        L         5    83.200000    88.000000    14.3248037     6.4062470   
+##                  P        21    95.476190    97.000000     5.5733208    1.21619831   
+##                                                                                      
+##    Quiz          L         5     5.800000     6.000000     0.4472136     0.2000000   
+##                  P        21     5.809524     6.000000     0.4023739    0.08780519   
+##                                                                                      
+##    Assignment    L         5    23.500000    23.500000     0.0000000     0.0000000   
+##                  P        21    22.285714    20.500000     2.4164614    0.52731511   
+##                                                                                      
+##    CM            L         5    33.400000    33.600000     3.9083244     1.7478558   
+##                  P        21    37.057143    37.800000     2.0548896    0.44841368   
+##  -----------------------------------------------------------------------------------</code></pre>
 </div>
 </div>
 <div id="semester-20194" class="section level4 tabset">
-<h4>Semester 20194</h4>
+<h4 class="tabset">Semester 20194</h4>
 <div id="kac1101f" class="section level5">
 <h5>KAC1101F</h5>
 <table>
@@ -3342,7 +3360,7 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<p><img src="images/20194/20194%20KAC1101F.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
+<p><img src="images/20194/20194%20KAC1101F.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
 </div>
 <div id="kam1101i" class="section level5">
 <h5>KAM1101I</h5>
@@ -3836,7 +3854,7 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<p><img src="images/20194/20194%20KAM1101I.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
+<p><img src="images/20194/20194%20KAM1101I.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
 </div>
 <div id="kam1101j" class="section level5">
 <h5>KAM1101J</h5>
@@ -4306,7 +4324,7 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<p><img src="images/20194/20194%20KAM1101J.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
+<p><img src="images/20194/20194%20KAM1101J.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
 </div>
 <div id="kba1191b" class="section level5">
 <h5>KBA1191B</h5>
@@ -5139,7 +5157,7 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<p><img src="images/20194/20194%20KBA1191C.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
+<p><img src="images/20194/20194%20KBA1191C.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
 </div>
 <div id="kba1191f" class="section level5">
 <h5>KBA1191F</h5>
@@ -5609,22 +5627,22 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<p><img src="images/20194/20194%20KBA1191F.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
+<p><img src="images/20194/20194%20KBA1191F.jpeg" style="width:100%; border:10px solid; margin-right: 18px" align="center"></p>
 <div id="section-8" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-9" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 <div id="section-10" class="section level46">
-<p></p>
+<p class="heading"></p>
 </div>
 </div>
 </div>
 </div>
 </div>
 <div id="qmt181216212sta104" class="section level2 tabset">
-<h2>QMT181/216/212/STA104</h2>
+<h2 class="tabset">QMT181/216/212/STA104</h2>
 <div id="course-information-2" class="section level3">
 <h3>Course Information</h3>
 <div id="course-learning-outcomes-1" class="section level4">
@@ -6055,7 +6073,7 @@ Using calculator to obtain the Pearson’s Correlation Coefficient and Regressio
 2. Explain and analyze the appropriate statistics techniques in analyzing the actual data.<br />
 3. Produce a good class project report.</p>
 <div id="suggested-guidelines-for-project" class="section level4 tabset">
-<h4><strong>SUGGESTED GUIDELINES FOR PROJECT</strong></h4>
+<h4 class="tabset"><strong>SUGGESTED GUIDELINES FOR PROJECT</strong></h4>
 <div id="group-members" class="section level5">
 <h5>1. GROUP MEMBERS</h5>
 <p>Students are required to perform a group with 3 – 4 members. (The number of members per group depending on the number of students in the class and the number of class)</p>
@@ -6131,9 +6149,9 @@ It should include organizing and presenting data supported by numerical descript
 </div>
 </div>
 <div id="course-assessment-2" class="section level3 tabset">
-<h3>Course Assessment</h3>
+<h3 class="tabset">Course Assessment</h3>
 <div id="sem-20192" class="section level4 tabset">
-<h4>Sem 20192</h4>
+<h4 class="tabset">Sem 20192</h4>
 <div id="kac1102f" class="section level5">
 <h5>KAC1102F</h5>
 <table>
@@ -6157,9 +6175,9 @@ It should include organizing and presenting data supported by numerical descript
 <td align="right">10.5</td>
 <td align="right">14.1</td>
 <td align="right">5.0</td>
-<td align="right">5</td>
+<td align="right">NA</td>
 <td align="left">NA</td>
-<td align="right">34.6</td>
+<td align="right">29.6</td>
 </tr>
 <tr class="even">
 <td align="right">2</td>
@@ -6177,9 +6195,9 @@ It should include organizing and presenting data supported by numerical descript
 <td align="right">13.4</td>
 <td align="right">14.1</td>
 <td align="right">5.0</td>
-<td align="right">5</td>
+<td align="right">NA</td>
 <td align="left">NA</td>
-<td align="right">37.5</td>
+<td align="right">32.5</td>
 </tr>
 <tr class="even">
 <td align="right">4</td>
@@ -6217,9 +6235,9 @@ It should include organizing and presenting data supported by numerical descript
 <td align="right">10.2</td>
 <td align="right">11.1</td>
 <td align="right">5.0</td>
-<td align="right">5</td>
+<td align="right">NA</td>
 <td align="left">NA</td>
-<td align="right">31.3</td>
+<td align="right">26.3</td>
 </tr>
 <tr class="even">
 <td align="right">8</td>
@@ -6257,9 +6275,9 @@ It should include organizing and presenting data supported by numerical descript
 <td align="right">10.5</td>
 <td align="right">13.4</td>
 <td align="right">5.0</td>
-<td align="right">5</td>
+<td align="right">NA</td>
 <td align="left">NA</td>
-<td align="right">33.9</td>
+<td align="right">28.9</td>
 </tr>
 <tr class="even">
 <td align="right">12</td>
@@ -6267,9 +6285,9 @@ It should include organizing and presenting data supported by numerical descript
 <td align="right">4.0</td>
 <td align="right">10.9</td>
 <td align="right">2.3</td>
-<td align="right">5</td>
+<td align="right">NA</td>
 <td align="left">NA</td>
-<td align="right">22.2</td>
+<td align="right">17.2</td>
 </tr>
 <tr class="odd">
 <td align="right">13</td>
@@ -6434,7 +6452,7 @@ It should include organizing and presenting data supported by numerical descript
 <td align="center">Min. :2.30</td>
 <td align="center">Min. :5</td>
 <td align="left">Mode:logical</td>
-<td align="center">Min. :20.60</td>
+<td align="center">Min. :17.20</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -6452,7 +6470,7 @@ It should include organizing and presenting data supported by numerical descript
 <td align="center">Median :5.00</td>
 <td align="center">Median :5</td>
 <td align="left">NA</td>
-<td align="center">Median :28.90</td>
+<td align="center">Median :27.70</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -6461,7 +6479,7 @@ It should include organizing and presenting data supported by numerical descript
 <td align="center">Mean :4.36</td>
 <td align="center">Mean :5</td>
 <td align="left">NA</td>
-<td align="center">Mean :28.46</td>
+<td align="center">Mean :27.50</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -6470,7 +6488,7 @@ It should include organizing and presenting data supported by numerical descript
 <td align="center">3rd Qu.:5.00</td>
 <td align="center">3rd Qu.:5</td>
 <td align="left">NA</td>
-<td align="center">3rd Qu.:33.20</td>
+<td align="center">3rd Qu.:31.80</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -6486,7 +6504,7 @@ It should include organizing and presenting data supported by numerical descript
 <td align="center">NA</td>
 <td align="center">NA</td>
 <td align="center">NA’s :1</td>
-<td align="center">NA’s :1</td>
+<td align="center">NA’s :6</td>
 <td align="left">NA</td>
 <td align="center">NA</td>
 </tr>
@@ -6495,39 +6513,39 @@ It should include organizing and presenting data supported by numerical descript
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                    
-##  ------------------------------------------------------------------------------------------------------------- 
-##                                  statistic    df      p        Mean difference    SE difference    Cohen&#39;s d   
-##  ------------------------------------------------------------------------------------------------------------- 
-##    Test 1         Student&#39;s t      1.300      24.0    0.897              1.566            1.205        0.575   
-##    Test 2         Student&#39;s t      0.666      24.0    0.744              0.813            1.220        0.295   
-##    Quiz           Student&#39;s t      0.866      23.0    0.802              0.353            0.408        0.386   
-##    Assign         Student&#39;s t        NaN &lt;U+1D43&gt;                                                                     
-##    Total (50%)    Student&#39;s t      0.937      24.0    0.821              2.242            2.392        0.414   
-##  ------------------------------------------------------------------------------------------------------------- 
+##  Independent Samples T-Test                                                                                                 
+##  -------------------------------------------------------------------------------------------------------------------------- 
+##                                  Statistic       df          p            Mean difference    SE difference    Cohen&#39;s d     
+##  -------------------------------------------------------------------------------------------------------------------------- 
+##    Test 1         Student&#39;s t     1.2998690      24.00000    0.8970038          1.5661654        1.2048640     0.57472548   
+##    Test 2         Student&#39;s t     0.6661604      24.00000    0.7441692          0.8127820        1.2200996     0.29453685   
+##    Quiz           Student&#39;s t     0.8657397      23.00000    0.8022130          0.3531746        0.4079455     0.38563113   
+##    Assign         Student&#39;s t           NaN &lt;U+1D43&gt;                                                                               
+##    Total (50%)    Student&#39;s t    -0.1521666      24.00000    0.4401637         -0.3518797        2.3124630    -0.06727912   
+##  -------------------------------------------------------------------------------------------------------------------------- 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ##    &lt;U+1D43&gt; All observations are tied
 ## 
 ## 
-##  Group Descriptives                                                  
-##  ------------------------------------------------------------------- 
-##                   Group    N     Mean     Median    SD       SE      
-##  ------------------------------------------------------------------- 
-##    Test 1         L         7    10.17     10.20    1.929    0.729   
-##                   P        19     8.61      8.10    2.943    0.675   
-##                                                                      
-##    Test 2         L         7    11.03     13.40    3.907    1.477   
-##                   P        19    10.22     10.20    2.250    0.516   
-##                                                                      
-##    Quiz           L         7     4.61      5.00    0.708    0.268   
-##                   P        18     4.26      5.00    0.979    0.231   
-##                                                                      
-##    Assign         L         6     5.00      5.00    0.000    0.000   
-##                   P        19     5.00      5.00    0.000    0.000   
-##                                                                      
-##    Total (50%)    L         7    30.10     31.30    6.030    2.279   
-##                   P        19    27.86     26.80    5.186    1.190   
-##  -------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                 
+##  ---------------------------------------------------------------------------------- 
+##                   Group    N     Mean         Median       SD           SE          
+##  ---------------------------------------------------------------------------------- 
+##    Test 1         L         7    10.171429    10.200000    1.9293473    0.7292247   
+##                   P        19     8.605263     8.100000    2.9428772    0.6751423   
+##                                                                                     
+##    Test 2         L         7    11.028571    13.400000    3.9071363    1.4767587   
+##                   P        19    10.215789    10.200000    2.2504970    0.5162994   
+##                                                                                     
+##    Quiz           L         7     4.614286     5.000000    0.7081162    0.2676428   
+##                   P        18     4.261111     5.000000    0.9786779    0.2306766   
+##                                                                                     
+##    Assign         L         2     5.000000     5.000000    0.0000000    0.0000000   
+##                   P        18     5.000000     5.000000    0.0000000    0.0000000   
+##                                                                                     
+##    Total (50%)    L         7    27.242857    28.600000    3.9169959    1.4804853   
+##                   P        19    27.594737    26.800000    5.5998486    1.2846934   
+##  ----------------------------------------------------------------------------------</code></pre>
 </div>
 <div id="kba1193a" class="section level5">
 <h5>KBA1193A</h5>
@@ -6830,40 +6848,40 @@ It should include organizing and presenting data supported by numerical descript
 <pre><code>## 
 ##  INDEPENDENT SAMPLES T-TEST
 ## 
-##  Independent Samples T-Test                                                                                     
-##  -------------------------------------------------------------------------------------------------------------- 
-##                                  statistic    df      p         Mean difference    SE difference    Cohen&#39;s d   
-##  -------------------------------------------------------------------------------------------------------------- 
-##    Test 1         Student&#39;s t      -1.39      18.0     0.091              -1.57            1.135       -0.650   
-##    Test 2         Student&#39;s t      -4.63      18.0    &lt; .001              -6.60            1.426       -2.171   
-##    Quiz           Student&#39;s t      -2.21      18.0     0.020              -1.55            0.701       -1.035   
-##    Assign         Student&#39;s t        NaN &lt;U+1D43&gt;                                                                      
-##    Total (50%)    Student&#39;s t      -3.17 &lt;U+1D47&gt;    18.0     0.003             -10.93            3.448       -1.486   
-##  -------------------------------------------------------------------------------------------------------------- 
+##  Independent Samples T-Test                                                                                               
+##  ------------------------------------------------------------------------------------------------------------------------ 
+##                                  Statistic      df          p            Mean difference    SE difference    Cohen&#39;s d    
+##  ------------------------------------------------------------------------------------------------------------------------ 
+##    Test 1         Student&#39;s t    -1.386066      18.00000    0.0913295          -1.573626        1.1353184    -0.6497978   
+##    Test 2         Student&#39;s t    -4.630146      18.00000    0.0001040          -6.602198        1.4259156    -2.1706460   
+##    Quiz           Student&#39;s t    -2.208481      18.00000    0.0202096          -1.547253        0.7005958    -1.0353521   
+##    Assign         Student&#39;s t          NaN &lt;U+1D43&gt;                                                                              
+##    Total (50%)    Student&#39;s t    -3.170795 &lt;U+1D47&gt;    18.00000    0.0026457         -10.931868        3.4476742    -1.4864916   
+##  ------------------------------------------------------------------------------------------------------------------------ 
 ##    Note. H&lt;U+2090&gt; L &lt; P
 ##    &lt;U+1D43&gt; All observations are tied
 ##    &lt;U+1D47&gt; Levene&#39;s test is significant (p &lt; .05), suggesting a violation of the assumption of equal variances
 ## 
 ## 
-##  Group Descriptives                                                 
-##  ------------------------------------------------------------------ 
-##                   Group    N     Mean     Median    SD      SE      
-##  ------------------------------------------------------------------ 
-##    Test 1         L         7     4.66      5.30    1.39    0.527   
-##                   P        13     6.23      6.80    2.80    0.776   
-##                                                                     
-##    Test 2         L         7     3.33      4.00    2.43    0.917   
-##                   P        13     9.93     11.30    3.31    0.917   
-##                                                                     
-##    Quiz           L         7     1.71      2.80    1.61    0.609   
-##                   P        13     3.26      3.00    1.43    0.397   
-##                                                                     
-##    Assign         L         1     5.00      5.00     NaN      NaN   
-##                   P         5     5.00      5.00    0.00    0.000   
-##                                                                     
-##    Total (50%)    L         7    10.41     12.30    4.42    1.671   
-##                   P        13    21.35     24.40    8.45    2.343   
-##  ------------------------------------------------------------------</code></pre>
+##  Group Descriptives                                                                
+##  --------------------------------------------------------------------------------- 
+##                   Group    N     Mean         Median       SD          SE          
+##  --------------------------------------------------------------------------------- 
+##    Test 1         L         7     4.657143     5.300000    1.393864    0.5268311   
+##                   P        13     6.230769     6.800000    2.797435    0.7758688   
+##                                                                                    
+##    Test 2         L         7     3.328571     4.000000    2.425362    0.9167007   
+##                   P        13     9.930769    11.300000    3.306908    0.9171713   
+##                                                                                    
+##    Quiz           L         7     1.714286     2.800000    1.611861    0.6092261   
+##                   P        13     3.261538     3.000000    1.432095    0.3971918   
+##                                                                                    
+##    Assign         L         1     5.000000     5.000000         NaN          NaN   
+##                   P         5     5.000000     5.000000    0.000000    0.0000000   
+##                                                                                    
+##    Total (50%)    L         7    10.414286    12.300000    4.420192    1.6706755   
+##                   P        13    21.346154    24.400000    8.447250    2.3428455   
+##  ---------------------------------------------------------------------------------</code></pre>
 </div>
 <div id="kba1193a-1" class="section level5">
 <h5>KBA1193A-1</h5>
@@ -6984,14 +7002,10 @@ It should include organizing and presenting data supported by numerical descript
 </style>
 
 <div class="footer">
-<br>
 <center>
 <p>Copyright &copy; 2018 Kamarul Ariffin Mansor, UiTM Kedah. All rights reserved.</p>
 </center>
-<br>
 </div>
-<br>
-<br>
 
 
 </div>

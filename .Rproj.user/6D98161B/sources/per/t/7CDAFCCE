@@ -1,9 +1,9 @@
 {
     "id": "7CDAFCCE",
-    "path": "D:/GitHub/kamansor.github.io/research.Rmd",
-    "project_path": "research.Rmd",
+    "path": "D:/GitHub/kamansor.github.io/background.Rmd",
+    "project_path": "background.Rmd",
     "type": "r_markdown",
-    "hash": "2958618130",
+    "hash": "4264930437",
     "contents": "",
     "dirty": false,
     "created": 1602314341552.0,
@@ -12,15 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "78,27",
-        "scrollLine": "75"
+        "cursorPosition": "40,0",
+        "scrollLine": "33",
+        "rmdVisualMode": "false",
+        "rmdVisualModeLocation": "734:679.3333129882812",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "docOutlineSize": "118"
     },
     "folds": "",
-    "lastKnownWriteTime": 1618457697,
+    "lastKnownWriteTime": 1618495640,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1618457697741,
+    "last_content_update": 1618495640054,
     "read_only": false,
     "read_only_alternatives": []
 }

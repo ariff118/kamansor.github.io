@@ -1,12 +1,16 @@
 name: "Kamarul Ariffin Mansor"
 output_dir: "."
+favicon: images/profile 3.png
 google_analytics: "UA-77306155-2"
 navbar:
-  title: "<img id=\"logo\" style=\"width: 60px;\" src=\"images/profile_no_bg.png\" />"
+  # title: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/profile_no_bg.png\" />"
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
+    - text: "Professional Background"
+      icon: fa-briefcase
+      href: background.html
     - text: "Academic Activities"
       icon: fa-pen-nib
       href: research.html
@@ -14,25 +18,27 @@ navbar:
       icon: fa-chalkboard-teacher
       href: teaching.html
     - text: "Training"
+      icon: fa-users
       menu:
       - text: "R"
         href: workshopR.html
       - text: "SmartPLS"
         href: workshopSmartPLS.html
-  right:
-    - icon: fa-envelope fa-lg
+    - text: "Contact Me"
+      icon: fa-envelope fa-lg
       href: contact.html
-    - icon: fa-github fa-lg
+  right:
+    - icon: fab fa-github
       href: https://github.com/ariff118/
-    - icon: fa-facebook fa-lg
-      href: https://www.facebook.com/kamarul.ariffin.9235
-    - icon: fa-linkedin fa-lg
+    - icon: fab fa-facebook
+      href: https://www.facebook.com/kamarul.ariffin.9235/
+    - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/
-    - icon: fa-youtube fa-lg
-      href: https://www.youtube.com/channel/UC0I84XPicEYcCDZ1XDIPF4A
+    - icon: fab fa-youtube
+      href: https://www.youtube.com/channel/UC0I84XPicEYcCDZ1XDIPF4A/
 output:
   html_document:
     include:
       after_body: footer.html
-    theme: cerulean
+    theme: yeti
     css: 'styles.css'

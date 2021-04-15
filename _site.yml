@@ -2,7 +2,7 @@ name: "Kamarul Ariffin Mansor"
 output_dir: "."
 google_analytics: "UA-77306155-2"
 navbar:
-  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/profile 3.png\" />"
+  title: "<img id=\"logo\" style=\"width: 60px;\" src=\"images/profile_no_bg.png\" />"
   left:
     - text: "Home"
       icon: fa-home
@@ -28,6 +28,8 @@ navbar:
       href: https://www.facebook.com/kamarul.ariffin.9235
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/
+    - icon: fa-youtube fa-lg
+      href: https://www.youtube.com/channel/UC0I84XPicEYcCDZ1XDIPF4A
 output:
   html_document:
     include:

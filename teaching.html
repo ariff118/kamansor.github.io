@@ -13,36 +13,49 @@
 
 <title>Teaching Activities</title>
 
-<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
-<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.7.4/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.13/datatables.js"></script>
+<script src="site_libs/datatables-binding-0.17/datatables.js"></script>
 <link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="site_libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
 <script src="site_libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +68,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -91,10 +79,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -111,40 +95,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -172,7 +129,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -184,7 +141,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -195,10 +152,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -210,7 +180,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -336,7 +305,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -355,27 +324,27 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 30px;" src="images/profile%203.png" /></a>
+      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 60px;" src="images/profile_no_bg.png" /></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="research.html">
-    <span class="fa fa-pen-nib"></span>
+    <span class="fas fa-pen-nib"></span>
      
     Academic Activities
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fa fa-chalkboard-teacher"></span>
+    <span class="fas fa-chalkboard-teacher"></span>
      
     Teaching
   </a>
@@ -399,25 +368,31 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/ariff118/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.facebook.com/kamarul.ariffin.9235">
-    <span class="fa fa-facebook fa-lg"></span>
+    <span class="fas fa-facebook fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/kamarul-ariffin-mansor-254b9ba7/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/channel/UC0I84XPicEYcCDZ1XDIPF4A">
+    <span class="fas fa-youtube fa-lg"></span>
      
   </a>
 </li>
@@ -426,7 +401,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -1106,87 +1081,98 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<table>
+<table style="width:100%;">
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="2%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="11%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="11%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Test 3</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 4</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 3</th>
-<th align="center">CM</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Test 3</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 4</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 3</th>
+<th align="left">CM</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 39.00</td>
-<td align="center">Min. : 20.00</td>
-<td align="center">Min. : 34.00</td>
-<td align="center">Min. : 70.0</td>
-<td align="center">Min. : 75.00</td>
-<td align="center">Min. : 75.00</td>
-<td align="center">Min. : 75.00</td>
-<td align="center">Min. :18.50</td>
+<td align="left"></td>
+<td align="left">Min. : 39.00</td>
+<td align="left">Min. : 20.00</td>
+<td align="left">Min. : 34.00</td>
+<td align="left">Min. : 70.0</td>
+<td align="left">Min. : 75.00</td>
+<td align="left">Min. : 75.00</td>
+<td align="left">Min. : 75.00</td>
+<td align="left">Min. :18.50</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 65.00</td>
-<td align="center">1st Qu.: 47.00</td>
-<td align="center">1st Qu.: 74.50</td>
-<td align="center">1st Qu.: 80.0</td>
-<td align="center">1st Qu.: 80.00</td>
-<td align="center">1st Qu.: 75.00</td>
-<td align="center">1st Qu.: 75.00</td>
-<td align="center">1st Qu.:25.80</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 65.00</td>
+<td align="left">1st Qu.: 47.00</td>
+<td align="left">1st Qu.: 74.50</td>
+<td align="left">1st Qu.: 80.0</td>
+<td align="left">1st Qu.: 80.00</td>
+<td align="left">1st Qu.: 75.00</td>
+<td align="left">1st Qu.: 75.00</td>
+<td align="left">1st Qu.:25.80</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 77.00</td>
-<td align="center">Median : 69.00</td>
-<td align="center">Median : 85.00</td>
-<td align="center">Median : 85.0</td>
-<td align="center">Median : 90.00</td>
-<td align="center">Median : 80.00</td>
-<td align="center">Median : 80.00</td>
-<td align="center">Median :30.30</td>
+<td align="left"></td>
+<td align="left">Median : 77.00</td>
+<td align="left">Median : 69.00</td>
+<td align="left">Median : 85.00</td>
+<td align="left">Median : 85.0</td>
+<td align="left">Median : 90.00</td>
+<td align="left">Median : 80.00</td>
+<td align="left">Median : 80.00</td>
+<td align="left">Median :30.30</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 74.56</td>
-<td align="center">Mean : 64.52</td>
-<td align="center">Mean : 79.41</td>
-<td align="center">Mean : 86.3</td>
-<td align="center">Mean : 86.85</td>
-<td align="center">Mean : 84.26</td>
-<td align="center">Mean : 84.26</td>
-<td align="center">Mean :30.37</td>
+<td align="left"></td>
+<td align="left">Mean : 74.56</td>
+<td align="left">Mean : 64.52</td>
+<td align="left">Mean : 79.41</td>
+<td align="left">Mean : 86.3</td>
+<td align="left">Mean : 86.85</td>
+<td align="left">Mean : 84.26</td>
+<td align="left">Mean : 84.26</td>
+<td align="left">Mean :30.37</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.: 88.00</td>
-<td align="center">3rd Qu.: 84.00</td>
-<td align="center">3rd Qu.: 95.50</td>
-<td align="center">3rd Qu.: 92.5</td>
-<td align="center">3rd Qu.: 95.00</td>
-<td align="center">3rd Qu.: 90.00</td>
-<td align="center">3rd Qu.: 90.00</td>
-<td align="center">3rd Qu.:35.45</td>
+<td align="left"></td>
+<td align="left">3rd Qu.: 88.00</td>
+<td align="left">3rd Qu.: 84.00</td>
+<td align="left">3rd Qu.: 95.50</td>
+<td align="left">3rd Qu.: 92.5</td>
+<td align="left">3rd Qu.: 95.00</td>
+<td align="left">3rd Qu.: 90.00</td>
+<td align="left">3rd Qu.: 90.00</td>
+<td align="left">3rd Qu.:35.45</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.0</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :37.70</td>
+<td align="left"></td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.0</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :37.70</td>
 </tr>
 </tbody>
 </table>
@@ -1604,68 +1590,68 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<div id="htmlwidget-9ce5f9b89623f7d8a436" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9ce5f9b89623f7d8a436">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29"],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],[2018242234,2018271588,2018633384,2018272212,2018413816,2018410072,2018296772,2018413124,2018413458,2018426856,2018241022,2018639748,2018285338,2018256458,2018211454,2018239458,2018405706,2018409308,2018416636,2018231208,2018429102,2018244194,2018416436,2018673146,2018428266,2018655382,2018696446,2018696462,2018253544],[65,38,55,79,31,87,85,72,56,32,56,86,90,95,86,83,98,80,57,88,65,76,79,71,79,57,68,82,59],[74,30,59,88,37,85,95,80,55,42,57,100,84,98,85,100,100,80,58,92,64,77,75,72,73,58,65,87,55],[6,4,5,6,4,6,6,6,6,4,4,5,6,5,5,5,6,4,6,5,4,4,4,5,5,4,5,6,5],[22.5,21.5,23,22,23,22,22.5,22.5,22,21.5,18,22.5,18,22.5,18,22.5,22.5,18,21.5,23,23,22,22,22,23,22.5,23,22.5,21.5],[29.9,17.1,25.2,34,17.3,34.7,36,31.8,25.6,18,23.4,35.9,34.5,37,33.1,35.5,38.7,30.4,26.1,35.1,26.4,29.9,30,29.4,30.9,24.3,28,34.4,25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Bil<\/th>\n      <th>No Pelajar<\/th>\n      <th>Test 1<\/th>\n      <th>Test 2<\/th>\n      <th>Quiz<\/th>\n      <th>Assignment<\/th>\n      <th>CM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3edab7cbbd441110713f" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3edab7cbbd441110713f">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29"],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],[2018242234,2018271588,2018633384,2018272212,2018413816,2018410072,2018296772,2018413124,2018413458,2018426856,2018241022,2018639748,2018285338,2018256458,2018211454,2018239458,2018405706,2018409308,2018416636,2018231208,2018429102,2018244194,2018416436,2018673146,2018428266,2018655382,2018696446,2018696462,2018253544],[65,38,55,79,31,87,85,72,56,32,56,86,90,95,86,83,98,80,57,88,65,76,79,71,79,57,68,82,59],[74,30,59,88,37,85,95,80,55,42,57,100,84,98,85,100,100,80,58,92,64,77,75,72,73,58,65,87,55],[6,4,5,6,4,6,6,6,6,4,4,5,6,5,5,5,6,4,6,5,4,4,4,5,5,4,5,6,5],[22.5,21.5,23,22,23,22,22.5,22.5,22,21.5,18,22.5,18,22.5,18,22.5,22.5,18,21.5,23,23,22,22,22,23,22.5,23,22.5,21.5],[29.9,17.1,25.2,34,17.3,34.7,36,31.8,25.6,18,23.4,35.9,34.5,37,33.1,35.5,38.7,30.4,26.1,35.1,26.4,29.9,30,29.4,30.9,24.3,28,34.4,25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Bil<\/th>\n      <th>No Pelajar<\/th>\n      <th>Test 1<\/th>\n      <th>Test 2<\/th>\n      <th>Quiz<\/th>\n      <th>Assignment<\/th>\n      <th>CM<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <table>
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assignment</th>
-<th align="center">CM</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assignment</th>
+<th align="left">CM</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :31.00</td>
-<td align="center">Min. : 30.00</td>
-<td align="center">Min. :4.000</td>
-<td align="center">Min. :18.00</td>
-<td align="center">Min. :17.10</td>
+<td align="left"></td>
+<td align="left">Min. :31.00</td>
+<td align="left">Min. : 30.00</td>
+<td align="left">Min. :4.000</td>
+<td align="left">Min. :18.00</td>
+<td align="left">Min. :17.10</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:57.00</td>
-<td align="center">1st Qu.: 58.00</td>
-<td align="center">1st Qu.:4.000</td>
-<td align="center">1st Qu.:21.50</td>
-<td align="center">1st Qu.:25.60</td>
+<td align="left"></td>
+<td align="left">1st Qu.:57.00</td>
+<td align="left">1st Qu.: 58.00</td>
+<td align="left">1st Qu.:4.000</td>
+<td align="left">1st Qu.:21.50</td>
+<td align="left">1st Qu.:25.60</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :76.00</td>
-<td align="center">Median : 75.00</td>
-<td align="center">Median :5.000</td>
-<td align="center">Median :22.50</td>
-<td align="center">Median :30.00</td>
+<td align="left"></td>
+<td align="left">Median :76.00</td>
+<td align="left">Median : 75.00</td>
+<td align="left">Median :5.000</td>
+<td align="left">Median :22.50</td>
+<td align="left">Median :30.00</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :70.86</td>
-<td align="center">Mean : 73.28</td>
-<td align="center">Mean :5.034</td>
-<td align="center">Mean :21.74</td>
-<td align="center">Mean :29.57</td>
+<td align="left"></td>
+<td align="left">Mean :70.86</td>
+<td align="left">Mean : 73.28</td>
+<td align="left">Mean :5.034</td>
+<td align="left">Mean :21.74</td>
+<td align="left">Mean :29.57</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:85.00</td>
-<td align="center">3rd Qu.: 87.00</td>
-<td align="center">3rd Qu.:6.000</td>
-<td align="center">3rd Qu.:22.50</td>
-<td align="center">3rd Qu.:34.50</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:85.00</td>
+<td align="left">3rd Qu.: 87.00</td>
+<td align="left">3rd Qu.:6.000</td>
+<td align="left">3rd Qu.:22.50</td>
+<td align="left">3rd Qu.:34.50</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :98.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :6.000</td>
-<td align="center">Max. :23.00</td>
-<td align="center">Max. :38.70</td>
+<td align="left"></td>
+<td align="left">Max. :98.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :6.000</td>
+<td align="left">Max. :23.00</td>
+<td align="left">Max. :38.70</td>
 </tr>
 </tbody>
 </table>
@@ -2025,62 +2011,62 @@ Course Work (Continuous assessments) : 40%<br />
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assignment</th>
-<th align="center">CM</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assignment</th>
+<th align="left">CM</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :30.00</td>
-<td align="center">Min. :38.00</td>
-<td align="center">Min. :4.000</td>
-<td align="center">Min. :18.50</td>
-<td align="center">Min. :16.67</td>
+<td align="left"></td>
+<td align="left">Min. :30.00</td>
+<td align="left">Min. :38.00</td>
+<td align="left">Min. :4.000</td>
+<td align="left">Min. :18.50</td>
+<td align="left">Min. :16.67</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:51.00</td>
-<td align="center">1st Qu.:55.00</td>
-<td align="center">1st Qu.:4.000</td>
-<td align="center">1st Qu.:19.00</td>
-<td align="center">1st Qu.:23.88</td>
+<td align="left"></td>
+<td align="left">1st Qu.:51.00</td>
+<td align="left">1st Qu.:55.00</td>
+<td align="left">1st Qu.:4.000</td>
+<td align="left">1st Qu.:19.00</td>
+<td align="left">1st Qu.:23.88</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :73.00</td>
-<td align="center">Median :67.00</td>
-<td align="center">Median :5.000</td>
-<td align="center">Median :20.00</td>
-<td align="center">Median :29.73</td>
+<td align="left"></td>
+<td align="left">Median :73.00</td>
+<td align="left">Median :67.00</td>
+<td align="left">Median :5.000</td>
+<td align="left">Median :20.00</td>
+<td align="left">Median :29.73</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :70.39</td>
-<td align="center">Mean :71.58</td>
-<td align="center">Mean :5.161</td>
-<td align="center">Mean :20.27</td>
-<td align="center">Mean :29.16</td>
+<td align="left"></td>
+<td align="left">Mean :70.39</td>
+<td align="left">Mean :71.58</td>
+<td align="left">Mean :5.161</td>
+<td align="left">Mean :20.27</td>
+<td align="left">Mean :29.16</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:91.50</td>
-<td align="center">3rd Qu.:90.50</td>
-<td align="center">3rd Qu.:6.000</td>
-<td align="center">3rd Qu.:20.50</td>
-<td align="center">3rd Qu.:35.45</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:91.50</td>
+<td align="left">3rd Qu.:90.50</td>
+<td align="left">3rd Qu.:6.000</td>
+<td align="left">3rd Qu.:20.50</td>
+<td align="left">3rd Qu.:35.45</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :99.00</td>
-<td align="center">Max. :99.00</td>
-<td align="center">Max. :6.000</td>
-<td align="center">Max. :23.50</td>
-<td align="center">Max. :37.23</td>
+<td align="left"></td>
+<td align="left">Max. :99.00</td>
+<td align="left">Max. :99.00</td>
+<td align="left">Max. :6.000</td>
+<td align="left">Max. :23.50</td>
+<td align="left">Max. :37.23</td>
 </tr>
 </tbody>
 </table>
@@ -2457,62 +2443,62 @@ Course Work (Continuous assessments) : 40%<br />
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assignment</th>
-<th align="center">CM</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assignment</th>
+<th align="left">CM</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :37.00</td>
-<td align="center">Min. : 30.00</td>
-<td align="center">Min. :4.000</td>
-<td align="center">Min. :21.50</td>
-<td align="center">Min. :17.10</td>
+<td align="left"></td>
+<td align="left">Min. :37.00</td>
+<td align="left">Min. : 30.00</td>
+<td align="left">Min. :4.000</td>
+<td align="left">Min. :21.50</td>
+<td align="left">Min. :17.10</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:63.00</td>
-<td align="center">1st Qu.: 60.00</td>
-<td align="center">1st Qu.:5.000</td>
-<td align="center">1st Qu.:22.50</td>
-<td align="center">1st Qu.:27.10</td>
+<td align="left"></td>
+<td align="left">1st Qu.:63.00</td>
+<td align="left">1st Qu.: 60.00</td>
+<td align="left">1st Qu.:5.000</td>
+<td align="left">1st Qu.:22.50</td>
+<td align="left">1st Qu.:27.10</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :79.00</td>
-<td align="center">Median : 79.00</td>
-<td align="center">Median :6.000</td>
-<td align="center">Median :23.50</td>
-<td align="center">Median :31.80</td>
+<td align="left"></td>
+<td align="left">Median :79.00</td>
+<td align="left">Median : 79.00</td>
+<td align="left">Median :6.000</td>
+<td align="left">Median :23.50</td>
+<td align="left">Median :31.80</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :74.52</td>
-<td align="center">Mean : 75.48</td>
-<td align="center">Mean :5.364</td>
-<td align="center">Mean :23.64</td>
-<td align="center">Mean :31.02</td>
+<td align="left"></td>
+<td align="left">Mean :74.52</td>
+<td align="left">Mean : 75.48</td>
+<td align="left">Mean :5.364</td>
+<td align="left">Mean :23.64</td>
+<td align="left">Mean :31.02</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:86.00</td>
-<td align="center">3rd Qu.: 88.00</td>
-<td align="center">3rd Qu.:6.000</td>
-<td align="center">3rd Qu.:25.00</td>
-<td align="center">3rd Qu.:34.60</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:86.00</td>
+<td align="left">3rd Qu.: 88.00</td>
+<td align="left">3rd Qu.:6.000</td>
+<td align="left">3rd Qu.:25.00</td>
+<td align="left">3rd Qu.:34.60</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :98.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :6.000</td>
-<td align="center">Max. :26.50</td>
-<td align="center">Max. :38.80</td>
+<td align="left"></td>
+<td align="left">Max. :98.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :6.000</td>
+<td align="left">Max. :26.50</td>
+<td align="left">Max. :38.80</td>
 </tr>
 </tbody>
 </table>
@@ -2827,62 +2813,62 @@ Course Work (Continuous assessments) : 40%<br />
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assignment</th>
-<th align="center">CM</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assignment</th>
+<th align="left">CM</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 69.00</td>
-<td align="center">Min. : 62.00</td>
-<td align="center">Min. :5.000</td>
-<td align="center">Min. :20.00</td>
-<td align="center">Min. :27.80</td>
+<td align="left"></td>
+<td align="left">Min. : 69.00</td>
+<td align="left">Min. : 62.00</td>
+<td align="left">Min. :5.000</td>
+<td align="left">Min. :20.00</td>
+<td align="left">Min. :27.80</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 84.75</td>
-<td align="center">1st Qu.: 92.00</td>
-<td align="center">1st Qu.:6.000</td>
-<td align="center">1st Qu.:20.50</td>
-<td align="center">1st Qu.:34.60</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 84.75</td>
+<td align="left">1st Qu.: 92.00</td>
+<td align="left">1st Qu.:6.000</td>
+<td align="left">1st Qu.:20.50</td>
+<td align="left">1st Qu.:34.60</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 95.00</td>
-<td align="center">Median : 96.00</td>
-<td align="center">Median :6.000</td>
-<td align="center">Median :23.00</td>
-<td align="center">Median :37.75</td>
+<td align="left"></td>
+<td align="left">Median : 95.00</td>
+<td align="left">Median : 96.00</td>
+<td align="left">Median :6.000</td>
+<td align="left">Median :23.00</td>
+<td align="left">Median :37.75</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 90.54</td>
-<td align="center">Mean : 93.12</td>
-<td align="center">Mean :5.808</td>
-<td align="center">Mean :22.52</td>
-<td align="center">Mean :36.35</td>
+<td align="left"></td>
+<td align="left">Mean : 90.54</td>
+<td align="left">Mean : 93.12</td>
+<td align="left">Mean :5.808</td>
+<td align="left">Mean :22.52</td>
+<td align="left">Mean :36.35</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.: 97.75</td>
-<td align="center">3rd Qu.: 99.00</td>
-<td align="center">3rd Qu.:6.000</td>
-<td align="center">3rd Qu.:23.50</td>
-<td align="center">3rd Qu.:38.20</td>
+<td align="left"></td>
+<td align="left">3rd Qu.: 97.75</td>
+<td align="left">3rd Qu.: 99.00</td>
+<td align="left">3rd Qu.:6.000</td>
+<td align="left">3rd Qu.:23.50</td>
+<td align="left">3rd Qu.:38.20</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :6.000</td>
-<td align="center">Max. :26.00</td>
-<td align="center">Max. :39.00</td>
+<td align="left"></td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :6.000</td>
+<td align="left">Max. :26.00</td>
+<td align="left">Max. :39.00</td>
 </tr>
 </tbody>
 </table>
@@ -2930,6 +2916,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KAC1101F</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -3283,80 +3281,90 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<table>
+<table style="width:100%;">
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="2%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="10%" />
+<col width="13%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 12.50</td>
-<td align="center">Min. : 10.00</td>
-<td align="center">Min. : 3.000</td>
-<td align="center">Min. : 4.000</td>
-<td align="center">Min. : 8.500</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. :11.72</td>
+<td align="left"></td>
+<td align="left">Min. : 12.50</td>
+<td align="left">Min. : 10.00</td>
+<td align="left">Min. : 3.000</td>
+<td align="left">Min. : 4.000</td>
+<td align="left">Min. : 8.500</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. :11.72</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 46.30</td>
-<td align="center">1st Qu.: 58.17</td>
-<td align="center">1st Qu.: 5.000</td>
-<td align="center">1st Qu.: 5.000</td>
-<td align="center">1st Qu.:10.000</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:25.91</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 46.30</td>
+<td align="left">1st Qu.: 58.17</td>
+<td align="left">1st Qu.: 5.000</td>
+<td align="left">1st Qu.: 5.000</td>
+<td align="left">1st Qu.:10.000</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:25.91</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 74.40</td>
-<td align="center">Median : 78.15</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median : 7.250</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10</td>
-<td align="center">Median :31.09</td>
+<td align="left"></td>
+<td align="left">Median : 74.40</td>
+<td align="left">Median : 78.15</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median : 7.250</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10</td>
+<td align="left">Median :31.09</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 68.10</td>
-<td align="center">Mean : 70.86</td>
-<td align="center">Mean : 7.875</td>
-<td align="center">Mean : 7.339</td>
-<td align="center">Mean : 9.946</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :29.88</td>
+<td align="left"></td>
+<td align="left">Mean : 68.10</td>
+<td align="left">Mean : 70.86</td>
+<td align="left">Mean : 7.875</td>
+<td align="left">Mean : 7.339</td>
+<td align="left">Mean : 9.946</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :29.88</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.: 88.12</td>
-<td align="center">3rd Qu.: 97.83</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:36.84</td>
+<td align="left"></td>
+<td align="left">3rd Qu.: 88.12</td>
+<td align="left">3rd Qu.: 97.83</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:36.84</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :40.00</td>
+<td align="left"></td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :40.00</td>
 </tr>
 </tbody>
 </table>
@@ -3366,6 +3374,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KAM1101I</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -3769,88 +3789,98 @@ Course Work (Continuous assessments) : 40%<br />
 </table>
 <table>
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="2%" />
+<col width="13%" />
+<col width="14%" />
+<col width="13%" />
+<col width="14%" />
+<col width="14%" />
+<col width="10%" />
+<col width="13%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 2.50</td>
-<td align="center">Min. : 2.30</td>
-<td align="center">Min. : 3.00</td>
-<td align="center">Min. : 1.000</td>
-<td align="center">Min. : 3.500</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. : 0.00</td>
+<td align="left"></td>
+<td align="left">Min. : 2.50</td>
+<td align="left">Min. : 2.30</td>
+<td align="left">Min. : 3.00</td>
+<td align="left">Min. : 1.000</td>
+<td align="left">Min. : 3.500</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. : 0.00</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:26.25</td>
-<td align="center">1st Qu.: 15.62</td>
-<td align="center">1st Qu.: 4.00</td>
-<td align="center">1st Qu.: 3.500</td>
-<td align="center">1st Qu.: 6.500</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:12.04</td>
+<td align="left"></td>
+<td align="left">1st Qu.:26.25</td>
+<td align="left">1st Qu.: 15.62</td>
+<td align="left">1st Qu.: 4.00</td>
+<td align="left">1st Qu.: 3.500</td>
+<td align="left">1st Qu.: 6.500</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:12.04</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :32.50</td>
-<td align="center">Median : 29.40</td>
-<td align="center">Median : 6.00</td>
-<td align="center">Median : 4.000</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10</td>
-<td align="center">Median :16.07</td>
+<td align="left"></td>
+<td align="left">Median :32.50</td>
+<td align="left">Median : 29.40</td>
+<td align="left">Median : 6.00</td>
+<td align="left">Median : 4.000</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10</td>
+<td align="left">Median :16.07</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :37.88</td>
-<td align="center">Mean : 34.09</td>
-<td align="center">Mean : 6.69</td>
-<td align="center">Mean : 4.212</td>
-<td align="center">Mean : 8.321</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :17.53</td>
+<td align="left"></td>
+<td align="left">Mean :37.88</td>
+<td align="left">Mean : 34.09</td>
+<td align="left">Mean : 6.69</td>
+<td align="left">Mean : 4.212</td>
+<td align="left">Mean : 8.321</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :17.53</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:46.25</td>
-<td align="center">3rd Qu.: 45.98</td>
-<td align="center">3rd Qu.:10.00</td>
-<td align="center">3rd Qu.: 5.500</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:19.91</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:46.25</td>
+<td align="left">3rd Qu.: 45.98</td>
+<td align="left">3rd Qu.:10.00</td>
+<td align="left">3rd Qu.: 5.500</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:19.91</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :95.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :10.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :34.98</td>
+<td align="left"></td>
+<td align="left">Max. :95.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :10.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :34.98</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA’s :1</td>
-<td align="center">NA’s :2</td>
-<td align="center">NA’s :3</td>
-<td align="center">NA’s :6</td>
-<td align="center">NA’s :4</td>
-<td align="center">NA’s :1</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">NA’s :1</td>
+<td align="left">NA’s :2</td>
+<td align="left">NA’s :3</td>
+<td align="left">NA’s :6</td>
+<td align="left">NA’s :4</td>
+<td align="left">NA’s :1</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -3860,6 +3890,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KAM1101J</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -4239,88 +4281,98 @@ Course Work (Continuous assessments) : 40%<br />
 </table>
 <table>
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="2%" />
+<col width="13%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="10%" />
+<col width="13%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 7.50</td>
-<td align="center">Min. : 0.00</td>
-<td align="center">Min. : 0.000</td>
-<td align="center">Min. : 1.000</td>
-<td align="center">Min. : 3.500</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. : 5.50</td>
+<td align="left"></td>
+<td align="left">Min. : 7.50</td>
+<td align="left">Min. : 0.00</td>
+<td align="left">Min. : 0.000</td>
+<td align="left">Min. : 1.000</td>
+<td align="left">Min. : 3.500</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. : 5.50</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:28.75</td>
-<td align="center">1st Qu.: 25.00</td>
-<td align="center">1st Qu.: 6.000</td>
-<td align="center">1st Qu.: 5.000</td>
-<td align="center">1st Qu.: 5.500</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:18.15</td>
+<td align="left"></td>
+<td align="left">1st Qu.:28.75</td>
+<td align="left">1st Qu.: 25.00</td>
+<td align="left">1st Qu.: 6.000</td>
+<td align="left">1st Qu.: 5.000</td>
+<td align="left">1st Qu.: 5.500</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:18.15</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :49.40</td>
-<td align="center">Median : 47.50</td>
-<td align="center">Median : 9.000</td>
-<td align="center">Median : 5.750</td>
-<td align="center">Median : 8.000</td>
-<td align="center">Median :10</td>
-<td align="center">Median :22.45</td>
+<td align="left"></td>
+<td align="left">Median :49.40</td>
+<td align="left">Median : 47.50</td>
+<td align="left">Median : 9.000</td>
+<td align="left">Median : 5.750</td>
+<td align="left">Median : 8.000</td>
+<td align="left">Median :10</td>
+<td align="left">Median :22.45</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :50.18</td>
-<td align="center">Mean : 50.31</td>
-<td align="center">Mean : 7.333</td>
-<td align="center">Mean : 6.286</td>
-<td align="center">Mean : 7.914</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :23.24</td>
+<td align="left"></td>
+<td align="left">Mean :50.18</td>
+<td align="left">Mean : 50.31</td>
+<td align="left">Mean : 7.333</td>
+<td align="left">Mean : 6.286</td>
+<td align="left">Mean : 7.914</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :23.24</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:67.85</td>
-<td align="center">3rd Qu.: 70.95</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.: 8.000</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:29.02</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:67.85</td>
+<td align="left">3rd Qu.: 70.95</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.: 8.000</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:29.02</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :96.30</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :39.40</td>
+<td align="left"></td>
+<td align="left">Max. :96.30</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :39.40</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA’s :2</td>
-<td align="center">NA’s :1</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA’s :2</td>
+<td align="left">NA’s :1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -4330,6 +4382,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KBA1191B</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -4671,80 +4735,90 @@ Course Work (Continuous assessments) : 40%<br />
 </tr>
 </tbody>
 </table>
-<table>
+<table style="width:100%;">
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="2%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="10%" />
+<col width="13%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 32.50</td>
-<td align="center">Min. : 5.00</td>
-<td align="center">Min. : 6.000</td>
-<td align="center">Min. : 3.000</td>
-<td align="center">Min. : 3.000</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. :13.62</td>
+<td align="left"></td>
+<td align="left">Min. : 32.50</td>
+<td align="left">Min. : 5.00</td>
+<td align="left">Min. : 6.000</td>
+<td align="left">Min. : 3.000</td>
+<td align="left">Min. : 3.000</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. :13.62</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 68.75</td>
-<td align="center">1st Qu.: 53.75</td>
-<td align="center">1st Qu.:10.000</td>
-<td align="center">1st Qu.:10.000</td>
-<td align="center">1st Qu.:10.000</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:28.17</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 68.75</td>
+<td align="left">1st Qu.: 53.75</td>
+<td align="left">1st Qu.:10.000</td>
+<td align="left">1st Qu.:10.000</td>
+<td align="left">1st Qu.:10.000</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:28.17</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 85.00</td>
-<td align="center">Median : 80.00</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10</td>
-<td align="center">Median :34.88</td>
+<td align="left"></td>
+<td align="left">Median : 85.00</td>
+<td align="left">Median : 80.00</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10</td>
+<td align="left">Median :34.88</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 78.43</td>
-<td align="center">Mean : 72.99</td>
-<td align="center">Mean : 9.519</td>
-<td align="center">Mean : 9.444</td>
-<td align="center">Mean : 9.444</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :32.39</td>
+<td align="left"></td>
+<td align="left">Mean : 78.43</td>
+<td align="left">Mean : 72.99</td>
+<td align="left">Mean : 9.519</td>
+<td align="left">Mean : 9.444</td>
+<td align="left">Mean : 9.444</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :32.39</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.: 92.50</td>
-<td align="center">3rd Qu.: 93.15</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:37.20</td>
+<td align="left"></td>
+<td align="left">3rd Qu.: 92.50</td>
+<td align="left">3rd Qu.: 93.15</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:37.20</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :40.00</td>
+<td align="left"></td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :40.00</td>
 </tr>
 </tbody>
 </table>
@@ -4753,6 +4827,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KBA1191C</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -5072,88 +5158,98 @@ Course Work (Continuous assessments) : 40%<br />
 </table>
 <table>
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="3%" />
+<col width="14%" />
+<col width="15%" />
+<col width="14%" />
+<col width="14%" />
+<col width="15%" />
+<col width="11%" />
+<col width="14%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :11.30</td>
-<td align="center">Min. : 3.80</td>
-<td align="center">Min. : 0.00</td>
-<td align="center">Min. : 3.00</td>
-<td align="center">Min. : 4.000</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. :10.66</td>
+<td align="left"></td>
+<td align="left">Min. :11.30</td>
+<td align="left">Min. : 3.80</td>
+<td align="left">Min. : 0.00</td>
+<td align="left">Min. : 3.00</td>
+<td align="left">Min. : 4.000</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. :10.66</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:41.30</td>
-<td align="center">1st Qu.: 33.45</td>
-<td align="center">1st Qu.: 6.00</td>
-<td align="center">1st Qu.: 5.00</td>
-<td align="center">1st Qu.: 7.500</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:17.84</td>
+<td align="left"></td>
+<td align="left">1st Qu.:41.30</td>
+<td align="left">1st Qu.: 33.45</td>
+<td align="left">1st Qu.: 6.00</td>
+<td align="left">1st Qu.: 5.00</td>
+<td align="left">1st Qu.: 7.500</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:17.84</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :53.80</td>
-<td align="center">Median : 66.90</td>
-<td align="center">Median : 8.00</td>
-<td align="center">Median : 6.00</td>
-<td align="center">Median :10.000</td>
-<td align="center">Median :10</td>
-<td align="center">Median :25.77</td>
+<td align="left"></td>
+<td align="left">Median :53.80</td>
+<td align="left">Median : 66.90</td>
+<td align="left">Median : 8.00</td>
+<td align="left">Median : 6.00</td>
+<td align="left">Median :10.000</td>
+<td align="left">Median :10</td>
+<td align="left">Median :25.77</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :52.32</td>
-<td align="center">Mean : 57.64</td>
-<td align="center">Mean : 7.84</td>
-<td align="center">Mean : 6.68</td>
-<td align="center">Mean : 8.913</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :24.69</td>
+<td align="left"></td>
+<td align="left">Mean :52.32</td>
+<td align="left">Mean : 57.64</td>
+<td align="left">Mean : 7.84</td>
+<td align="left">Mean : 6.68</td>
+<td align="left">Mean : 8.913</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :24.69</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:67.50</td>
-<td align="center">3rd Qu.: 81.92</td>
-<td align="center">3rd Qu.:10.00</td>
-<td align="center">3rd Qu.:10.00</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:31.20</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:67.50</td>
+<td align="left">3rd Qu.: 81.92</td>
+<td align="left">3rd Qu.:10.00</td>
+<td align="left">3rd Qu.:10.00</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:31.20</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :92.50</td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :10.00</td>
-<td align="center">Max. :10.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :37.57</td>
+<td align="left"></td>
+<td align="left">Max. :92.50</td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :10.00</td>
+<td align="left">Max. :10.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :37.57</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA</td>
-<td align="center">NA’s :1</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA’s :2</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">NA</td>
+<td align="left">NA’s :1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA’s :2</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -5163,6 +5259,18 @@ Course Work (Continuous assessments) : 40%<br />
 <h5>KBA1191F</h5>
 <table>
 <caption>Continuous Assessment (40%)</caption>
+<colgroup>
+<col width="4%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Bil</th>
@@ -5542,88 +5650,98 @@ Course Work (Continuous assessments) : 40%<br />
 </table>
 <table>
 <caption>Performance Summary</caption>
+<colgroup>
+<col width="3%" />
+<col width="15%" />
+<col width="14%" />
+<col width="14%" />
+<col width="15%" />
+<col width="14%" />
+<col width="11%" />
+<col width="14%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz 1</th>
-<th align="center">Quiz 2</th>
-<th align="center">Quiz 3</th>
-<th align="center">Assign</th>
-<th align="center">CM (40%)</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz 1</th>
+<th align="left">Quiz 2</th>
+<th align="left">Quiz 3</th>
+<th align="left">Assign</th>
+<th align="left">CM (40%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 20.00</td>
-<td align="center">Min. :10.00</td>
-<td align="center">Min. : 3.00</td>
-<td align="center">Min. : 4.000</td>
-<td align="center">Min. : 3.00</td>
-<td align="center">Min. :10</td>
-<td align="center">Min. :15.20</td>
+<td align="left"></td>
+<td align="left">Min. : 20.00</td>
+<td align="left">Min. :10.00</td>
+<td align="left">Min. : 3.00</td>
+<td align="left">Min. : 4.000</td>
+<td align="left">Min. : 3.00</td>
+<td align="left">Min. :10</td>
+<td align="left">Min. :15.20</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 33.48</td>
-<td align="center">1st Qu.:34.10</td>
-<td align="center">1st Qu.: 7.25</td>
-<td align="center">1st Qu.: 6.000</td>
-<td align="center">1st Qu.:10.00</td>
-<td align="center">1st Qu.:10</td>
-<td align="center">1st Qu.:19.26</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 33.48</td>
+<td align="left">1st Qu.:34.10</td>
+<td align="left">1st Qu.: 7.25</td>
+<td align="left">1st Qu.: 6.000</td>
+<td align="left">1st Qu.:10.00</td>
+<td align="left">1st Qu.:10</td>
+<td align="left">1st Qu.:19.26</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 58.80</td>
-<td align="center">Median :58.15</td>
-<td align="center">Median :10.00</td>
-<td align="center">Median : 8.000</td>
-<td align="center">Median :10.00</td>
-<td align="center">Median :10</td>
-<td align="center">Median :26.91</td>
+<td align="left"></td>
+<td align="left">Median : 58.80</td>
+<td align="left">Median :58.15</td>
+<td align="left">Median :10.00</td>
+<td align="left">Median : 8.000</td>
+<td align="left">Median :10.00</td>
+<td align="left">Median :10</td>
+<td align="left">Median :26.91</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 55.61</td>
-<td align="center">Mean :55.77</td>
-<td align="center">Mean : 8.40</td>
-<td align="center">Mean : 7.862</td>
-<td align="center">Mean : 9.25</td>
-<td align="center">Mean :10</td>
-<td align="center">Mean :25.76</td>
+<td align="left"></td>
+<td align="left">Mean : 55.61</td>
+<td align="left">Mean :55.77</td>
+<td align="left">Mean : 8.40</td>
+<td align="left">Mean : 7.862</td>
+<td align="left">Mean : 9.25</td>
+<td align="left">Mean :10</td>
+<td align="left">Mean :25.76</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.: 70.97</td>
-<td align="center">3rd Qu.:73.47</td>
-<td align="center">3rd Qu.:10.00</td>
-<td align="center">3rd Qu.:10.000</td>
-<td align="center">3rd Qu.:10.00</td>
-<td align="center">3rd Qu.:10</td>
-<td align="center">3rd Qu.:30.70</td>
+<td align="left"></td>
+<td align="left">3rd Qu.: 70.97</td>
+<td align="left">3rd Qu.:73.47</td>
+<td align="left">3rd Qu.:10.00</td>
+<td align="left">3rd Qu.:10.000</td>
+<td align="left">3rd Qu.:10.00</td>
+<td align="left">3rd Qu.:10</td>
+<td align="left">3rd Qu.:30.70</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :100.00</td>
-<td align="center">Max. :97.50</td>
-<td align="center">Max. :10.00</td>
-<td align="center">Max. :10.000</td>
-<td align="center">Max. :10.00</td>
-<td align="center">Max. :10</td>
-<td align="center">Max. :39.62</td>
+<td align="left"></td>
+<td align="left">Max. :100.00</td>
+<td align="left">Max. :97.50</td>
+<td align="left">Max. :10.00</td>
+<td align="left">Max. :10.000</td>
+<td align="left">Max. :10.00</td>
+<td align="left">Max. :10</td>
+<td align="left">Max. :39.62</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA’s :1</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA’s :1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -6435,78 +6553,78 @@ It should include organizing and presenting data supported by numerical descript
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assign</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assign</th>
 <th align="left">Project</th>
-<th align="center">Total (50%)</th>
+<th align="left">Total (50%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. : 4.000</td>
-<td align="center">Min. : 4.70</td>
-<td align="center">Min. :2.30</td>
-<td align="center">Min. :5</td>
+<td align="left"></td>
+<td align="left">Min. : 4.000</td>
+<td align="left">Min. : 4.70</td>
+<td align="left">Min. :2.30</td>
+<td align="left">Min. :5</td>
 <td align="left">Mode:logical</td>
-<td align="center">Min. :17.20</td>
+<td align="left">Min. :17.20</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.: 7.325</td>
-<td align="center">1st Qu.: 8.60</td>
-<td align="center">1st Qu.:3.70</td>
-<td align="center">1st Qu.:5</td>
+<td align="left"></td>
+<td align="left">1st Qu.: 7.325</td>
+<td align="left">1st Qu.: 8.60</td>
+<td align="left">1st Qu.:3.70</td>
+<td align="left">1st Qu.:5</td>
 <td align="left">NA’s:26</td>
-<td align="center">1st Qu.:23.98</td>
+<td align="left">1st Qu.:23.98</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median : 8.850</td>
-<td align="center">Median :11.00</td>
-<td align="center">Median :5.00</td>
-<td align="center">Median :5</td>
+<td align="left"></td>
+<td align="left">Median : 8.850</td>
+<td align="left">Median :11.00</td>
+<td align="left">Median :5.00</td>
+<td align="left">Median :5</td>
 <td align="left">NA</td>
-<td align="center">Median :27.70</td>
+<td align="left">Median :27.70</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean : 9.027</td>
-<td align="center">Mean :10.43</td>
-<td align="center">Mean :4.36</td>
-<td align="center">Mean :5</td>
+<td align="left"></td>
+<td align="left">Mean : 9.027</td>
+<td align="left">Mean :10.43</td>
+<td align="left">Mean :4.36</td>
+<td align="left">Mean :5</td>
 <td align="left">NA</td>
-<td align="center">Mean :27.50</td>
+<td align="left">Mean :27.50</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:10.650</td>
-<td align="center">3rd Qu.:12.75</td>
-<td align="center">3rd Qu.:5.00</td>
-<td align="center">3rd Qu.:5</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:10.650</td>
+<td align="left">3rd Qu.:12.75</td>
+<td align="left">3rd Qu.:5.00</td>
+<td align="left">3rd Qu.:5</td>
 <td align="left">NA</td>
-<td align="center">3rd Qu.:31.80</td>
+<td align="left">3rd Qu.:31.80</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :14.300</td>
-<td align="center">Max. :14.10</td>
-<td align="center">Max. :5.00</td>
-<td align="center">Max. :5</td>
+<td align="left"></td>
+<td align="left">Max. :14.300</td>
+<td align="left">Max. :14.10</td>
+<td align="left">Max. :5.00</td>
+<td align="left">Max. :5</td>
 <td align="left">NA</td>
-<td align="center">Max. :37.50</td>
+<td align="left">Max. :37.50</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA’s :1</td>
-<td align="center">NA’s :6</td>
+<td align="left"></td>
 <td align="left">NA</td>
-<td align="center">NA</td>
+<td align="left">NA</td>
+<td align="left">NA’s :1</td>
+<td align="left">NA’s :6</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -6770,78 +6888,78 @@ It should include organizing and presenting data supported by numerical descript
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assign</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assign</th>
 <th align="left">Project</th>
-<th align="center">Total (50%)</th>
+<th align="left">Total (50%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :1.20</td>
-<td align="center">Min. : 0.000</td>
-<td align="center">Min. :0.000</td>
-<td align="center">Min. :5</td>
+<td align="left"></td>
+<td align="left">Min. :1.20</td>
+<td align="left">Min. : 0.000</td>
+<td align="left">Min. :0.000</td>
+<td align="left">Min. :5</td>
 <td align="left">Mode:logical</td>
-<td align="center">Min. : 2.70</td>
+<td align="left">Min. : 2.70</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:4.10</td>
-<td align="center">1st Qu.: 4.575</td>
-<td align="center">1st Qu.:1.400</td>
-<td align="center">1st Qu.:5</td>
+<td align="left"></td>
+<td align="left">1st Qu.:4.10</td>
+<td align="left">1st Qu.: 4.575</td>
+<td align="left">1st Qu.:1.400</td>
+<td align="left">1st Qu.:5</td>
 <td align="left">NA’s:20</td>
-<td align="center">1st Qu.:11.72</td>
+<td align="left">1st Qu.:11.72</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :5.50</td>
-<td align="center">Median : 6.750</td>
-<td align="center">Median :2.800</td>
-<td align="center">Median :5</td>
+<td align="left"></td>
+<td align="left">Median :5.50</td>
+<td align="left">Median : 6.750</td>
+<td align="left">Median :2.800</td>
+<td align="left">Median :5</td>
 <td align="left">NA</td>
-<td align="center">Median :14.50</td>
+<td align="left">Median :14.50</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :5.68</td>
-<td align="center">Mean : 7.620</td>
-<td align="center">Mean :2.720</td>
-<td align="center">Mean :5</td>
+<td align="left"></td>
+<td align="left">Mean :5.68</td>
+<td align="left">Mean : 7.620</td>
+<td align="left">Mean :2.720</td>
+<td align="left">Mean :5</td>
 <td align="left">NA</td>
-<td align="center">Mean :17.52</td>
+<td align="left">Mean :17.52</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:6.90</td>
-<td align="center">3rd Qu.:11.675</td>
-<td align="center">3rd Qu.:3.425</td>
-<td align="center">3rd Qu.:5</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:6.90</td>
+<td align="left">3rd Qu.:11.675</td>
+<td align="left">3rd Qu.:3.425</td>
+<td align="left">3rd Qu.:5</td>
 <td align="left">NA</td>
-<td align="center">3rd Qu.:25.82</td>
+<td align="left">3rd Qu.:25.82</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :9.80</td>
-<td align="center">Max. :14.300</td>
-<td align="center">Max. :5.000</td>
-<td align="center">Max. :5</td>
+<td align="left"></td>
+<td align="left">Max. :9.80</td>
+<td align="left">Max. :14.300</td>
+<td align="left">Max. :5.000</td>
+<td align="left">Max. :5</td>
 <td align="left">NA</td>
-<td align="center">Max. :34.10</td>
+<td align="left">Max. :34.10</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA</td>
-<td align="center">NA’s :14</td>
+<td align="left"></td>
 <td align="left">NA</td>
-<td align="center">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA’s :14</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>
@@ -6916,69 +7034,69 @@ It should include organizing and presenting data supported by numerical descript
 <caption>Performance Summary</caption>
 <thead>
 <tr class="header">
-<th></th>
-<th align="center">Test 1</th>
-<th align="center">Test 2</th>
-<th align="center">Quiz</th>
-<th align="center">Assign</th>
+<th align="left"></th>
+<th align="left">Test 1</th>
+<th align="left">Test 2</th>
+<th align="left">Quiz</th>
+<th align="left">Assign</th>
 <th align="left">Project</th>
-<th align="center">Total (50%)</th>
+<th align="left">Total (50%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="center">Min. :5.3</td>
-<td align="center">Min. :7.2</td>
-<td align="center">Min. :4.6</td>
-<td align="center">Mode:logical</td>
+<td align="left"></td>
+<td align="left">Min. :5.3</td>
+<td align="left">Min. :7.2</td>
+<td align="left">Min. :4.6</td>
 <td align="left">Mode:logical</td>
-<td align="center">Min. :17.1</td>
+<td align="left">Mode:logical</td>
+<td align="left">Min. :17.1</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">1st Qu.:5.3</td>
-<td align="center">1st Qu.:7.2</td>
-<td align="center">1st Qu.:4.6</td>
-<td align="center">NA’s:1</td>
+<td align="left"></td>
+<td align="left">1st Qu.:5.3</td>
+<td align="left">1st Qu.:7.2</td>
+<td align="left">1st Qu.:4.6</td>
 <td align="left">NA’s:1</td>
-<td align="center">1st Qu.:17.1</td>
+<td align="left">NA’s:1</td>
+<td align="left">1st Qu.:17.1</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">Median :5.3</td>
-<td align="center">Median :7.2</td>
-<td align="center">Median :4.6</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">Median :5.3</td>
+<td align="left">Median :7.2</td>
+<td align="left">Median :4.6</td>
 <td align="left">NA</td>
-<td align="center">Median :17.1</td>
+<td align="left">NA</td>
+<td align="left">Median :17.1</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Mean :5.3</td>
-<td align="center">Mean :7.2</td>
-<td align="center">Mean :4.6</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">Mean :5.3</td>
+<td align="left">Mean :7.2</td>
+<td align="left">Mean :4.6</td>
 <td align="left">NA</td>
-<td align="center">Mean :17.1</td>
+<td align="left">NA</td>
+<td align="left">Mean :17.1</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td align="center">3rd Qu.:5.3</td>
-<td align="center">3rd Qu.:7.2</td>
-<td align="center">3rd Qu.:4.6</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">3rd Qu.:5.3</td>
+<td align="left">3rd Qu.:7.2</td>
+<td align="left">3rd Qu.:4.6</td>
 <td align="left">NA</td>
-<td align="center">3rd Qu.:17.1</td>
+<td align="left">NA</td>
+<td align="left">3rd Qu.:17.1</td>
 </tr>
 <tr class="even">
-<td></td>
-<td align="center">Max. :5.3</td>
-<td align="center">Max. :7.2</td>
-<td align="center">Max. :4.6</td>
-<td align="center">NA</td>
+<td align="left"></td>
+<td align="left">Max. :5.3</td>
+<td align="left">Max. :7.2</td>
+<td align="left">Max. :4.6</td>
 <td align="left">NA</td>
-<td align="center">Max. :17.1</td>
+<td align="left">NA</td>
+<td align="left">Max. :17.1</td>
 </tr>
 </tbody>
 </table>
@@ -7017,7 +7135,7 @@ It should include organizing and presenting data supported by numerical descript
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -7035,7 +7153,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -7056,7 +7174,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

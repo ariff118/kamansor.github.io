@@ -14,17 +14,17 @@ output:
 <center>  
 **Kamarul Ariffin Mansor**  
 **Senior Lecturer**  
+**Department of Mathematical Sciences**  
 **Faculty of Computer and Mathematical Sciences**  
 **UiTM Kedah Branch Campus**  
 </center>  
   
 ---  
 
-| **BACKGROUND** |  
+| **ABOUT ME** |  
 |:--------------:|  
-|I like to analyze data to answer research questions and test hypotheses. Currently I investigate questions related to Tuberculosis (TB) through my work as a Statistical Research Member at the Faculty of Computer and Mathematical Sciences, [UiTM Kedah](https://kedah.uitm.edu.my/v1/faculties-a-academic-centres/computer-a-mathematical-sciences).| 
-|I graduated from the [University of Kentucky](https://math.as.uky.edu/) with a BSc in Mathematics in 1992. In 2010 I began working toward my MSc in Decision Sciences as a part-time student at [Universiti Utara Malaysia](http://www.sqs.uum.edu.my/index.php/en/), under the School of Quantitative Sciences, College of Art and Sciences (CAS), where I did my partial thesis paper in Structural Eqauation Modeling (SEM) under the advisement of [Assoc. Prof. Dr. Zahayu Md Yusof](http://expertise.uum.edu.my/DOE/doe_view.aspx?ad_doe=zahayu). I graduated from UUM at the end of 2012.|  
-|I am a beginner in R and being an active member of [Malaysian R User Public Group](https://www.meetup.com/Malaysia-R-User-Group/).|   
+|I graduated from the [University of Kentucky](https://math.as.uky.edu/) with a BSc in Mathematics with Economics in 1992. In 2010 I started working toward my MSc in Decision Sciences as a part-time student at [Universiti Utara Malaysia](http://sqs.uum.edu.my/), under the School of Quantitative Sciences, College of Art and Sciences (CAS), where I did my partial thesis paper in Structural Equation Modeling (SEM) under the advisement of [Assoc. Prof. Dr. Zahayu Md Yusof](http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=1869) and [Assoc. Prof. Dr. Nazrina Aziz](http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=2237). I graduated from UUM at the end of 2012. I have been serving Universiti Teknologi MARA Kedah Branch Campus since March 2002 and currectly hold a position as a Senior Lecturer at the Department of Mathematical Sciences, Faculty of Computer and Mathematical Sciences. I am also an active training instructor especially in the area of Structural Equation Modeling using software such as SmartPLS and AMOS. Other than that, I am also able to delivers training workshops in data analysis using other statistical softwares, among them are IBM SPSS Statistics, R, JASP, jamovi, StatNotes, BlueStatistics, and also Excel.| 
+|I am an intermediate user in R and being an active member of [Malaysian R User Public Group](https://www.meetup.com/Malaysia-R-User-Group/). At the same time, I begin exploring Python programming language|   
 |My full CV is available [here](files/cv_kamansor.pdf).|  
 
 ***  

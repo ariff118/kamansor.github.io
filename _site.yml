@@ -1,6 +1,6 @@
 name: "Kamarul Ariffin Mansor"
 output_dir: "."
-favicon: images/profile 3.png
+favicon: "images/profile 3.png"
 google_analytics: "UA-77306155-2"
 navbar:
   # title: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/profile_no_bg.png\" />"
@@ -20,6 +20,8 @@ navbar:
     - text: "Training"
       icon: fa-users
       menu:
+      - text: "IBM Statistics SPSS"
+        href: workshopSPSS.html
       - text: "R"
         href: workshopR.html
       - text: "SmartPLS"

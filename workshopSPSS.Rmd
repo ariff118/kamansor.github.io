@@ -1,0 +1,36 @@
+---
+title: "IBM Statistics SPSS Workshop"
+output:
+  html_document: 
+    toc: false
+    toc_float: false
+---
+  
+<link rel="stylesheet" href="styles.css" type="text/css">  
+
+***   
+### Training on Application & Implementation of SPSS in Research  
+### Durataion: 2 days  
+
+***  
+#### Day 1  
+
+- SPSS Introduction  
+- Data Entry  
+- Import Data Sets  
+- Descriptive analysis of data  
+- Frequency Table  
+- Graph  
+- T-test  
+- ANOVA  
+- Correlation & Regression  
+
+***  
+#### Day 2  
+
+- Chi-Square test  
+- Exploratory Factor Analysis  
+- Reliability Analysis  
+- Process Macro  
+  1. Mediation Analysis  
+  2. Moderation Analysis

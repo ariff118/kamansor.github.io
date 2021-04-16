@@ -1,5 +1,6 @@
 ---
 title: "<center> Welcome to My Personal Websites </center>"
+favicon: "images/profile 3.png"
 output:
   html_document: 
     toc: false

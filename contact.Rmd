@@ -1,4 +1,9 @@
 ---
+title: "Contact Me"
+output:
+  html_document: 
+    toc: false
+    toc_float: false
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">

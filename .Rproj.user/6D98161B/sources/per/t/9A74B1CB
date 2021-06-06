@@ -3,7 +3,7 @@
     "path": "D:/GitHub/kamansor.github.io/teaching.Rmd",
     "project_path": "teaching.Rmd",
     "type": "r_markdown",
-    "hash": "1580403600",
+    "hash": "3330876462",
     "contents": "",
     "dirty": false,
     "created": 1602311650005.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,78",
-        "scrollLine": "0"
+        "cursorPosition": "861,63",
+        "scrollLine": "845"
     },
     "folds": "",
-    "lastKnownWriteTime": 1602314237,
+    "lastKnownWriteTime": 1622980850,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1602314237101,
+    "last_content_update": 1622980850125,
     "read_only": false,
     "read_only_alternatives": []
 }

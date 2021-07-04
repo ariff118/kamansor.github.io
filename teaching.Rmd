@@ -7,7 +7,9 @@ output:
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">  
-
+```{r, echo=FALSE, warning=FALSE, layout='l-screen'}
+knitr::include_graphics("figures/index/banner4_work.jpg")
+```  
 
 ***
 
@@ -143,6 +145,10 @@ Course Work (Continuous assessments) 	: 40%
 ### Continuous Assessment Marks {.tabset}
 
 #### KBA1111D  
+
+**Continuous Assessment**
+<details>
+
 ```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(dplyr)
 library(scales)
@@ -151,12 +157,17 @@ data_kba1181d <- readxl::read_excel("files/MAT111-KBA1181D.xls")
 knitr::kable(data_kba1181d[ , -c(3,4)], caption = "Continuous Assessment (40%)") 
 #  %>%  kable_styling()
 ```
+</details>  
+
+
+**Performance Summary** 
+<details>
 
 ``` {r echo = FALSE}
 data_summary <- summary(data_kba1181d[,c(5:12)])
 knitr::kable(data_summary, caption = "Performance Summary")
 ```
-
+</details>
 
 ##############################################
 ##############################################
@@ -300,6 +311,7 @@ knitr::kable(data_summary, caption = "Performance Summary")
 
 ``` {r echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
 library(jmv)
+library(stargazer)
 
 jmv::ttestIS(
     data = data_kba1111e,
@@ -519,6 +531,20 @@ knitr::kable(data_summary, caption = "Performance Summary")
 ```
 
 <img src="images/20194/20194 KBA1191F.JPEG" style="width:100%; border:10px solid; margin-right: 18px" align="center">
+
+#### Semester 20212 {.tabset}
+
+##### KBA1111E  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+library(DT)
+data_20212_kba1111e <- readxl::read_excel("files/20212/MAT112_KBA1111E.xlsx")
+
+# knitr::kable(data_20212_kba1111e[ , -3], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+datatable(head(data_20212_kba1111e[ , -3], n = nrow(data_20212_kba1111e[ , -3])), options = list(pageLength = 25))
+```
 
 ##############################################
 ##############################################

@@ -7,6 +7,9 @@ output:
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+```{r, echo=FALSE, warning=FALSE, layout='l-screen'}
+knitr::include_graphics("figures/index/banner3_pink.jpg")
+```  
 
 ------------------------------------------------------------------------
 

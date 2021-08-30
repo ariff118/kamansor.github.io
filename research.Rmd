@@ -98,6 +98,11 @@ Lee, K.L., Mansor, K.A., Nayan, A., Zakaria, S.F., & Idrus, Z. (2015). Quest for
 **REVIEWERS**  
 
 #### 2021  
+Article Reviews - The 5th International Conference on Computing, Mathematics and Statistics 2021 (iCMS2021)  
+
+1. Visualisation of Association Rules using R (Paper ID:iCMS2021: 008-002) [View Letter](/files/reviewers/icms2021_008-002.pdf)  
+2. Modeling of Influence Factors Percentage of Governments’ Rice Recipient Families Based on the Best Fourier Series Estimator (iCMS2021: 080-062) [View Letter](/files/reviewers/icms2021_080-062.pdf)  
+
 Article Reviews - Melaka International Conference on Social Sciences, Science and Technology (MICSST) on the 30 - 31 March 2021 | Virtual Conference  
 
 1. Training Effectiveness on The Knowledge, Attitude and Practices (KAP) Level of Good Hygiene Practices (GHP) Among Hawkers in Shah Alam, Selangor.  

@@ -902,6 +902,111 @@ Week 9
 </div>
 ***  
 
+<div class = "row">
+<div class = "col-md-2">
+Week 10
+</div>
+
+<div class = "col-md-6">
+**Topic 5: Time Seies**  
+
+- Component of time series  
+- Multiplicative time series model  
+- Trend Analysis  
+  - Moving Average Method
+
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+All calculation is suggested in **4 decimal places**  
+[Slides]()
+</div>
+</div>
+***  
+
+<div class = "row">
+<div class = "col-md-2">
+Week 11
+</div>
+
+<div class = "col-md-6">
+**Topic 5: Time Series**  
+
+- Measuring the Seasonal Variations  
+- Forecasting  
+
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+All calculation is suggested in **4 decimal places**  
+[Slides]()
+</div>
+</div>
+***  
+
+<div class = "row">
+<div class = "col-md-2">
+Week 12
+</div>
+
+<div class = "col-md-6">
+**Topic 6: Introduction to Probability**  
+
+- Addition rules for probability  
+- Multiplication rules and conditional probability
+
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+**Complete Exit Survey**  
+[Slides]()
+</div>
+</div>
+***  
+
+<div class = "row">
+<div class = "col-md-2">
+Week 13
+</div>
+
+<div class = "col-md-6">
+**Topic 6: Introduction to Probability**  
+
+- Counting rules  
+  - Permutations  
+  - Combinations  
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+**Submit Group Project Report (Assessment 3)**  
+[Slides]()
+</div>
+</div>
+***  
+
+<div class = "row">
+<div class = "col-md-2">
+Week 14
+</div>
+
+<div class = "col-md-6">
+**Topic 6: Introduction to Probability**  
+
+- Tree Diagram  
+- Bayes's Theorem  
+</div>
+
+<div class = "col-md-4">
+**Remark:**  
+[Slides]()
+</div>
+</div>
+***  
+
 ### Group Project Guidelines  
 
 **OBJECTIVES PROJECT:**  
@@ -917,30 +1022,45 @@ At the end of the project, students should be able:
 
 #### **SUGGESTED GUIDELINES FOR PROJECT**  {.tabset}  
 
-##### 1. GROUP MEMBERS  
+##### 1  
+
+**GROUP MEMBERS**  
 Students are required to perform a group with 3 – 4 members. (The number of members per group depending on the number of students in the class and the number of class)  
 
 ***  
 
-##### 2. SOURCE OF DATA  
+##### 2  
+
+**SOURCE OF DATA**  
 Students are allowed to use primary / secondary data. There is no restricted on the number of sample size.  
 
 ***  
 
-##### 3. COVER PAGE:  
+##### 3  
+
+**COVER PAGE:**  
 Cover page should include UiTM logo, report title, name, student number and group.  
+*Sample Cover Page*
+
+![](images/QMT181-Project-CoverPage.jpg)
 
 ***  
 
-##### 4. ACKNOWLEDGEMENT  
+##### 4  
+
+**ACKNOWLEDGEMENT**  
 
 ***  
 
-##### 5. STANDARD TABLE OF CONTENT  
+##### 5  
+
+**STANDARD TABLE OF CONTENT**  
 
 ***  
 
-##### 6. CONTENT OF PROJECT  
+##### 6  
+
+**CONTENT OF PROJECT**  
 
 1. INTRODUCTION  
   1.1 Background of Study  
@@ -965,10 +1085,18 @@ Cover page should include UiTM logo, report title, name, student number and grou
     - Language : English Language  
     - Length report : Minimum 8 pages including cover page and report content  
 
+**Sample Report**  
+```{r echo=FALSE}
+slickR::slickR(
+    list.files("./images/Sample Report/QMT181/",full.names = TRUE,pattern = 'jpg'),
+    height = 700,
+    width = '95%')
+```  
+
 ***  
 
-#### **DETAILS OF DATE SUBMISSION**  
-Please ensure to submit the hardcopy and softcopy (burn in CD) **BEFORE OR ON WEEK 11.**  
+##### 7 DETAILS OF DATE SUBMISSION  
+Please ensure to submit the hardcopy and softcopy (burn in CD) **BEFORE OR ON WEEK 13**  
 
 ***  
 
@@ -1068,7 +1196,25 @@ jmv::ttestIS(
 #### Sem 20212 {.tabset}
 
 ##### KBA1113B  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+library(DT)
+data_20212_kba1113b <- readxl::read_excel("files/20212/QMT181_KBA1113B.xlsx")
 
+# knitr::kable(data_20212_kba1111e[ , -3], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+datatable(head(data_20212_kba1113b[ , -3], n = nrow(data_20212_kba1113b[ , -3])), options = list(pageLength = 25))
+```
 
 ##### KBA1193A  
+```{r results='asis', echo = FALSE, message=FALSE, warning = FALSE, dpi=1}
+library(dplyr)
+library(scales)
+library(DT)
+data_20212_kba1193a <- readxl::read_excel("files/20212/QMT181_KBA1193A.xlsx")
 
+# knitr::kable(data_20212_kba1111e[ , -3], caption = "Continuous Assessment (40%)") 
+#  %>%  kable_styling()
+datatable(head(data_20212_kba1193a[ , -3], n = nrow(data_20212_kba1193a[ , -3])), options = list(pageLength = 25))
+```

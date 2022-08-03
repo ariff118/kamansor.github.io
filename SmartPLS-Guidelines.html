@@ -13,8 +13,8 @@
 
 <title>SmartPLS-Guidelines.knit</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -273,7 +277,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-users"></span>
      
     Training
@@ -338,18 +342,22 @@ $(document).ready(function () {
 </div>
 
 
-<div id="pls-sem-with-smartpls-3.2.7-analysis-procedure" class="section level1">
+<div id="pls-sem-with-smartpls-3.2.7-analysis-procedure"
+class="section level1">
 <h1>PLS-SEM with SmartPLS 3.2.7 Analysis Procedure</h1>
 <div id="things-to-consider" class="section level2">
 <h2>Things to consider?</h2>
-<p>Data Preparation and Preliminary Analysis for PLS-SEM Using SmartPLS<br />
+<p>Data Preparation and Preliminary Analysis for PLS-SEM Using
+SmartPLS<br />
 1. Data must be in .csv format. If data in in Excel<br />
 2. No missing values (preferable)<br />
-3. Normality Assumption (optional but preferable based on recent research development). Can be done through assessing:<br />
+3. Normality Assumption (optional but preferable based on recent
+research development). Can be done through assessing:<br />
 - Skewness<br />
 - Kurtosis</p>
 </div>
-<div id="basic-pls_sem-modeling-using-smartpls-3.2.7" class="section level2">
+<div id="basic-pls_sem-modeling-using-smartpls-3.2.7"
+class="section level2">
 <h2>Basic PLS_SEM Modeling using SmartPLS 3.2.7</h2>
 <p>2 Stage:<br />
 - Measurement Model (Outer Model)<br />
@@ -361,29 +369,40 @@ $(document).ready(function () {
 <ul>
 <li><p>Internal Consistency<br />
 . Cronbach’s Alpha &gt;= 0.7<br />
-. composite reliability &gt;= 0.7 (in exploratory studies loading of 0.60 are acceptable)<br />
+. composite reliability &gt;= 0.7 (in exploratory studies loading of
+0.60 are acceptable)<br />
 . Dijakstra-Henseler rho &gt;= 0.7<br />
-. Indicator reliability (square of factor loading): Standardized indicator loading &gt;= 0.5; (in exploratory studies loading of 0.40 are acceptable)</p></li>
+. Indicator reliability (square of factor loading): Standardized
+indicator loading &gt;= 0.5; (in exploratory studies loading of 0.40 are
+acceptable)</p></li>
 <li><p>Convergent Validity<br />
 . Factor loading: Loading for each item should be &gt;= 0.708<br />
 . AVE &gt;= 0.5</p></li>
 <li><p>Discriminant Validity<br />
-. Fornell-Larcker Each construct’s AVE should be higher than its squared correlation with any other construct<br />
-. Cross Loading: Each indicator should load highest on construct it is intended to measure<br />
+. Fornell-Larcker Each construct’s AVE should be higher than its squared
+correlation with any other construct<br />
+. Cross Loading: Each indicator should load highest on construct it is
+intended to measure<br />
 . Heterotrait-Monotrait Ratio (HTMT): HTMT85, HTMT90, HTMTinf.</p></li>
 </ul></li>
 </ol>
 <p><strong>Reference:</strong><br />
-(Hulland, 1999); (Bagozzi and Yi, 1988); (Fornell and Larcker, 1981); (Chin, 1998); (Gregoire and Fisher, 2006)</p>
-<p>Henseler, J., Ringle, C. M., &amp; Sarstedt, M. (2015). A new criterion for assessing discriminant validity in variance-based structural equation modeling.Journal of the Academy of Marketing Science,43(1), 115-135.</p>
+(Hulland, 1999); (Bagozzi and Yi, 1988); (Fornell and Larcker, 1981);
+(Chin, 1998); (Gregoire and Fisher, 2006)</p>
+<p>Henseler, J., Ringle, C. M., &amp; Sarstedt, M. (2015). A new
+criterion for assessing discriminant validity in variance-based
+structural equation modeling.Journal of the Academy of Marketing
+Science,43(1), 115-135.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Formative Model
 <ul>
 <li>Convergent Validity: path coefficient &gt; 0.7<br />
 </li>
-<li>Colinearity: VIF &lt; 5 / tolerance &gt; 0.20; condition index &lt; 30<br />
+<li>Colinearity: VIF &lt; 5 / tolerance &gt; 0.20; condition index &lt;
+30<br />
 </li>
-<li>Indicator’s relative contribution to the construct: weights must be significance</li>
+<li>Indicator’s relative contribution to the construct: weights must be
+significance</li>
 </ul></li>
 </ol>
 <p><strong>Reference:</strong><br />
@@ -392,9 +411,13 @@ $(document).ready(function () {
 <div id="structural-model" class="section level3">
 <h3>Structural Model</h3>
 <p>R Square Acceptable level depends on research context</p>
-<p>Effect size f square 0.02, 0.15, 0.35 for weak, moderate, strong effects</p>
-<p>Path coefficient estimates Use bootstrapping to assess significance; provide confidence interval</p>
-<p>Predictive relevance Q square and q square Use blindfolding; Q square &gt; 0 is indicative of predictive relevance; q square: 0.02, 0.15, 0.35 for weak, moderate, strong effects of predictive relevance</p>
+<p>Effect size f square 0.02, 0.15, 0.35 for weak, moderate, strong
+effects</p>
+<p>Path coefficient estimates Use bootstrapping to assess significance;
+provide confidence interval</p>
+<p>Predictive relevance Q square and q square Use blindfolding; Q square
+&gt; 0 is indicative of predictive relevance; q square: 0.02, 0.15, 0.35
+for weak, moderate, strong effects of predictive relevance</p>
 </div>
 </div>
 </div>

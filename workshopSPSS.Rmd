@@ -8,6 +8,15 @@ output:
   
 <link rel="stylesheet" href="styles.css" type="text/css">  
 
+***
+## Upcoming Events  
+
+***
+
+## Past Events  
+
+![](images/spss_20220625.jpg)
+
 ***   
 ### Training on Application & Implementation of SPSS in Research  
 ### Durataion: 2 days  

@@ -8,6 +8,12 @@ output:
   
 <link rel="stylesheet" href="styles.css" type="text/css">  
   
-Insert info on R workshop here.  
+## Upcoming Events  
 
-**Content will be uploaded soon**  
+![](images/r_20220919.jpg)
+
+***
+
+## Past Events  
+
+![](images/r_20210803.jpg)

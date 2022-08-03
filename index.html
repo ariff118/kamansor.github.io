@@ -13,8 +13,8 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -72,6 +72,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -96,6 +97,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -248,7 +252,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -286,7 +290,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-users"></span>
      
     Training
@@ -372,11 +376,33 @@ $(document).ready(function () {
 <h2>
 About Me
 </h2>
-<p>I graduated from the <a href="https://math.as.uky.edu/">University of Kentucky</a> with a BSc in Mathematics with Economics in 1992. In 2010 I started working toward my MSc in Decision Sciences as a part-time student at <a href="http://sqs.uum.edu.my/">Universiti Utara Malaysia</a>, under the School of Quantitative Sciences, College of Art and Sciences (CAS), where I did my partial thesis paper in Structural Equation Modeling (SEM) under the advisement of <a href="http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=1869">Assoc. Prof. Dr. Zahayu Md Yusof</a> and <a href="http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=2237">Assoc. Prof. Dr. Nazrina Aziz</a>. I graduated from UUM at the end of 2012.</p>
-<p>I have been serving Universiti Teknologi MARA Kedah Branch Campus since March 2002 and currently hold a position as a Senior Lecturer at the Department of Mathematical Sciences, Faculty of Computer and Mathematical Sciences.</p>
-<p>I am also an active training instructor especially in the area of Structural Equation Modeling using software such as SmartPLS and AMOS. Other than that, I am also able to delivers training workshops in data analysis using other statistical softwares, among them are IBM SPSS Statistics, R, JASP, jamovi, StatNotes, BlueStatistics, and also Excel.</p>
-<p>I am an intermediate user in R and being an active member of <a href="https://www.meetup.com/Malaysia-R-User-Group/">Malaysian R User Public Group</a>. Recently, I begin exploring Python programming language.</p>
-<p>My simplified CV is available <a href="files/cv-kamarul.pdf">here</a>.</p>
+<p>I graduated from the <a href="https://math.as.uky.edu/">University of
+Kentucky</a> with a BSc in Mathematics with Economics in 1992. In 2010 I
+started working toward my MSc in Decision Sciences as a part-time
+student at <a href="http://sqs.uum.edu.my/">Universiti Utara
+Malaysia</a>, under the School of Quantitative Sciences, College of Art
+and Sciences (CAS), where I did my partial thesis paper in Structural
+Equation Modeling (SEM) under the advisement of <a
+href="http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=1869">Assoc.
+Prof. Dr. Zahayu Md Yusof</a> and <a
+href="http://experts.uum.edu.my/Researcher_Info.aspx?nopkj=2237">Assoc.
+Prof. Dr. Nazrina Aziz</a>. I graduated from UUM at the end of 2012.</p>
+<p>I have been serving Universiti Teknologi MARA Kedah Branch Campus
+since March 2002 and currently hold a position as a Senior Lecturer at
+the Department of Mathematical Sciences, Faculty of Computer and
+Mathematical Sciences.</p>
+<p>I am also an active training instructor especially in the area of
+Structural Equation Modeling using software such as SmartPLS and AMOS.
+Other than that, I am also able to delivers training workshops in data
+analysis using other statistical softwares, among them are IBM SPSS
+Statistics, R, JASP, jamovi, StatNotes, BlueStatistics, and also
+Excel.</p>
+<p>I am an intermediate user in R and being an active member of <a
+href="https://www.meetup.com/Malaysia-R-User-Group/">Malaysian R User
+Public Group</a>. Recently, I begin exploring Python programming
+language.</p>
+<p>My simplified CV is available <a
+href="files/cv-kamarul.pdf">here</a>.</p>
 </center>
 <hr />
 
